@@ -1,0 +1,13 @@
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\bin\EECGoldStar.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\bin\EECGoldStar.pdb
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\bin\AESCryptor.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\bin\AppCryptor.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\bin\B2BUtilities.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\bin\cryptohasher4.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\bin\SoapHelpers.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\bin\TokenGen4.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\bin\SoapHelpers.pdb
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\obj\Debug\EECGoldStar.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\obj\Debug\EECGoldStar.pdb
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\bin\Newtonsoft.Json.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\EEC Adapter\EECGoldStar\EECGoldStar\obj\Debug\EECGoldStar.csprojResolveAssemblyReference.cache

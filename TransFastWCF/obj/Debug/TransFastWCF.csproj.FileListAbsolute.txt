@@ -1,0 +1,8 @@
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\TransFastWCF\bin\AlawnehExchangeWCF.dll.config
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\TransFastWCF\bin\AlawnehExchangeWCF.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\TransFastWCF\bin\AlawnehExchangeWCF.pdb
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\TransFastWCF\obj\Debug\TransFastWCF.csprojAssemblyReference.cache
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\TransFastWCF\obj\Debug\TransFastWCF.csproj.CoreCompileInputs.cache
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\TransFastWCF\obj\Debug\TransFastWCF.csproj.CopyComplete
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\TransFastWCF\obj\Debug\AlawnehExchangeWCF.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\TransFastWCF\obj\Debug\AlawnehExchangeWCF.pdb

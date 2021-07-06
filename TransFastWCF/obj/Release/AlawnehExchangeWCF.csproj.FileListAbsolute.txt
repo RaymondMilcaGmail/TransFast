@@ -1,0 +1,8 @@
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\AlawnehExchange\obj\Release\AlawnehExchangeWCF.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\AlawnehExchange\obj\Release\AlawnehExchangeWCF.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\AlawnehExchange\bin\AlawnehExchangeWCF.dll.config
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\AlawnehExchange\bin\AlawnehExchangeWCF.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\AlawnehExchange\bin\AlawnehExchangeWCF.pdb
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\AlawnehExchange\obj\Release\AlawnehExchangeWCF.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\AlawnehExchange\obj\Release\AlawnehExchangeWCF.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\AlawnehExchange\obj\Release\AlawnehExchangeWCF.pdb

@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D4C205B6-CF03-45F0-9EDE-96B754A3ECD9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WesternUnionWCF</RootNamespace>
+    <AssemblyName>WesternUnion</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AESCryptor">
+      <HintPath>..\..\..\EEC New\Source Code\RemittancePartnerWebService\Bin\AESCryptor.dll</HintPath>
+    </Reference>
+    <Reference Include="AppCryptor">
+      <HintPath>..\..\..\EEC New\Source Code\RemittancePartnerWebService\Bin\AppCryptor.dll</HintPath>
+    </Reference>
+    <Reference Include="B2BUtilities">
+      <HintPath>..\..\..\EEC New\Source Code\RemittancePartnerWebService\Bin\B2BUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="cryptohasher4">
+      <HintPath>..\..\..\EEC New\Source Code\RemittancePartnerWebService\Bin\cryptohasher4.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SoapHelpers">
+      <HintPath>..\..\..\EEC New\Source Code\RemittancePartnerWebService\Bin\SoapHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="TokenGen4">
+      <HintPath>..\..\..\EEC New\Source Code\RemittancePartnerWebService\Bin\TokenGen4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\KYCCustomerLookupService\KYCCustomerLookup_Service.wsdl" />
+    <Content Include="Connected Services\KYCCustomerLookupService\WesternUnionWCF.KYCCustomerLookupService.kyccustomerlookupreply.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\KYCCustomerLookupService\XRSIErrorReply.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\KYCCustomerLookupService\XRSIKYCBasicTypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\KYCCustomerLookupService\XRSIKYCClasses.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\KYCCustomerLookupService\XRSIKYCCustomerLookupReply.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\KYCCustomerLookupService\XRSIKYCCustomerLookupRequest.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ReceiveMoneyPayService\configuration91.svcinfo" />
+    <None Include="Connected Services\ReceiveMoneyPayService\configuration.svcinfo" />
+    <None Include="Connected Services\ReceiveMoneyPayService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\ReceiveMoneySearchService\configuration91.svcinfo" />
+    <None Include="Connected Services\ReceiveMoneySearchService\configuration.svcinfo" />
+    <None Include="Connected Services\ReceiveMoneySearchService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\KYCCustomerLookupService\configuration91.svcinfo" />
+    <None Include="Connected Services\KYCCustomerLookupService\configuration.svcinfo" />
+    <None Include="Connected Services\KYCCustomerLookupService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="WesternUnionWCF.svc" />
+    <None Include="Connected Services\ReceiveMoneyPayService\ReceiveMoneyPay_Service_H2H.wsdl" />
+    <Content Include="Connected Services\ReceiveMoneyPayService\WesternUnionWCF.ReceiveMoneyPayService.receivemoneypayreply.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\ReceiveMoneyPayService\XRSIBasicTypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ReceiveMoneyPayService\XRSIClasses.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ReceiveMoneyPayService\XRSIErrorReply.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ReceiveMoneyPayService\XRSIReceiveMoneyPayReply.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ReceiveMoneyPayService\XRSIReceiveMoneyPayRequest.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ReceiveMoneySearchService\ReceiveMoneySearch_Service_H2H.wsdl" />
+    <Content Include="Connected Services\ReceiveMoneySearchService\WesternUnionWCF.ReceiveMoneySearchService.receivemoneysearchreply.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\ReceiveMoneySearchService\XRSIBasicTypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ReceiveMoneySearchService\XRSIClasses.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ReceiveMoneySearchService\XRSIErrorReply.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ReceiveMoneySearchService\XRSIReceiveMoneySearchReply.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ReceiveMoneySearchService\XRSIReceiveMoneySearchRequest.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\CebuanaBranchInformation.cs" />
+    <Compile Include="Classes\CebuanaCustomerID.cs" />
+    <Compile Include="Classes\CebuanaCustomerInformation.cs" />
+    <Compile Include="Classes\Enums.cs" />
+    <Compile Include="Classes\LookupTransactionRequest.cs" />
+    <Compile Include="Classes\LookupTransactionResult.cs" />
+    <Compile Include="Classes\PayoutTransactionRequest.cs" />
+    <Compile Include="Classes\PayoutTransactionResult.cs" />
+    <Compile Include="Classes\PullRemittanceRequest.cs" />
+    <Compile Include="Classes\PullRemittanceResult.cs" />
+    <Compile Include="Classes\ReceiverInformation.cs" />
+    <Compile Include="Classes\RemittanceAuditTrail.cs" />
+    <Compile Include="Classes\RemittanceException.cs" />
+    <Compile Include="Classes\RemittancePartnerConfiguration.cs" />
+    <Compile Include="Classes\SenderInformation.cs" />
+    <Compile Include="Classes\LookupCustomerRequest.cs" />
+    <Compile Include="Classes\LookupCustomerResult.cs" />
+    <Compile Include="Classes\Utils.cs" />
+    <Compile Include="Classes\GenerateTokenParameters.cs" />
+    <Compile Include="Classes\XMLMaintenance.cs" />
+    <Compile Include="Connected Services\KYCCustomerLookupService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ReceiveMoneyPayService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ReceiveMoneySearchService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Content Include="Classes\SoapUtils.cs" />
+    <Compile Include="WesternUnionWCF.svc.cs">
+      <DependentUpon>WesternUnionWCF.svc</DependentUpon>
+    </Compile>
+    <Compile Include="IWesternUnionWCF.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\KYCCustomerLookupService\" />
+    <WCFMetadataStorage Include="Connected Services\ReceiveMoneyPayService\" />
+    <WCFMetadataStorage Include="Connected Services\ReceiveMoneySearchService\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v15.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51143</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

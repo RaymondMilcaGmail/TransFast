@@ -1,0 +1,10 @@
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\GMT\bin\GMT.dll
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\GMT\bin\GMT.pdb
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\GMT\obj\Debug\GMT.dll
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\GMT\obj\Debug\GMT.pdb
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\GMT\obj\Debug\BPRemitWCF.csprojResolveAssemblyReference.cache
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\BP Remit\obj\Debug\BPRemitWCF.csprojResolveAssemblyReference.cache
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\BP Remit\obj\Debug\GMT.dll
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\BP Remit\bin\GMT.dll
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\BP Remit\bin\GMT.pdb
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\BP Remit\obj\Debug\GMT.pdb

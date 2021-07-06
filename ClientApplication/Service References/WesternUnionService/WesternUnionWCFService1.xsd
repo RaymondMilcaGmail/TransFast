@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WesternUnionWCFService.Classes" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WesternUnionWCFService.Classes" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:51143/WesternUnionWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/" />
+  <xs:complexType name="PullRemittanceRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="LookupTransactionRequest" nillable="true" type="tns:LookupTransactionRequest" />
+      <xs:element minOccurs="0" name="PayoutTransactionRequest" nillable="true" type="tns:PayoutTransactionRequest" />
+      <xs:element minOccurs="0" name="PullMethod" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PullRemittanceRequest" nillable="true" type="tns:PullRemittanceRequest" />
+  <xs:complexType name="LookupTransactionRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CebuanaBranchInformation" nillable="true" type="tns:CebuanaBranchInformation" />
+      <xs:element minOccurs="0" name="PartnerCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayoutCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransactionNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LookupTransactionRequest" nillable="true" type="tns:LookupTransactionRequest" />
+  <xs:complexType name="CebuanaBranchInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BranchAreaCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchRegionCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BranchUserID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ClientApplicationVersion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ClientMacAddress" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CebuanaBranchInformation" nillable="true" type="tns:CebuanaBranchInformation" />
+  <xs:complexType name="PayoutTransactionRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BeneficiaryPhoneNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CebuanaBranchInformation" nillable="true" type="tns:CebuanaBranchInformation" />
+      <xs:element minOccurs="0" name="CurrencyConversionRate" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PartnerCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PartnerInternalNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayTokenID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayoutAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PayoutAmountWithServiceCharge" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PayoutCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayoutCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayoutID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverCustomerNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverFirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverFullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverIDCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverIDExpiryDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverIDIssuedDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverIDNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverIDType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceiverLastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderEmail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderFirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderFullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderLastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderMobileNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SendingCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransactionNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayoutTransactionRequest" nillable="true" type="tns:PayoutTransactionRequest" />
+  <xs:complexType name="PullRemittanceResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="LookupTransactionResult" nillable="true" type="tns:LookupTransactionResult" />
+      <xs:element minOccurs="0" name="PayoutTransactionResult" nillable="true" type="tns:PayoutTransactionResult" />
+      <xs:element minOccurs="0" name="PullMethod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnlockTransactionResult" nillable="true" type="tns:LookupCustomerResult" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PullRemittanceResult" nillable="true" type="tns:PullRemittanceResult" />
+  <xs:complexType name="LookupTransactionResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BeneficiaryFirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BeneficiaryFullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BeneficiaryLastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BeneficiaryPhoneNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrencyConversionRate" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MessageToClient" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MessageToClientFromSender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MultiCurrencyPayoutCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OriginCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayTokenID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayoutAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PayoutAmountWithServiceCharge" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PayoutCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayoutCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayoutID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="ResultCode" type="q1:LookupTransactionResultCode" />
+      <xs:element minOccurs="0" name="SenderCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderEmail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderFirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderFullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderLastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderMobileNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SenderState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SendingCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SendingCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusFromPartner" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransactionDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TransactionNumber" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="TransactionStatus" type="q2:TransactionStatus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LookupTransactionResult" nillable="true" type="tns:LookupTransactionResult" />
+  <xs:complexType name="PayoutTransactionResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MessageToClient" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayoutDate" type="xs:dateTime" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="ResultCode" type="q3:PayoutTransactionResultCode" />
+      <xs:element minOccurs="0" name="TransactionNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayoutTransactionResult" nillable="true" type="tns:PayoutTransactionResult" />
+  <xs:complexType name="LookupCustomerResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgentSessionID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnlockResultCode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LookupCustomerResult" nillable="true" type="tns:LookupCustomerResult" />
+</xs:schema>

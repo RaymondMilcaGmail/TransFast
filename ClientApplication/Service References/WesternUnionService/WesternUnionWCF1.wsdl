@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WesternUnionWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="WSHttpBinding_IWesternUnionWCF_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:51143/WesternUnionWCFService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:51143/WesternUnionWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:51143/WesternUnionWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WesternUnionWCFService.Classes" />
+      <xsd:import schemaLocation="http://localhost:51143/WesternUnionWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/" />
+      <xsd:import schemaLocation="http://localhost:51143/WesternUnionWCFService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/WesternUnionWCFService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWesternUnionWCF_RemittancePartnerLookup_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemittancePartnerLookup" />
+  </wsdl:message>
+  <wsdl:message name="IWesternUnionWCF_RemittancePartnerLookup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemittancePartnerLookupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWesternUnionWCF_RemittancePartnerPayout_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemittancePartnerPayout" />
+  </wsdl:message>
+  <wsdl:message name="IWesternUnionWCF_RemittancePartnerPayout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemittancePartnerPayoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWesternUnionWCF_GenerateToken_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateToken" />
+  </wsdl:message>
+  <wsdl:message name="IWesternUnionWCF_GenerateToken_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateTokenResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWesternUnionWCF">
+    <wsdl:operation name="RemittancePartnerLookup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWesternUnionWCF/RemittancePartnerLookup" message="tns:IWesternUnionWCF_RemittancePartnerLookup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWesternUnionWCF/RemittancePartnerLookupResponse" message="tns:IWesternUnionWCF_RemittancePartnerLookup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemittancePartnerPayout">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWesternUnionWCF/RemittancePartnerPayout" message="tns:IWesternUnionWCF_RemittancePartnerPayout_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWesternUnionWCF/RemittancePartnerPayoutResponse" message="tns:IWesternUnionWCF_RemittancePartnerPayout_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateToken">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWesternUnionWCF/GenerateToken" message="tns:IWesternUnionWCF_GenerateToken_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWesternUnionWCF/GenerateTokenResponse" message="tns:IWesternUnionWCF_GenerateToken_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSHttpBinding_IWesternUnionWCF" type="tns:IWesternUnionWCF">
+    <wsp:PolicyReference URI="#WSHttpBinding_IWesternUnionWCF_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RemittancePartnerLookup">
+      <soap12:operation soapAction="http://tempuri.org/IWesternUnionWCF/RemittancePartnerLookup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemittancePartnerPayout">
+      <soap12:operation soapAction="http://tempuri.org/IWesternUnionWCF/RemittancePartnerPayout" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateToken">
+      <soap12:operation soapAction="http://tempuri.org/IWesternUnionWCF/GenerateToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WesternUnionWCF">
+    <wsdl:port name="WSHttpBinding_IWesternUnionWCF" binding="tns:WSHttpBinding_IWesternUnionWCF">
+      <soap12:address location="http://localhost:51143/WesternUnionWCFService.svc/SoapService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>http://localhost:51143/WesternUnionWCFService.svc/SoapService</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

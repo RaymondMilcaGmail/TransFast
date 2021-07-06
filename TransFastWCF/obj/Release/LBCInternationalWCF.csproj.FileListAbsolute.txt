@@ -1,0 +1,24 @@
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\LBCInternational\bin\LBCInternationalWCF.dll.config
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\LBCInternational\bin\LBCInternationalWCF.dll
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\LBCInternational\bin\LBCInternationalWCF.pdb
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.csproj.CopyComplete
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.dll
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.pdb
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\LBCInternational\bin\LBCInternationalWCF.dll.config
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\LBCInternational\bin\LBCInternationalWCF.dll
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\LBCInternational\bin\LBCInternationalWCF.pdb
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.csproj.CopyComplete
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.dll
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.pdb
+D:\Remittance\Pull Remittance\LBC International\Https Handling\LBCInternationalWCF\LBCInternational\bin\LBCInternationalWCF.dll.config
+D:\Remittance\Pull Remittance\LBC International\Https Handling\LBCInternationalWCF\LBCInternational\bin\LBCInternationalWCF.dll
+D:\Remittance\Pull Remittance\LBC International\Https Handling\LBCInternationalWCF\LBCInternational\bin\LBCInternationalWCF.pdb
+D:\Remittance\Pull Remittance\LBC International\Https Handling\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\LBC International\Https Handling\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\LBC International\Https Handling\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.csproj.CopyComplete
+D:\Remittance\Pull Remittance\LBC International\Https Handling\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.dll
+D:\Remittance\Pull Remittance\LBC International\Https Handling\LBCInternationalWCF\LBCInternational\obj\Release\LBCInternationalWCF.pdb

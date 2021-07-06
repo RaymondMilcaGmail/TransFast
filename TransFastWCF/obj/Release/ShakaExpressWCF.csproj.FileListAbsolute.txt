@@ -1,0 +1,30 @@
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\Shaka Express\bin\ShakaExpress.dll.config
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\Shaka Express\bin\ShakaExpress.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\Shaka Express\bin\ShakaExpress.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpressWCF.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpressWCF.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpress.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpress.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpressWCF.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\Shaka Express\bin\ShakaExpress.XmlSerializers.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpress.XmlSerializers.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 2\ShakaExpressWCF\Shaka Express\bin\ShakaExpress.dll.config
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 2\ShakaExpressWCF\Shaka Express\bin\ShakaExpress.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 2\ShakaExpressWCF\Shaka Express\bin\ShakaExpress.XmlSerializers.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 2\ShakaExpressWCF\Shaka Express\bin\ShakaExpress.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 2\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpressWCF.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 2\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpressWCF.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 2\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpressWCF.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 2\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpress.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 2\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpress.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 2\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpress.XmlSerializers.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\Shaka Express\bin\ShakaExpress.dll.config
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\Shaka Express\bin\ShakaExpress.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\Shaka Express\bin\ShakaExpress.XmlSerializers.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\Shaka Express\bin\ShakaExpress.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpressWCF.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpressWCF.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpressWCF.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpress.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpress.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\Shaka Express\obj\Release\ShakaExpress.XmlSerializers.dll

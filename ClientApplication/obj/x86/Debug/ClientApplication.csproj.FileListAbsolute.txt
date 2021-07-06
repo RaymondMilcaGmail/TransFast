@@ -1,0 +1,126 @@
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\bin\Debug\ClientApplication.exe.config
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\bin\Debug\ClientApplication.exe
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\bin\Debug\ClientApplication.pdb
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\obj\x86\Debug\ClientApplication.Form1.resources
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\obj\x86\Debug\ClientApplication.Properties.Resources.resources
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\obj\x86\Debug\ClientApplication.csproj.GenerateResource.Cache
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\obj\x86\Debug\ClientApplication.exe
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\obj\x86\Debug\ClientApplication.pdb
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\obj\x86\Debug\ClientApplication.csprojResolveAssemblyReference.cache
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Debug\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Debug\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Debug\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Debug\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Debug\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\ClientApplication.exe
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\WesternUnionControlLibrary.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\DollarPayoutPopup.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\AvailmentRatioModule.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\AppCryptor.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\Newtonsoft.Json.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\PrintModule.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\B2BUtilities.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\CommonFunctions.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\CommonLibrary.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\RegistryItems.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\ADODB.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\WesternUnionControlLibrary.pdb
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\WesternUnionControlLibrary.dll.config
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\Newtonsoft.Json.pdb
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\Newtonsoft.Json.xml
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Debug\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Debug\ClientApplication.exe
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Debug\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Debug\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\ClientApplication.exe
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\DollarPayoutPopup.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\AvailmentRatioModule.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\AppCryptor.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\Newtonsoft.Json.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\PrintModule.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\B2BUtilities.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\CommonFunctions.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\CommonLibrary.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\RegistryItems.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\ADODB.dll
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\WesternUnionControlLibrary.pdb
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\WesternUnionControlLibrary.dll.config
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\Newtonsoft.Json.pdb
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\Newtonsoft.Json.xml
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Debug\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Debug\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Debug\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Debug\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Debug\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Debug\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Debug\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Debug\ClientApplication.exe
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Debug\ClientApplication.pdb
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\ClientApplication.exe
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\ClientApplication.pdb
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\DollarPayoutPopup.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\AvailmentRatioModule.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\AppCryptor.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\Newtonsoft.Json.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\PrintModule.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\B2BUtilities.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\CommonFunctions.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\CommonLibrary.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\RegistryItems.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\ADODB.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\WesternUnionControlLibrary.pdb
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\WesternUnionControlLibrary.dll.config
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\Newtonsoft.Json.pdb
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\Newtonsoft.Json.xml
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Debug\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Debug\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Debug\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Debug\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Debug\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Debug\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Debug\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Debug\ClientApplication.exe
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Debug\ClientApplication.pdb
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\ClientApplication.exe.config
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\ClientApplication.exe
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\ClientApplication.pdb
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\DollarPayoutPopup.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\AvailmentRatioModule.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\AppCryptor.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\PrintModule.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\B2BUtilities.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\CommonFunctions.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\CommonLibrary.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\RegistryItems.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\ADODB.dll
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\WesternUnionControlLibrary.pdb
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\WesternUnionControlLibrary.dll.config
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.csprojAssemblyReference.cache
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.Form1.resources
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.Properties.Resources.resources
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.TestWCF.resources
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.csproj.GenerateResource.cache
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.csproj.CoreCompileInputs.cache
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.csproj.CopyComplete
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.exe
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.pdb

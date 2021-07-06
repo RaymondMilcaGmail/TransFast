@@ -1,0 +1,16 @@
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\GeaLimitedWCF\bin\AlawnehExchangeWCF.dll.config
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\GeaLimitedWCF\bin\AlawnehExchangeWCF.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\GeaLimitedWCF\bin\AlawnehExchangeWCF.pdb
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\GeaLimitedWCF\obj\Release\GeaLimitedWCF.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\GeaLimitedWCF\obj\Release\GeaLimitedWCF.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\GeaLimitedWCF\obj\Release\GeaLimitedWCF.csproj.CopyComplete
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\GeaLimitedWCF\obj\Release\AlawnehExchangeWCF.dll
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\GeaLimitedWCF\obj\Release\AlawnehExchangeWCF.pdb
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\GeaLimitedWCF\bin\AlawnehExchangeWCF.dll.config
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\GeaLimitedWCF\bin\AlawnehExchangeWCF.dll
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\GeaLimitedWCF\bin\AlawnehExchangeWCF.pdb
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\GeaLimitedWCF\obj\Release\GeaLimitedWCF.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\GeaLimitedWCF\obj\Release\GeaLimitedWCF.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\GeaLimitedWCF\obj\Release\GeaLimitedWCF.csproj.CopyComplete
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\GeaLimitedWCF\obj\Release\AlawnehExchangeWCF.dll
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\GeaLimitedWCF\obj\Release\AlawnehExchangeWCF.pdb

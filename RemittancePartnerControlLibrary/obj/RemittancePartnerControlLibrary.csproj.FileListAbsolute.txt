@@ -1,0 +1,1159 @@
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\obj\Debug\RemittancePartnerTemplateControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\obj\Debug\RemittancePartnerTemplateControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\obj\Debug\RemittancePartnerTemplateControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\obj\Debug\RemittancePartnerTemplateControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\obj\Debug\RemittancePartnerTemplateControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\obj\Debug\SpeedRemitControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\bin\Debug\SpeedRemitControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\bin\Debug\SpeedRemitControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\bin\Debug\SpeedRemitControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\bin\Debug\AppCryptor.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\bin\Debug\CashModule.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\bin\Debug\CLPFunctions.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\bin\Debug\CommonLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\bin\Debug\CRMSModuleII.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\bin\Debug\AESCryptor.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittanceTieupControlLibrary\obj\Debug\SpeedRemitControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\bin\Debug\SpeedRemitControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\bin\Debug\SpeedRemitControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\bin\Debug\SpeedRemitControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\bin\Debug\AppCryptor.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\bin\Debug\CashModule.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\bin\Debug\CLPFunctions.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\bin\Debug\CommonLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\bin\Debug\CRMSModuleII.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\bin\Debug\AESCryptor.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerTemplateControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerTemplateControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerTemplateControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerTemplateControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerTemplateControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\obj\Debug\SpeedRemitControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittanceTieupTemplate\RemittancePartnerControlLibrary\obj\Debug\SpeedRemitControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Debug\AppCryptor.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Debug\CashModule.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Debug\CommonLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Debug\CRMSModuleII.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Debug\AESCryptor.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Release\AppCryptor.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Release\CashModule.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Release\CLPFunctions.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Release\CommonLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Release\CRMSModuleII.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Release\AESCryptor.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Debug\RemittancePartnerControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Debug\RemittancePartnerControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Debug\RemittancePartnerControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Release\RemittancePartnerControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Release\RemittancePartnerControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Release\RemittancePartnerControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\bin\Release\RemittancePartnerControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\RemittancePartnerTemplate\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\bin\Release\AESCryptor.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\bin\Debug\XoomControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\bin\Debug\XoomControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\bin\Debug\XoomControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\bin\Release\XoomControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\bin\Release\XoomControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\bin\Release\XoomControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\bin\Release\XoomControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\bin\Debug\XoomControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\bin\Debug\XoomControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\bin\Debug\XoomControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Debug\XoomControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\obj\Release\XoomControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\bin\Release\XoomControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\bin\Release\XoomControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\bin\Release\XoomControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\bin\Release\XoomControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\Xoom_1.6.7.5\RemittancePartnerControlLibrary\bin\Release\AESCryptor.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Debug\MetroBankControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\bin\Debug\MetroBankControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\bin\Debug\MetroBankControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\bin\Debug\MetroBankControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Debug\MetroBankControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Debug\MetroBankControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Debug\MetroBankControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Debug\MetroBankControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Debug\MetroBankControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Debug\MetroBankControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\bin\Release\MetroBankControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\bin\Release\MetroBankControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\bin\Release\MetroBankControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\bin\Release\MetroBankControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\bin\Release\AESCryptor.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Release\MetroBankControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Release\MetroBankControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Release\MetroBankControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Release\MetroBankControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Release\MetroBankControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Release\MetroBankControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Release\MetroBankControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\MetroBank\RemittancePartnerControlLibrary\obj\Release\MetroBankControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110114\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110114\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110114\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110114\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110114\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110114\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110114\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110114\RemittancePartnerControlLibrary\bin\Debug\NybpControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110114\RemittancePartnerControlLibrary\bin\Debug\NybpControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110114\RemittancePartnerControlLibrary\bin\Debug\NybpControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110114\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110114\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110117\RemittancePartnerControlLibrary\bin\Debug\NybpControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110117\RemittancePartnerControlLibrary\bin\Debug\NybpControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110117\RemittancePartnerControlLibrary\bin\Debug\NybpControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110117\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110117\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110117\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110117\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110117\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110117\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110117\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110117\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2-20110117\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\bin\Debug\NybpControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\bin\Debug\NybpControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\bin\Debug\NybpControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\bin\Release\NybpControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\bin\Release\NybpControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\bin\Release\NybpControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\bin\Release\NybpControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\NYBP2\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Debug\NybpControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Debug\NybpControlLibrary.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Debug\NybpControlLibrary.pdb
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Debug\AvailmentRatioModule.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Debug\NybpControlLibrary.pdb
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Release\NybpControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Release\NybpControlLibrary.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Release\NybpControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Release\NybpControlLibrary.pdb
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Release\AvailmentRatioModule.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.pdb
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\obj\Release\NybpControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Debug\AppCryptor.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Debug\CashModule.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Debug\CommonLibrary.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Debug\CRMSModuleII.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Debug\AESCryptor.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Release\AppCryptor.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Release\CashModule.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Release\CommonLibrary.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Release\CRMSModuleII.dll
+C:\Documents and Settings\jmrivero\Desktop\NYBP2\RemittancePartnerControlLibrary\bin\Release\AESCryptor.dll
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\bin\Release\AESCryptor.dll
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\bin\Release\ChinaBankControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\bin\Release\ChinaBankControlLibrary.dll
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\bin\Release\ChinaBankControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\bin\Release\ChinaBankControlLibrary.pdb
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.dll
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.pdb
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\bin\Debug\ChinaBankControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\bin\Debug\ChinaBankControlLibrary.dll
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\bin\Debug\ChinaBankControlLibrary.pdb
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.dll
+C:\Documents and Settings\jmrivero\Desktop\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\bin\Debug\ChinaBankControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\bin\Debug\ChinaBankControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\bin\Debug\ChinaBankControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Debug\ChinaBankControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\bin\Release\ChinaBankControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\bin\Release\ChinaBankControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\bin\Release\ChinaBankControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\bin\Release\ChinaBankControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\ChinaBank\RemittancePartnerControlLibrary\obj\Release\ChinaBankControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.XmlSerializers.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.RemittancePartnerControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\B2B\Projects\UaeXpressMoney\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.XmlSerializers.dll
+C:\Version_Control\API\UAEXpressMoney\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+C:\Version_Control\API\UAEXpressMoney\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+C:\Version_Control\API\UAEXpressMoney\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+C:\Version_Control\API\UAEXpressMoney\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Version_Control\API\UAEXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Version_Control\API\UAEXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+C:\Version_Control\API\UAEXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+C:\Version_Control\API\UAEXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+C:\Version_Control\API\UAEXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+C:\Version_Control\API\UAEXpressMoney\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Version_Control\API\UAEXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+C:\Version_Control\API\UAEXpressMoney\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20111227\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20111227\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20111227\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20111227\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20111227\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20111227\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20111227\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20111227\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20111227\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20111227\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20111227\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20111227\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20111228\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20111228\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20111228\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20111228\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20111228\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20111228\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20111228\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20111228\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20111228\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20111228\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20111228\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20111228\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20111229\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20111229\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20111229\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20111229\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20111229\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20111229\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20111229\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20111229\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20111229\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20111229\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20111229\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20111229\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120102\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120105\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120109\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120109\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120109\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120109\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120109\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120109\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120109\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120109\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120109\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120109\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120109\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120109\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120110\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120110\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120110\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120110\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120110\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120110\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120110\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120110\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120110\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120110\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120110\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120110\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120119\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120119\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120119\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120119\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120119\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120119\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120119\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120119\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120119\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120119\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120119\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120119\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120126\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120126\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120126\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120126\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120126\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120126\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120126\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120126\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120126\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120126\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120126\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120126\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120130\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120131\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120213\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120307\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll.config
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.images.resources
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.dll
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.pdb
+D:\Prod Application\UAE\20120308\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll.config
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\bin\Release\UAEControlLibrary.pdb
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.images.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.pdb
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Release\UAEControlLibrary.XmlSerializers.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.images.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120412\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\Al Ghurair Exchange\Solution\20120413\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\Al Ghurair Exchange\Solution\20120413\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120413\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\Al Ghurair Exchange\Solution\20120413\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ghurair Exchange\Solution\20120413\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ghurair Exchange\Solution\20120413\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120413\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\Al Ghurair Exchange\Solution\20120413\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120413\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.images.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120413\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120413\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120413\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120417\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\Al Ghurair Exchange\Solution\20120417\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120417\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\Al Ghurair Exchange\Solution\20120417\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ghurair Exchange\Solution\20120417\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120417\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.images.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120417\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120417\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120417\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120417\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ghurair Exchange\Solution\20120417\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120417\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\Al Ghurair Exchange\Solution\20120419\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll.config
+D:\Prod Application\Al Ghurair Exchange\Solution\20120419\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120419\RemittancePartnerControlLibrary\bin\Debug\UAEControlLibrary.pdb
+D:\Prod Application\Al Ghurair Exchange\Solution\20120419\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ghurair Exchange\Solution\20120419\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120419\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.images.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120419\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120419\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120419\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ghurair Exchange\Solution\20120419\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ghurair Exchange\Solution\20120419\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.dll
+D:\Prod Application\Al Ghurair Exchange\Solution\20120419\RemittancePartnerControlLibrary\obj\Debug\UAEControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120515\RemittancePartnerControlLibrary\bin\Debug\AlGhurairControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120515\RemittancePartnerControlLibrary\bin\Debug\AlGhurairControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120515\RemittancePartnerControlLibrary\bin\Debug\AlGhurairControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120515\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120515\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120515\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120515\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120515\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120515\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120515\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120515\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120515\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120521\RemittancePartnerControlLibrary\bin\Debug\AlGhurairControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120521\RemittancePartnerControlLibrary\bin\Debug\AlGhurairControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120521\RemittancePartnerControlLibrary\bin\Debug\AlGhurairControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120521\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120521\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120521\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120521\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120521\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120521\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120521\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120521\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120521\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120524\RemittancePartnerControlLibrary\bin\Debug\AlGhurairControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120524\RemittancePartnerControlLibrary\bin\Debug\AlGhurairControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120524\RemittancePartnerControlLibrary\bin\Debug\AlGhurairControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120524\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120524\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120524\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120524\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120524\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120524\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120524\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120524\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120524\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120611\RemittancePartnerControlLibrary\bin\Debug\AlGhurairControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120611\RemittancePartnerControlLibrary\bin\Debug\AlGhurairControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120611\RemittancePartnerControlLibrary\bin\Debug\AlGhurairControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120611\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120611\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120611\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120611\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120611\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120611\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120611\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120611\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120611\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Debug\AlGhurairControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\bin\Release\AlAnsariControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\bin\Release\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\bin\Release\AlAnsariControlLibrary.XmlSerializers.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\bin\Release\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.XmlSerializers.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120619\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120621\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120621\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120621\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120621\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120621\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120621\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120621\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120621\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120621\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120621\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120621\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120621\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\bin\Release\AlAnsariControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\bin\Release\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\bin\Release\AlAnsariControlLibrary.XmlSerializers.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\bin\Release\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120628\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.XmlSerializers.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120712\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120712\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120712\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120712\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120712\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120712\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120712\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120712\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120712\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120712\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120712\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120712\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\bin\Release\AlAnsariControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\bin\Release\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\bin\Release\AlAnsariControlLibrary.XmlSerializers.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\bin\Release\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Release\AlAnsariControlLibrary.XmlSerializers.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120713\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120911\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20120911\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120911\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20120911\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120911\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120911\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120911\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120911\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120911\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20120911\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20120911\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20120911\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20130212\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll.config
+D:\Prod Application\Al Ansari Exchange\Solution\20130212\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20130212\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.pdb
+D:\Prod Application\Al Ansari Exchange\Solution\20130212\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Prod Application\Al Ansari Exchange\Solution\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.images.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.LookupSummaryForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.RemittancePartnerControlMain.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.PayoutForm.resources
+D:\Prod Application\Al Ansari Exchange\Solution\20130212\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\Prod Application\Al Ansari Exchange\Solution\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.dll
+D:\Prod Application\Al Ansari Exchange\Solution\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.pdb
+D:\rmcamacho\My Documents\Projects\Remittance\References\20130212\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll.config
+D:\rmcamacho\My Documents\Projects\Remittance\References\20130212\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.dll
+D:\rmcamacho\My Documents\Projects\Remittance\References\20130212\RemittancePartnerControlLibrary\bin\Debug\AlAnsariControlLibrary.pdb
+D:\rmcamacho\My Documents\Projects\Remittance\References\20130212\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\rmcamacho\My Documents\Projects\Remittance\References\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.BeneficiaryConfirmationForm.resources
+D:\rmcamacho\My Documents\Projects\Remittance\References\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.images.resources
+D:\rmcamacho\My Documents\Projects\Remittance\References\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.LookupSummaryForm.resources
+D:\rmcamacho\My Documents\Projects\Remittance\References\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.RemittancePartnerControlMain.resources
+D:\rmcamacho\My Documents\Projects\Remittance\References\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.PayoutForm.resources
+D:\rmcamacho\My Documents\Projects\Remittance\References\20130212\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\rmcamacho\My Documents\Projects\Remittance\References\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.dll
+D:\rmcamacho\My Documents\Projects\Remittance\References\20130212\RemittancePartnerControlLibrary\obj\Debug\AlAnsariControlLibrary.pdb
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll.config
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.pdb
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.images.resources
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.PayoutForm.resources
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.dll
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.pdb
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+D:\rmcamacho\My Documents\Projects\Remittance\Pull API\01_TML\Solution\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\rmcamacho\Desktop\PASS 1\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New folder\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\PrintModule.PrintFormOption.resources
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\PrintModule.PrintFormOption.resources
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\CTF\MODULES\TMLPullRemittance\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\obj\Release\PrintModule.PrintFormOption.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131104\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Release\PrintModule.PrintFormOption.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Debug\PrintModule.PrintFormOption.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131119\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20131209\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\bin\Debug\RegistryItems.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140113\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\bin\Debug\RegistryItems.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140130\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140213\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\bin\Debug\RegistryItems.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\esfranco\Desktop\New Folder\International Remittance\TMLPullRemittance\TMLPullRemittance - 20140224\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Debug\RegistryItems.dll
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.dll
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Debug\TransferMoneyLinkControlLibrary.pdb
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll.config
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\bin\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.BeneficiaryConfirmationForm.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.images.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.LookupSummaryForm.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.MyMessageBox.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.RemittancePartnerControlMain.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.PayoutForm.resources
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.Cache
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.dll
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.pdb
+C:\Users\rmcamacho\Desktop\NRPF\PASS 5 - 1.8.5.6\PULL PARTNERS\TMLPullRemittance\RemittancePartnerControlLibrary\obj\Release\TransferMoneyLinkControlLibrary.XmlSerializers.dll

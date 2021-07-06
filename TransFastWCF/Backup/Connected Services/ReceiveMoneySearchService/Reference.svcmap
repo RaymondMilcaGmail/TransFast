@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6faa33c7-225e-41b7-be45-2f79d72e5f55" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="C:\Users\cbombao\Downloads\AIS_Schema_WSDL_V1.85.18_11042019\AIS_Schema_WSDL_V1.85.18_11042019\wsdl\ReceiveMoneySearch_Service_H2HService.wsdl" Protocol="file" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="XRSIReceiveMoneySearchReply.xsd" MetadataType="Schema" ID="877c283f-d0c2-46cb-a30f-41a47b07c570" SourceId="1" SourceUrl="file:///C:/Users/cbombao/Downloads/AIS_Schema_WSDL_V1.85.18_11042019/AIS_Schema_WSDL_V1.85.18_11042019/schema/XRSIReceiveMoneySearchReply.xsd" />
+    <MetadataFile FileName="XRSIBasicTypes.xsd" MetadataType="Schema" ID="f1d0191f-42fe-4378-af5d-e30529de53b8" SourceId="1" SourceUrl="file:///C:/Users/cbombao/Downloads/AIS_Schema_WSDL_V1.85.18_11042019/AIS_Schema_WSDL_V1.85.18_11042019/schema/XRSIBasicTypes.xsd" />
+    <MetadataFile FileName="ReceiveMoneySearch_Service_H2H.wsdl" MetadataType="Wsdl" ID="0770dda3-2ced-4bff-ad6b-d71e67341d83" SourceId="1" SourceUrl="file:///C:/Users/cbombao/Downloads/AIS_Schema_WSDL_V1.85.18_11042019/AIS_Schema_WSDL_V1.85.18_11042019/wsdl/ReceiveMoneySearch_Service_H2HService.wsdl" />
+    <MetadataFile FileName="XRSIClasses.xsd" MetadataType="Schema" ID="ee29b6f8-7c1b-4d9e-b056-794306995f7a" SourceId="1" SourceUrl="file:///C:/Users/cbombao/Downloads/AIS_Schema_WSDL_V1.85.18_11042019/AIS_Schema_WSDL_V1.85.18_11042019/schema/XRSIClasses.xsd" />
+    <MetadataFile FileName="XRSIErrorReply.xsd" MetadataType="Schema" ID="0748df5d-11fd-4969-87a7-25231657af9e" SourceId="1" SourceUrl="file:///C:/Users/cbombao/Downloads/AIS_Schema_WSDL_V1.85.18_11042019/AIS_Schema_WSDL_V1.85.18_11042019/schema/XRSIErrorReply.xsd" />
+    <MetadataFile FileName="XRSIReceiveMoneySearchRequest.xsd" MetadataType="Schema" ID="de8ea999-a1cf-474b-a48c-f0ba2e55d1ed" SourceId="1" SourceUrl="file:///C:/Users/cbombao/Downloads/AIS_Schema_WSDL_V1.85.18_11042019/AIS_Schema_WSDL_V1.85.18_11042019/schema/XRSIReceiveMoneySearchRequest.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

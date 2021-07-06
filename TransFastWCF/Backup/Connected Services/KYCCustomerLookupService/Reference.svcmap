@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d3cfa2c1-b037-45c5-a750-1b307200e8e1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="C:\Users\cbombao\Downloads\AIS_Schema_WSDL_V1.85.18_11042019\AIS_Schema_WSDL_V1.85.18_11042019\wsdl\KYCCustomerLookup_Service.wsdl" Protocol="file" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="XRSIKYCCustomerLookupReply.xsd" MetadataType="Schema" ID="611b0afa-ce4e-4f33-843e-fecb2261d4f1" SourceId="1" SourceUrl="file:///C:/Users/cbombao/Downloads/AIS_Schema_WSDL_V1.85.18_11042019/AIS_Schema_WSDL_V1.85.18_11042019/schema/XRSIKYCCustomerLookupReply.xsd" />
+    <MetadataFile FileName="XRSIKYCCustomerLookupRequest.xsd" MetadataType="Schema" ID="2ec17308-e92e-4bc3-82df-35fa3a8ebab4" SourceId="1" SourceUrl="file:///C:/Users/cbombao/Downloads/AIS_Schema_WSDL_V1.85.18_11042019/AIS_Schema_WSDL_V1.85.18_11042019/schema/XRSIKYCCustomerLookupRequest.xsd" />
+    <MetadataFile FileName="KYCCustomerLookup_Service.wsdl" MetadataType="Wsdl" ID="15518bbf-af13-476e-8f97-078f32b46482" SourceId="1" SourceUrl="file:///C:/Users/cbombao/Downloads/AIS_Schema_WSDL_V1.85.18_11042019/AIS_Schema_WSDL_V1.85.18_11042019/wsdl/KYCCustomerLookup_Service.wsdl" />
+    <MetadataFile FileName="XRSIKYCBasicTypes.xsd" MetadataType="Schema" ID="388b4cc1-0118-48b5-a7b2-cf385dba7da9" SourceId="1" SourceUrl="file:///C:/Users/cbombao/Downloads/AIS_Schema_WSDL_V1.85.18_11042019/AIS_Schema_WSDL_V1.85.18_11042019/schema/XRSIKYCBasicTypes.xsd" />
+    <MetadataFile FileName="XRSIKYCClasses.xsd" MetadataType="Schema" ID="cd607fb6-065e-4d5a-9946-ee68ae808405" SourceId="1" SourceUrl="file:///C:/Users/cbombao/Downloads/AIS_Schema_WSDL_V1.85.18_11042019/AIS_Schema_WSDL_V1.85.18_11042019/schema/XRSIKYCClasses.xsd" />
+    <MetadataFile FileName="XRSIErrorReply.xsd" MetadataType="Schema" ID="cdf58909-7eeb-407c-b1a4-8d37f791e37b" SourceId="1" SourceUrl="file:///C:/Users/cbombao/Downloads/AIS_Schema_WSDL_V1.85.18_11042019/AIS_Schema_WSDL_V1.85.18_11042019/schema/XRSIErrorReply.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,17 @@
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\GMT\obj\Release\BPRemitWCF.csprojResolveAssemblyReference.cache
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\GMT\obj\Release\GMT.dll
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\GMT\obj\Release\GMT.pdb
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\GMT\bin\GMT.dll
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\GMT\bin\GMT.pdb
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\BP Remit\bin\GMT.dll
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\BP Remit\bin\GMT.pdb
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\BP Remit\obj\Release\GMT.dll
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\BP Remit\obj\Release\GMT.pdb
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\BP Remit\obj\Release\BPRemitWCF.csprojResolveAssemblyReference.cache
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\BP Remit\bin\GMT.dll
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\BP Remit\bin\GMT.pdb
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\BP Remit\obj\Release\BPRemitWCF.csprojAssemblyReference.cache
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\BP Remit\obj\Release\BPRemitWCF.csproj.CoreCompileInputs.cache
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\BP Remit\obj\Release\BPRemitWCF.csproj.CopyComplete
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\BP Remit\obj\Release\GMT.dll
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\BP Remit\obj\Release\GMT.pdb

@@ -1,0 +1,29 @@
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\SpeedRemitControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\SpeedRemitControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.images.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.SpeedRemitControlMain.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.csproj.GenerateResource.Cache
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\SpeedRemitControlLibrary.dll.config
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\CashModule.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\CommonLibrary.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\CRMSModuleII.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\AESCryptor.dll
+D:\Josef\Documents\Work\Projects\SpeedRemit-2010-0709\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Josef\Documents\Work\Projects\SpeedRemit-2010-0709\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.images.resources
+D:\Josef\Documents\Work\Projects\SpeedRemit-2010-0709\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.SpeedRemitControlMain.resources
+D:\Josef\Documents\Work\Projects\SpeedRemit-2010-0709\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.SpeedRemitPayoutForm.resources
+D:\Josef\Documents\Work\Projects\SpeedRemit-2010-0709\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.csproj.GenerateResource.Cache
+D:\Josef\Documents\Work\Projects\SpeedRemit-2010-0709\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.dll
+D:\Josef\Documents\Work\Projects\SpeedRemit-2010-0709\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\SpeedRemitControlLibrary.dll.config
+D:\Josef\Documents\Work\Projects\SpeedRemit-2010-0709\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\SpeedRemitControlLibrary.dll
+D:\Josef\Documents\Work\Projects\SpeedRemit-2010-0709\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\SpeedRemitControlLibrary.pdb
+D:\Josef\Documents\Work\Projects\SpeedRemit-2010-0709\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\AESCryptor.dll
+D:\Josef\Documents\Work\Projects\SpeedRemit-2010-0709\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.pdb
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.PayoutForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.LookupSummaryForm.resources
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\CLPFunctions.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\bin\Debug\AppCryptor.dll
+C:\Documents and Settings\jmrivero\My Documents\Development\Special Projects\SpeedRemit\SpeedRemitControlLibrary\obj\Debug\SpeedRemitControlLibrary.BeneficiaryConfirmationForm.resources

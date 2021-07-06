@@ -1,0 +1,197 @@
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.Cache
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.pdb
+D:\Remittance\Push Remittance\BP Remit\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.csprojResolveAssemblyReference.cache
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Push Remittance\BP Remit\Pass 2\BPRemitWebService\ClientApplication\obj\x86\Release\ClientApplication.pdb
+D:\Remittance\Push Remittance\Connect Plus\ConnectPlusWCF\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Push Remittance\Connect Plus\ConnectPlusWCF\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Push Remittance\Connect Plus\ConnectPlusWCF\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Push Remittance\Connect Plus\ConnectPlusWCF\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Push Remittance\Connect Plus\ConnectPlusWCF\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Push Remittance\Connect Plus\ConnectPlusWCF\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Push Remittance\Connect Plus\ConnectPlusWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Push Remittance\Connect Plus\ConnectPlusWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Push Remittance\Connect Plus\ConnectPlusWCF\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Push Remittance\Connect Plus\ConnectPlusWCF\ClientApplication\obj\x86\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\WesternUnionControlLibrary.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\DollarPayoutPopup.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\CommonFunctions.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\AppCryptor.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\CommonLibrary.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\Newtonsoft.Json.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\B2BUtilities.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\PrintModule.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\AvailmentRatioModule.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\RegistryItems.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\ADODB.dll
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\WesternUnionControlLibrary.pdb
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\WesternUnionControlLibrary.dll.config
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\Newtonsoft.Json.pdb
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\Newtonsoft.Json.xml
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\bin\Release\Microsoft.ReportViewer.WinForms.xml
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Western Union\WesternUnionWCF\ClientApplication\obj\x86\Release\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\DollarPayoutPopup.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\AvailmentRatioModule.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\AppCryptor.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\Newtonsoft.Json.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\PrintModule.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\B2BUtilities.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\CommonFunctions.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\CommonLibrary.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\RegistryItems.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\ADODB.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\WesternUnionControlLibrary.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\WesternUnionControlLibrary.dll.config
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\Newtonsoft.Json.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\Newtonsoft.Json.xml
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\bin\Release\Microsoft.ReportViewer.WinForms.xml
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\Shaka Express Corp\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\DollarPayoutPopup.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\AvailmentRatioModule.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\AppCryptor.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\Newtonsoft.Json.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\PrintModule.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\B2BUtilities.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\CommonFunctions.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\CommonLibrary.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\RegistryItems.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\ADODB.dll
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\WesternUnionControlLibrary.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\WesternUnionControlLibrary.dll.config
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\Newtonsoft.Json.pdb
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\Newtonsoft.Json.xml
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\bin\Release\Microsoft.ReportViewer.WinForms.xml
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\Shaka Express Corp\Pass 3\ShakaExpressWCF\ClientApplication\obj\x86\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\FastPay Intl Ltd\FastPayWCF\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\FastPay Intl Ltd\FastPayWCF\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\FastPay Intl Ltd\FastPayWCF\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\FastPay Intl Ltd\FastPayWCF\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\FastPay Intl Ltd\FastPayWCF\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\FastPay Intl Ltd\FastPayWCF\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\FastPay Intl Ltd\FastPayWCF\ClientApplication\obj\x86\Release\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\FastPay Intl Ltd\FastPayWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\FastPay Intl Ltd\FastPayWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\FastPay Intl Ltd\FastPayWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\FastPay Intl Ltd\FastPayWCF\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\FastPay Intl Ltd\FastPayWCF\ClientApplication\obj\x86\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\LBC International\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\LBC International\Clean Pass\LBCInternationalWCF\ClientApplication\obj\x86\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Release\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Release\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\Alawneh Exchange\AlawnehExchangelWCF\ClientApplication\obj\x86\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\GEA Ltd\Clean Pass\GeaLimited\ClientApplication\obj\x86\Release\ClientApplication.pdb
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Release\ClientApplication.TestWCF.resources
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Release\ClientApplication.exe
+C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Release\ClientApplication.pdb

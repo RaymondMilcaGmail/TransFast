@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6F1B7BC7-E1F4-4A2A-B9B0-CE7FF029FC66}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeaLimitedControlLibrary</RootNamespace>
+    <AssemblyName>GeaLimitedControlLibrary</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppCryptor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Collections\CollectionsControlLibrary\bin\Debug\AppCryptor.dll</HintPath>
+    </Reference>
+    <Reference Include="AvailmentRatioModule, Version=1.6.4.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\AvailmentRatioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="B2BUtilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\MetroBank\New Files\SourceCode\RemittancePartnerControlLibrary\bin\Release\B2BUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="CashModule, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Collections\CollectionsControlLibrary\bin\Release\CashModule.dll</HintPath>
+    </Reference>
+    <Reference Include="CLPFunctions, Version=1.6.3.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\CLPFunctions.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonFunctions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\CommonFunctions.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Collections\CollectionsControlLibrary\bin\Release\CommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CRMSModuleII, Version=1.4.3.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Collections\CollectionsControlLibrary\bin\Debug\CRMSModuleII.dll</HintPath>
+    </Reference>
+    <Reference Include="DollarPayoutPopup, Version=1.6.7.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DollarPayoutPopup.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Push Remittance\MicroSavings Payout\Source Code\iClick_PushTieUpRemittance\bin\Release\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PrintModule, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="RegistryItems, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\RegistryItems.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BeneficiaryConfirmationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeneficiaryConfirmationForm.Designer.cs">
+      <DependentUpon>BeneficiaryConfirmationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CebuanaBranchInformation.cs" />
+    <Compile Include="CebuanaCustomerID.cs" />
+    <Compile Include="CebuanaCustomerInformation.cs" />
+    <Compile Include="CLSCCountry.cs" />
+    <Compile Include="CLSCState.cs" />
+    <Compile Include="GenerateTokenParameters.cs" />
+    <Compile Include="images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LookupSummaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LookupSummaryForm.Designer.cs">
+      <DependentUpon>LookupSummaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LookupTransactionRequest.cs" />
+    <Compile Include="LookupTransactionResult.cs" />
+    <Compile Include="MultiCurrencyWrapper.cs" />
+    <Compile Include="MyMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyMessageBox.Designer.cs">
+      <DependentUpon>MyMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayoutTransactionRequest.cs" />
+    <Compile Include="PayoutTransactionResult.cs" />
+    <Compile Include="PrintParameters.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PullRemittanceRequest.cs" />
+    <Compile Include="PullRemittanceResult.cs" />
+    <Compile Include="RemittancePartnerConfiguration.cs" />
+    <Compile Include="RemittancePartnerControlMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RemittancePartnerControlMain.Designer.cs">
+      <DependentUpon>RemittancePartnerControlMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemittanceException.cs" />
+    <Compile Include="LookupTransaction.cs" />
+    <Compile Include="PayoutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayoutForm.Designer.cs">
+      <DependentUpon>PayoutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayoutTransaction.cs" />
+    <Compile Include="UnlockTransaction.cs" />
+    <Compile Include="UnlockTransactionRequest.cs" />
+    <Compile Include="UnlockTransactionResult.cs" />
+    <Compile Include="Utils.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BeneficiaryConfirmationForm.resx">
+      <DependentUpon>BeneficiaryConfirmationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>images.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LookupSummaryForm.resx">
+      <DependentUpon>LookupSummaryForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyMessageBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MyMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemittancePartnerControlMain.resx">
+      <DependentUpon>RemittancePartnerControlMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayoutForm.resx">
+      <DependentUpon>PayoutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\partnerlogo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\EEC LOGO.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

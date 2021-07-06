@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\Publish\GeaLimitedWCF</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AlawnehExchangeWCFService.svc">
+      <publishTime>01/12/2021 16:16:43</publishTime>
+    </File>
+    <File Include="bin/AESCryptor.dll">
+      <publishTime>09/06/2011 09:17:38</publishTime>
+    </File>
+    <File Include="bin/AlawnehExchangeWCF.dll">
+      <publishTime>06/16/2021 11:24:59</publishTime>
+    </File>
+    <File Include="bin/AlawnehExchangeWCF.pdb">
+      <publishTime>06/16/2021 11:24:59</publishTime>
+    </File>
+    <File Include="bin/AppCryptor.dll">
+      <publishTime>09/06/2011 09:17:38</publishTime>
+    </File>
+    <File Include="bin/B2BUtilities.dll">
+      <publishTime>11/07/2018 17:15:55</publishTime>
+    </File>
+    <File Include="bin/ConnectPlus.dll">
+      <publishTime>10/24/2019 16:16:42</publishTime>
+    </File>
+    <File Include="bin/ConnectPlus.pdb">
+      <publishTime>10/24/2019 16:16:42</publishTime>
+    </File>
+    <File Include="bin/ConnectPlus.XmlSerializers.dll">
+      <publishTime>10/24/2019 16:16:43</publishTime>
+    </File>
+    <File Include="bin/cryptohasher4.dll">
+      <publishTime>08/24/2018 10:15:44</publishTime>
+    </File>
+    <File Include="bin/LBCInternationalWCF.dll">
+      <publishTime>12/26/2020 13:20:57</publishTime>
+    </File>
+    <File Include="bin/LBCInternationalWCF.pdb">
+      <publishTime>12/26/2020 13:20:57</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/08/2016 13:47:08</publishTime>
+    </File>
+    <File Include="bin/ShakaExpress.dll">
+      <publishTime>11/25/2020 16:51:45</publishTime>
+    </File>
+    <File Include="bin/ShakaExpress.pdb">
+      <publishTime>11/25/2020 16:51:45</publishTime>
+    </File>
+    <File Include="bin/ShakaExpress.XmlSerializers.dll">
+      <publishTime>09/18/2020 09:53:41</publishTime>
+    </File>
+    <File Include="bin/SoapHelpers.dll">
+      <publishTime>04/05/2019 14:24:53</publishTime>
+    </File>
+    <File Include="bin/TokenGen4.dll">
+      <publishTime>08/24/2018 11:48:16</publishTime>
+    </File>
+    <File Include="bin/WesternUnion.dll">
+      <publishTime>07/07/2020 09:49:19</publishTime>
+    </File>
+    <File Include="bin/WesternUnion.pdb">
+      <publishTime>07/07/2020 09:49:19</publishTime>
+    </File>
+    <File Include="bin/WesternUnion.XmlSerializers.dll">
+      <publishTime>07/07/2020 09:49:22</publishTime>
+    </File>
+    <File Include="Classes/SoapUtils.cs">
+      <publishTime>06/07/2019 10:23:21</publishTime>
+    </File>
+    <File Include="Connected Services/KYCCustomerLookupService/WesternUnionWCF.KYCCustomerLookupService.kyccustomerlookupreply.datasource">
+      <publishTime>06/11/2020 16:14:44</publishTime>
+    </File>
+    <File Include="Connected Services/LBCServiceReference/LBCInternationalWCF.LBCServiceReference.Data.datasource">
+      <publishTime>12/02/2020 14:44:27</publishTime>
+    </File>
+    <File Include="Connected Services/LBCServiceReference/LBCInternationalWCF.LBCServiceReference.IDType.datasource">
+      <publishTime>12/02/2020 14:44:27</publishTime>
+    </File>
+    <File Include="Connected Services/ReceiveMoneyPayService/WesternUnionWCF.ReceiveMoneyPayService.receivemoneypayreply.datasource">
+      <publishTime>06/27/2020 13:13:40</publishTime>
+    </File>
+    <File Include="Connected Services/ReceiveMoneySearchService/WesternUnionWCF.ReceiveMoneySearchService.receivemoneysearchreply.datasource">
+      <publishTime>06/22/2020 11:12:27</publishTime>
+    </File>
+    <File Include="ConnectPlusWCF.svc">
+      <publishTime>09/12/2019 11:03:39</publishTime>
+    </File>
+    <File Include="FastPayWCFService.svc">
+      <publishTime>10/01/2020 14:43:57</publishTime>
+    </File>
+    <File Include="GeaLimitedWCFService.svc">
+      <publishTime>04/22/2021 09:42:19</publishTime>
+    </File>
+    <File Include="LBCInternationalWCFService.svc">
+      <publishTime>12/02/2020 11:38:03</publishTime>
+    </File>
+    <File Include="ShakaExpressWCFService.svc">
+      <publishTime>07/24/2020 15:16:40</publishTime>
+    </File>
+    <File Include="Web References/ConnectPlusWebReference/Reference.map">
+      <publishTime>09/23/2019 11:25:46</publishTime>
+    </File>
+    <File Include="Web References/ConnectPlusWebReference/UpdateRemittanceResponse.datasource">
+      <publishTime>09/23/2019 11:25:47</publishTime>
+    </File>
+    <File Include="Web References/ReceiveMoneyPayService/receivemoneypayreply1.datasource">
+      <publishTime>06/30/2020 11:19:19</publishTime>
+    </File>
+    <File Include="Web References/ReceiveMoneyPayService/Reference.map">
+      <publishTime>06/30/2020 11:05:05</publishTime>
+    </File>
+    <File Include="Web References/ReceiveMoneySearchService/receivemoneysearchreply1.datasource">
+      <publishTime>06/25/2020 13:11:45</publishTime>
+    </File>
+    <File Include="Web References/ReceiveMoneySearchService/Reference.map">
+      <publishTime>06/25/2020 11:19:20</publishTime>
+    </File>
+    <File Include="Web References/Shaka2WebReference/Reference.map">
+      <publishTime>07/28/2020 09:52:03</publishTime>
+    </File>
+    <File Include="Web References/ShakaExpressWebReference/Reference.map">
+      <publishTime>08/24/2020 16:57:16</publishTime>
+    </File>
+    <File Include="Web References/ShakaWebReference/Reference.map">
+      <publishTime>07/28/2020 09:43:42</publishTime>
+    </File>
+    <File Include="Web References/WebReferenceReceivePay/receivemoneypayreply.datasource">
+      <publishTime>06/30/2020 11:05:09</publishTime>
+    </File>
+    <File Include="Web References/WebReferenceReceivePay/Reference.map">
+      <publishTime>06/30/2020 11:05:05</publishTime>
+    </File>
+    <File Include="Web References/WebReferenceService/receivemoneysearchreply.datasource">
+      <publishTime>06/25/2020 11:19:24</publishTime>
+    </File>
+    <File Include="Web References/WebReferenceService/Reference.map">
+      <publishTime>06/25/2020 11:19:20</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/16/2021 11:25:00</publishTime>
+    </File>
+    <File Include="WesternUnionWCF.svc">
+      <publishTime>06/11/2020 16:17:27</publishTime>
+    </File>
+    <File Include="WesternUnionWCFService.svc">
+      <publishTime>06/22/2020 11:10:41</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

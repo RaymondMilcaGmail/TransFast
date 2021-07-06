@@ -1,0 +1,16 @@
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 1\GMT\GMT\obj\Debug\GMT.csprojResolveAssemblyReference.cache
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 1\GMT\GMT\bin\SoapHelpers.pdb
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 1\GMT\GMT\bin\GMT.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 1\GMT\GMT\bin\GMT.pdb
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 1\GMT\GMT\obj\Debug\GMT.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 1\GMT\GMT\obj\Debug\GMT.pdb
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 1\GMT\obj\Debug\GMT.pdb
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 1\GMT\bin\GMT.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 1\GMT\bin\GMT.pdb
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 1\GMT\obj\Debug\GMT.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 1\GMT\obj\Debug\GMT.csprojResolveAssemblyReference.cache
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 2\GMT\bin\GMT.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 2\GMT\bin\GMT.pdb
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 2\GMT\obj\Debug\GMT.csprojResolveAssemblyReference.cache
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 2\GMT\obj\Debug\GMT.dll
+C:\Users\pbsy\Downloads\B2B\Projects\Pull API\GMT\Pass 2\GMT\obj\Debug\GMT.pdb
