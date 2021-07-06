@@ -220,6 +220,44 @@ namespace TransFastWCFService
                 return pullRemittanceResult;
             }
         }
+
+
+        public string RequestToken(DataTransactionResult dataTransactionResult)
+        {
+            string Token = string.Empty;
+            PullRemittanceResult pullRemittanceResult = new PullRemittanceResult();
+            try
+            {
+                Token = dataTransactionResult.GetToken();
+                return Token;
+            }
+            catch (Exception error)
+            {
+                Utils.WriteToEventLog(string.Format("RequestToken:{0}", error.Message), System.Diagnostics.EventLogEntryType.Error);
+
+                LookupTransactionResult errorResponse = new LookupTransactionResult();
+                errorResponse.ResultCode = LookupTransactionResultCode.ServerError;
+
+                if (error is RemittanceException)
+                {
+                    errorResponse.MessageToClient = error.Message;
+                }
+                else if (error is SoapException)
+                {
+                    errorResponse.MessageToClient = "An error in the partner's web service has occured while reqeusting for Token.";
+                }
+                else if (error is WebException || error is CommunicationException)
+                {
+                    errorResponse.MessageToClient = "An error in the connection to the partner's web service has occured while requesting for Token. Please try again later.";
+                }
+                else
+                {
+                    errorResponse.MessageToClient = "An error has occured while retrieving Token from the partner. Please contact ICT Support Desk.";
+                }
+
+                return Token;
+            }
+        }
         #endregion
     }
 }
