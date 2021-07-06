@@ -1,4 +1,4 @@
-﻿using ClientApplication.TransFastWCFServices;
+﻿
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -10,6 +10,7 @@ using System.Text;
 using System.Windows.Forms;
 using TransFastWCFService.Classes;
 using TransFastWCF.TransFastRespopnse;
+using ClientApplication.TransFastWCFServicesSR;
 
 namespace ClientApplication
 {
@@ -64,16 +65,16 @@ namespace ClientApplication
 
             DataTransactionResult req = new DataTransactionResult();
             TransFastWCFClient svc = new TransFastWCFClient();
-            req.Functionname = "GetAvaliableFiles";
+            req.FunctionName = "GetAvailableFiles";
             string TransactionResult = svc.ProcessTransaction(req);
-            GetAvaliableFilesResponse responseDetails = JsonConvert.DeserializeObject<GetAvaliableFilesResponse>(TransactionResult);
+            GetAvailableFilesResponse responseDetails = JsonConvert.DeserializeObject<GetAvailableFilesResponse>(TransactionResult);
             foreach (AvaliableFIle avaliableFIle in responseDetails.AvaliableFIles)
             {
 
                 ListViewItem lvi = new ListViewItem();
                 lvi.SubItems.Add(avaliableFIle.FileName);
-                lvi.SubItems.Add(avaliableFIle.FileSize);
-                lvi.SubItems.Add(avaliableFIle.FileDate);
+                lvi.SubItems.Add(avaliableFIle.FileSize.ToString());
+                lvi.SubItems.Add(avaliableFIle.FileDate.ToString());
                 listView1.Items.Add(lvi);
             }
         }
@@ -82,7 +83,8 @@ namespace ClientApplication
         {
             DataTransactionResult req = new DataTransactionResult();
             TransFastWCFClient svc = new TransFastWCFClient();
-            req.Functionname = "UpdateTransaction";
+            //TransFastWCFService svc = new TransFastWCFService();
+            req.FunctionName = "UpdateTransaction";
             req.ReferenceID = listView1.SelectedItems[0].SubItems[1].ToString();
             req.EventDate = new DateTime();
             req.EventType = checkBox1.Checked ? "1" : "0";
@@ -97,7 +99,7 @@ namespace ClientApplication
 
             DataTransactionResult req = new DataTransactionResult();
             TransFastWCFClient svc = new TransFastWCFClient();
-            req.Functionname = "GetFile";
+            req.FunctionName = "GetFile";
             req.FileName = listView1.SelectedItems[0].SubItems[1].ToString();
             string TransactionResult = svc.ProcessTransaction(req);
             GetFileResponse responseDetails = JsonConvert.DeserializeObject<GetFileResponse>(TransactionResult);
@@ -109,7 +111,7 @@ namespace ClientApplication
 
             DataTransactionResult req = new DataTransactionResult();
             TransFastWCFClient svc = new TransFastWCFClient();
-            req.Functionname = "CommitFile";
+            req.FunctionName = "CommitFile";
             req.FileName = listView1.SelectedItems[0].SubItems[1].ToString();
             string TransactionResult = svc.ProcessTransaction(req);
             CommitFileResponse responseDetails = JsonConvert.DeserializeObject<CommitFileResponse>(TransactionResult);

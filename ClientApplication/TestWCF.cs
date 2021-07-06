@@ -40,5 +40,11 @@ namespace ClientApplication
             txtResultCode.Text = res.ResultCode.ToString();
             txtResultMessage.Text = res.MessageToClient;
         }
+
+        private void TestWCF_Load(object sender, EventArgs e)
+        {
+            TestTransFast testTransFast = new TestTransFast();
+            testTransFast.Show();
+        }
     }
 }

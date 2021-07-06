@@ -13,7 +13,7 @@ namespace ClientApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TestWCF());
+            Application.Run(new TestTransFast());
         }
     }
 }

@@ -36,7 +36,7 @@ namespace TransFastWCFService.Classes
         }
 
         private string _ReferenceID;
-        private string _EventDate;
+        private DateTime _EventDate;
         private string _EventType;
         private string _EventInfo;
         private string _FileName;
@@ -49,7 +49,7 @@ namespace TransFastWCFService.Classes
             set { _ReferenceID = value; }
         }
 
-        public string EventDate
+        public DateTime EventDate
         {
             get { return _EventDate; }
             set { _EventDate = value; }
