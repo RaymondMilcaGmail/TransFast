@@ -108,6 +108,7 @@
     <Compile Include="Classes\CebuanaCustomerID.cs" />
     <Compile Include="Classes\CebuanaCustomerInformation.cs" />
     <Compile Include="Classes\CustomSession.cs" />
+    <Compile Include="Classes\DataTransactionResult.cs" />
     <Compile Include="Classes\Enums.cs" />
     <Compile Include="Classes\LookupTransactionRequest.cs" />
     <Compile Include="Classes\LookupTransactionResult.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="Classes\RemittanceException.cs" />
     <Compile Include="Classes\RemittancePartnerConfiguration.cs" />
     <Compile Include="Classes\SenderInformation.cs" />
+    <Compile Include="Classes\TransFastRespopnse.cs" />
     <Compile Include="Classes\UnlockTransactionRequest.cs" />
     <Compile Include="Classes\UnlockTransactionResult.cs" />
     <Compile Include="Classes\Utils.cs" />
