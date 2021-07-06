@@ -13,5 +13,6 @@
         public LookupTransactionResult LookupTransactionResult { get; set; }
         public PayoutTransactionResult PayoutTransactionResult { get; set; }
         public UnlockTransactionResult UnlockTransactionResult { get; set; }
+        public DataTransactionResult dataTransactionResult { get; set; }
     }
 }

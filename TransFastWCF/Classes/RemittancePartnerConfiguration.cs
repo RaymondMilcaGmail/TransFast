@@ -18,6 +18,50 @@ namespace TransFastWCFService.Classes
             get { return ConfigurationManager.AppSettings["ApplicationCode"].ToString(); }
 		}
 
+
+        public static string EntityLogin
+        {
+            get { return ConfigurationManager.AppSettings["EntityLogin"].ToString(); }
+        }
+        public static string EntityPass
+        {
+            get { return ConfigurationManager.AppSettings["EntityPass"].ToString(); }
+        }
+        public static string TerminalID
+        {
+            get { return ConfigurationManager.AppSettings["TerminalID"].ToString(); }
+        }
+
+
+        public static string TransfastHeader
+        {
+            get { return ConfigurationManager.AppSettings["TransfastHeader"].ToString(); }
+        }
+
+
+        public static string GetAutorization
+        {
+            get { return ConfigurationManager.AppSettings["CoGetAutorization"].ToString(); }
+        }
+
+        public static string GetFiles
+        {
+            get { return ConfigurationManager.AppSettings["GetFiles"].ToString(); }
+        }
+
+
+        public static string CommitFile
+        {
+            get { return ConfigurationManager.AppSettings["CommitFile"].ToString(); }
+        }
+
+
+        public static string UpdateTransaction
+        {
+            get { return ConfigurationManager.AppSettings["UpdateTransaction"].ToString(); }
+        }
+
+
         public static bool LoggingActivated
         {
             get
@@ -188,6 +232,15 @@ namespace TransFastWCFService.Classes
             get { return string.Format("{0}&transactionNo={1}&uniqueID={2}", Credentials, "{0}", "{1}"); }
         }
 
+        public static string TokenCredentials
+        {
+            get { return string.Format("EntityLogin={0}&EntityPass={1}", EntityLogin, EntityPass); }
+        }
+
+        public static string POSTDataGetToken
+        {
+            get { return string.Format("EntityType={0}&EntityCode={1}&{2}&TerminalID={3}", 5, 0, TokenCredentials, TerminalID); }
+        }
         public static string POSTData_Payout
         {
             get { return string.Format("{0}{1}", POSTData, "&vendorTxNumber={1}"); }

@@ -16,5 +16,9 @@ namespace TransFastWCFService
 
         [OperationContract]
         string GenerateToken(GenerateTokenParameters generateTokenParameters);
+
+        [OperationContract]
+        string RequestToken(DataTransactionResult dataTransactionResult);
+
     }
 }

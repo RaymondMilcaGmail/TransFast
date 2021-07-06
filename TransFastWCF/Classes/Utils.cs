@@ -8,6 +8,8 @@ using System.Web.Script.Serialization;
 using System.Web.SessionState;
 using System.Web;
 using System.Xml;
+using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace TransFastWCFService.Classes
 {
@@ -165,6 +167,49 @@ namespace TransFastWCFService.Classes
             return result;
         }
 
+        public static string ProcessRequest(string uri, string request, string header)
+        {
+            string result = string.Empty;
+
+            HttpWebRequest httpWebRequest = WebRequest.Create(@uri) as HttpWebRequest;
+
+            //convert request to Json
+            var dict1 = HttpUtility.ParseQueryString(request);
+            var dict = new Dictionary<string, string>();
+            foreach (string key in dict1.Keys)
+            {
+                dict.Add(key, dict1[key]);
+            }
+            string json = JsonConvert.SerializeObject(dict);
+            //end convert
+
+            if (!RemittancePartnerConfiguration.UseDefaultProxy)
+                httpWebRequest.Proxy = RemittancePartnerConfiguration.WebProxy;
+            httpWebRequest.Method = "POST";
+            httpWebRequest.ContentType = "application/x-www-form-urlencoded";
+            httpWebRequest.Headers[RemittancePartnerConfiguration.TransfastHeader] = header;
+
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+                streamWriter.Write(json);
+            }
+
+            using (WebResponse response = httpWebRequest.GetResponse())
+            {
+                // Get the stream containing content returned by the server.
+                using (Stream dataStream = response.GetResponseStream())
+                {
+                    // Open the stream using a StreamReader for easy access.
+                    using (StreamReader reader = new StreamReader(dataStream))
+                    {
+                        // Read the content.
+                        result = reader.ReadToEnd();
+                    }
+                }
+            }
+
+            return result;
+        }
         public static string ProcessSecuredRequest(string uri, string request, string token)
         {
             string result = string.Empty;
