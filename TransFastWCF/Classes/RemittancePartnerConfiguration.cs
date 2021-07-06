@@ -7,16 +7,16 @@ using System.Security.Cryptography.X509Certificates;
 namespace TransFastWCFService.Classes
 {
     public class RemittancePartnerConfiguration
-	{
-		public static string ApplicationName
-		{
+    {
+        public static string ApplicationName
+        {
             get { return ConfigurationManager.AppSettings["ApplicationName"].ToString(); }
-		}
+        }
 
-		public static string ApplicationCode
-		{
+        public static string ApplicationCode
+        {
             get { return ConfigurationManager.AppSettings["ApplicationCode"].ToString(); }
-		}
+        }
 
 
         public static string EntityLogin
@@ -49,6 +49,10 @@ namespace TransFastWCFService.Classes
             get { return ConfigurationManager.AppSettings["GetFiles"].ToString(); }
         }
 
+        public static string GetAvaliableFiles
+        {
+            get { return ConfigurationManager.AppSettings["GetAvaliableFiles"].ToString(); }
+        }
 
         public static string CommitFile
         {
@@ -84,9 +88,9 @@ namespace TransFastWCFService.Classes
         }
 
         public static string ConnectionStringRemittanceDatabase
-		{
-			get { return ConfigurationManager.ConnectionStrings["RemittanceDBConnection"].ToString(); }
-		}
+        {
+            get { return ConfigurationManager.ConnectionStrings["RemittanceDBConnection"].ToString(); }
+        }
 
         public static string StoredProcedureInsertPayoutTransaction
         {
@@ -99,21 +103,21 @@ namespace TransFastWCFService.Classes
         }
 
         public static string GetAppSettingsValue(string appSettingsKey)
-		{
-			string appSettingsValue;
-			appSettingsKey = appSettingsKey.Trim().ToUpper();
+        {
+            string appSettingsValue;
+            appSettingsKey = appSettingsKey.Trim().ToUpper();
 
-			if (ConfigurationManager.AppSettings[appSettingsKey] != null)
-			{
-				appSettingsValue = ConfigurationManager.AppSettings[appSettingsKey];
-			}
-			else
-			{
-				appSettingsValue = string.Empty;
-			}
+            if (ConfigurationManager.AppSettings[appSettingsKey] != null)
+            {
+                appSettingsValue = ConfigurationManager.AppSettings[appSettingsKey];
+            }
+            else
+            {
+                appSettingsValue = string.Empty;
+            }
 
-			return appSettingsValue;
-		}
+            return appSettingsValue;
+        }
 
         #region Proxy Setting
         public static WebProxy WebProxy
@@ -244,8 +248,29 @@ namespace TransFastWCFService.Classes
         public static string POSTData_Payout
         {
             get { return string.Format("{0}{1}", POSTData, "&vendorTxNumber={1}"); }
-        }   
+        }
 
+
+        public static string POSTDataGetAvaliableFiles
+        {
+            get { return string.Format("UserToken={0}&Folder={1}", "{0}", 2); }
+        }
+
+
+        public static string POSTDataGetFile
+        {
+            get { return string.Format("UserToken={0}&Folder={1}&FileName={2}", "{0}", 2, "1"); }
+        }
+
+        public static string POSTDataCommitFile
+        {
+            get { return string.Format("UserToken={0}&Folder={1}&FileName={2}", "{0}", 2, "1"); }
+        }
+
+        public static string POSTDataUpdateTransaction
+        {
+            get { return string.Format("UserToken={0}&ReferenceID={1}&EventDate={2}&EventType={3}&EventInfo={4}", "{0}", "{1}", "{2}", "{3}", "{4}"); }
+        }
         #endregion
 
         #region Security Settings
@@ -264,14 +289,14 @@ namespace TransFastWCFService.Classes
         }
 
         public static string RemittanceSecretKey
-		{
+        {
             get { return ConfigurationManager.AppSettings["RemittanceSecretKey"] != null ? ConfigurationManager.AppSettings["RemittanceSecretKey"].ToString() : string.Empty; }
-		}
+        }
 
-		public static int TokenExpiration
-		{
-			get { return ConfigurationManager.AppSettings["TokenExpiration"] != null ? Convert.ToInt32(ConfigurationManager.AppSettings["TokenExpiration"]) : 0; }
-		}
-		#endregion
-	}
+        public static int TokenExpiration
+        {
+            get { return ConfigurationManager.AppSettings["TokenExpiration"] != null ? Convert.ToInt32(ConfigurationManager.AppSettings["TokenExpiration"]) : 0; }
+        }
+        #endregion
+    }
 }

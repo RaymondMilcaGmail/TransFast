@@ -141,7 +141,7 @@ namespace TransFastWCFService.Classes
 
             if (!RemittancePartnerConfiguration.UseDefaultProxy)
                 httpWebRequest.Proxy = RemittancePartnerConfiguration.WebProxy;
-            httpWebRequest.Method = "POST";
+            httpWebRequest.Method = "GET";
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.ContentLength = data.Length;
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.IO;
 using System.Net;
 using System.ServiceModel;
@@ -6,6 +7,7 @@ using System.ServiceModel.Activation;
 using System.Web.Script.Serialization;
 using System.Web.Services;
 using System.Web.Services.Protocols;
+using TransFastWCF.TransFastRespopnse;
 using TransFastWCFService.Classes;
 
 namespace TransFastWCFService
@@ -229,6 +231,13 @@ namespace TransFastWCFService
             try
             {
                 Token = dataTransactionResult.GetToken();
+                TokenResponse responseDetails = JsonConvert.DeserializeObject<TokenResponse>(Token);
+                if (responseDetails.ReturnResult.ToString() != "0")
+                {
+                    DataTransactionResult errorResponse = new DataTransactionResult();
+                    errorResponse.ResultCode = LookupTransactionResultCode.ServerError;
+                    errorResponse.MessageToClient = "An error has occured while retrieving Token from the partner. Please contact ICT Support Desk.";
+                }
                 return Token;
             }
             catch (Exception error)
@@ -253,6 +262,51 @@ namespace TransFastWCFService
                 else
                 {
                     errorResponse.MessageToClient = "An error has occured while retrieving Token from the partner. Please contact ICT Support Desk.";
+                }
+
+                return Token;
+            }
+        }
+
+        public string ProcessTransaction(DataTransactionResult dataTransactionResult)
+        {
+            string Token = dataTransactionResult.AssignToken;
+            string FunctionName = dataTransactionResult.FunctionName;
+            PullRemittanceResult pullRemittanceResult = new PullRemittanceResult();
+            try
+            {
+                Token = dataTransactionResult.ProcessTransaction();
+                TokenResponse responseDetails = JsonConvert.DeserializeObject<TokenResponse>(Token);
+                if (Token == "")
+                {
+                    DataTransactionResult errorResponse = new DataTransactionResult();
+                    errorResponse.ResultCode = LookupTransactionResultCode.ServerError;
+                    errorResponse.MessageToClient = "An error has occured while accessing the data from the partner. Please contact ICT Support Desk.";
+                }
+                return Token;
+            }
+            catch (Exception error)
+            {
+                Utils.WriteToEventLog(string.Format("ProcessTransaction " + FunctionName +":{0}", error.Message), System.Diagnostics.EventLogEntryType.Error);
+
+                LookupTransactionResult errorResponse = new LookupTransactionResult();
+                errorResponse.ResultCode = LookupTransactionResultCode.ServerError;
+
+                if (error is RemittanceException)
+                {
+                    errorResponse.MessageToClient = error.Message;
+                }
+                else if (error is SoapException)
+                {
+                    errorResponse.MessageToClient = "An error in the partner's web service has occured while accessing the data.";
+                }
+                else if (error is WebException || error is CommunicationException)
+                {
+                    errorResponse.MessageToClient = "An error in the connection to the partner's web service has occured while accessing the data. Please try again later.";
+                }
+                else
+                {
+                    errorResponse.MessageToClient = "An error has occured while accessing the data from the partner. Please contact ICT Support Desk.";
                 }
 
                 return Token;
