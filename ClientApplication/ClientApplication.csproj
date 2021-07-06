@@ -66,6 +66,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="TestTransFast.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestTransFast.Designer.cs">
+      <DependentUpon>TestTransFast.cs</DependentUpon>
+    </Compile>
     <Compile Include="TestWCF.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TestTransFast.resx">
+      <DependentUpon>TestTransFast.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TestWCF.resx">
       <DependentUpon>TestWCF.cs</DependentUpon>
     </EmbeddedResource>
