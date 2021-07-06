@@ -57,9 +57,9 @@ namespace TransFastWCF.TransFastRespopnse
         public string SenderSurname { get; set; }
         public string SenderDocumentType { get; set; }
         public string SenderDocumentNumber { get; set; }
-        public DateTime SenderDocumentExpiration { get; set; }
+        public DateTime? SenderDocumentExpiration { get; set; }
         public string SenderDocumnetIssued { get; set; }
-        public DateTime SenderDocumentIssuedDate { get; set; }
+        public DateTime? SenderDocumentIssuedDate { get; set; }
         public string SenderStreet { get; set; }
         public string SenderHouseNumber { get; set; }
         public string SenderFloorAndDoor { get; set; }
@@ -69,7 +69,7 @@ namespace TransFastWCF.TransFastRespopnse
         public string SenderCountry { get; set; }
         public string SenderTelephone1 { get; set; }
         public string SenderTelephone2 { get; set; }
-        public DateTime SenderBirthDate { get; set; }
+        public DateTime? SenderBirthDate { get; set; }
         public string SenderOccupation { get; set; }
         public int SenderSalary { get; set; }
         public string SenderNationality { get; set; }
@@ -89,7 +89,7 @@ namespace TransFastWCF.TransFastRespopnse
         public string BankAccountNumber { get; set; }
         public string AgentCode { get; set; }
         public int InvoiceAgentReference { get; set; }
-        public DateTime InvoiceDate { get; set; }
+        public DateTime? InvoiceDate { get; set; }
         public string InvoicePassWord { get; set; }
         public double InvoiceAmmountToPay { get; set; }
         public string InvoiceCurrency { get; set; }

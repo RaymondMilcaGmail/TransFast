@@ -65,6 +65,10 @@ namespace TransFastWCFService.Classes
             get { return ConfigurationManager.AppSettings["UpdateTransaction"].ToString(); }
         }
 
+        public static string GetFunctionValue(string FunctionName)
+        {
+            return ConfigurationManager.AppSettings[FunctionName].ToString();
+        }
 
         public static bool LoggingActivated
         {

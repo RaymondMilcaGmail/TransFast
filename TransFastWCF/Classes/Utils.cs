@@ -185,14 +185,14 @@ namespace TransFastWCFService.Classes
 
             if (!RemittancePartnerConfiguration.UseDefaultProxy)
                 httpWebRequest.Proxy = RemittancePartnerConfiguration.WebProxy;
-            httpWebRequest.Method = "POST";
+            httpWebRequest.Method = "GET";
             httpWebRequest.ContentType = "application/x-www-form-urlencoded";
-            httpWebRequest.Headers[RemittancePartnerConfiguration.TransfastHeader] = header;
+            httpWebRequest.Headers[RemittancePartnerConfiguration.TransfastHeader] = RemittancePartnerConfiguration.GetFunctionValue(header);
 
-            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
-            {
-                streamWriter.Write(json);
-            }
+            //using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            //{
+            //    streamWriter.Write(json);
+            //}
 
             using (WebResponse response = httpWebRequest.GetResponse())
             {

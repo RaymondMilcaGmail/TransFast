@@ -271,19 +271,22 @@ namespace TransFastWCFService
         public string ProcessTransaction(DataTransactionResult dataTransactionResult)
         {
             string Token = dataTransactionResult.AssignToken;
+            string result = string.Empty;
             string FunctionName = dataTransactionResult.FunctionName;
-            PullRemittanceResult pullRemittanceResult = new PullRemittanceResult();
             try
             {
-                Token = dataTransactionResult.ProcessTransaction();
-                TokenResponse responseDetails = JsonConvert.DeserializeObject<TokenResponse>(Token);
+                Token = dataTransactionResult.AssignToken;
                 if (Token == "")
                 {
                     DataTransactionResult errorResponse = new DataTransactionResult();
                     errorResponse.ResultCode = LookupTransactionResultCode.ServerError;
                     errorResponse.MessageToClient = "An error has occured while accessing the data from the partner. Please contact ICT Support Desk.";
                 }
-                return Token;
+                else
+                {
+                    result = dataTransactionResult.ProcessTransaction();
+                }
+                return result;
             }
             catch (Exception error)
             {
@@ -309,7 +312,7 @@ namespace TransFastWCFService
                     errorResponse.MessageToClient = "An error has occured while accessing the data from the partner. Please contact ICT Support Desk.";
                 }
 
-                return Token;
+                return result;
             }
         }
         #endregion

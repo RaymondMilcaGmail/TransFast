@@ -1,16 +1,10 @@
 ﻿
+using ClientApplication.SRTransFastWCFService;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using TransFastWCFService.Classes;
 using TransFastWCF.TransFastRespopnse;
-using ClientApplication.TransFastWCFServicesSR;
+using TransFastWCFService.Classes;
 
 namespace ClientApplication
 {
@@ -58,6 +52,13 @@ namespace ClientApplication
                 button3.Enabled = true;
                 button4.Enabled = true;
             }
+            else
+            {
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -65,17 +66,16 @@ namespace ClientApplication
 
             DataTransactionResult req = new DataTransactionResult();
             TransFastWCFClient svc = new TransFastWCFClient();
-            req.FunctionName = "GetAvailableFiles";
+            req.FunctionName = "GetAvaliableFiles";
+            req.AssignToken = TransFastToken;
             string TransactionResult = svc.ProcessTransaction(req);
-            GetAvailableFilesResponse responseDetails = JsonConvert.DeserializeObject<GetAvailableFilesResponse>(TransactionResult);
+            GetAvaliableFilesResponse responseDetails = JsonConvert.DeserializeObject<GetAvaliableFilesResponse>(TransactionResult);
             foreach (AvaliableFIle avaliableFIle in responseDetails.AvaliableFIles)
             {
+                string[] row = { avaliableFIle.FileName, avaliableFIle.FileSize.ToString(), avaliableFIle.FileDate.ToString() };
+                ListViewItem listViewItem = new ListViewItem(row);
 
-                ListViewItem lvi = new ListViewItem();
-                lvi.SubItems.Add(avaliableFIle.FileName);
-                lvi.SubItems.Add(avaliableFIle.FileSize.ToString());
-                lvi.SubItems.Add(avaliableFIle.FileDate.ToString());
-                listView1.Items.Add(lvi);
+                listView1.Items.Add(listViewItem);
             }
         }
 
@@ -84,6 +84,7 @@ namespace ClientApplication
             DataTransactionResult req = new DataTransactionResult();
             TransFastWCFClient svc = new TransFastWCFClient();
             //TransFastWCFService svc = new TransFastWCFService();
+            req.AssignToken = TransFastToken;
             req.FunctionName = "UpdateTransaction";
             req.ReferenceID = listView1.SelectedItems[0].SubItems[1].ToString();
             req.EventDate = new DateTime();
@@ -99,11 +100,13 @@ namespace ClientApplication
 
             DataTransactionResult req = new DataTransactionResult();
             TransFastWCFClient svc = new TransFastWCFClient();
+            req.AssignToken = TransFastToken;
             req.FunctionName = "GetFile";
             req.FileName = listView1.SelectedItems[0].SubItems[1].ToString();
             string TransactionResult = svc.ProcessTransaction(req);
             GetFileResponse responseDetails = JsonConvert.DeserializeObject<GetFileResponse>(TransactionResult);
-
+            label2.Text = responseDetails.FileContents[0].SenderName;
+            label3.Text = responseDetails.FileContents[0].ReceiverName;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -111,6 +114,7 @@ namespace ClientApplication
 
             DataTransactionResult req = new DataTransactionResult();
             TransFastWCFClient svc = new TransFastWCFClient();
+            req.AssignToken = TransFastToken;
             req.FunctionName = "CommitFile";
             req.FileName = listView1.SelectedItems[0].SubItems[1].ToString();
             string TransactionResult = svc.ProcessTransaction(req);
