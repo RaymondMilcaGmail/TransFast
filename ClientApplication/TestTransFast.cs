@@ -1,12 +1,12 @@
 ﻿
 
-using Newtonsoft.Json;
 using System;
 using System.Windows.Forms;
 using TransFastWCF.TransFastRespopnse;
 using TransFastWCFService.Classes;
 using TransFastWCFService;
 using ClientApplication.ITransFastServices;
+using Newtonsoft.Json;
 
 namespace ClientApplication
 {
