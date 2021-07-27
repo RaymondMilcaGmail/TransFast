@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WesternUnionWCFService.Classes" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WesternUnionWCFService.Classes" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://localhost:51143/WesternUnionWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/" />
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TransFastWCFService.Classes" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TransFastWCFService.Classes" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:51143/TransFastWCFService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/" />
   <xs:complexType name="PullRemittanceRequest">
     <xs:sequence>
       <xs:element minOccurs="0" name="LookupTransactionRequest" nillable="true" type="tns:LookupTransactionRequest" />
       <xs:element minOccurs="0" name="PayoutTransactionRequest" nillable="true" type="tns:PayoutTransactionRequest" />
       <xs:element minOccurs="0" name="PullMethod" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnlockTransactionRequest" nillable="true" type="tns:UnlockTransactionRequest" />
     </xs:sequence>
   </xs:complexType>
   <xs:element name="PullRemittanceRequest" nillable="true" type="tns:PullRemittanceRequest" />
@@ -13,7 +14,7 @@
     <xs:sequence>
       <xs:element minOccurs="0" name="CebuanaBranchInformation" nillable="true" type="tns:CebuanaBranchInformation" />
       <xs:element minOccurs="0" name="PartnerCode" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="PayoutCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayTokenID" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="TransactionNumber" nillable="true" type="xs:string" />
     </xs:sequence>
@@ -69,12 +70,27 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="PayoutTransactionRequest" nillable="true" type="tns:PayoutTransactionRequest" />
+  <xs:complexType name="UnlockTransactionRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccessCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgentSessionID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ClientApplicationVersion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PartnerCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayTokenID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RefNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Signature" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UnlockTransactionRequest" nillable="true" type="tns:UnlockTransactionRequest" />
   <xs:complexType name="PullRemittanceResult">
     <xs:sequence>
       <xs:element minOccurs="0" name="LookupTransactionResult" nillable="true" type="tns:LookupTransactionResult" />
       <xs:element minOccurs="0" name="PayoutTransactionResult" nillable="true" type="tns:PayoutTransactionResult" />
       <xs:element minOccurs="0" name="PullMethod" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="UnlockTransactionResult" nillable="true" type="tns:LookupCustomerResult" />
+      <xs:element minOccurs="0" name="UnlockTransactionResult" nillable="true" type="tns:UnlockTransactionResult" />
+      <xs:element minOccurs="0" name="dataTransactionResult" nillable="true" type="tns:DataTransactionResult" />
     </xs:sequence>
   </xs:complexType>
   <xs:element name="PullRemittanceResult" nillable="true" type="tns:PullRemittanceResult" />
@@ -121,12 +137,26 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="PayoutTransactionResult" nillable="true" type="tns:PayoutTransactionResult" />
-  <xs:complexType name="LookupCustomerResult">
+  <xs:complexType name="UnlockTransactionResult">
     <xs:sequence>
       <xs:element minOccurs="0" name="AgentSessionID" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="UnlockResultCode" nillable="true" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
-  <xs:element name="LookupCustomerResult" nillable="true" type="tns:LookupCustomerResult" />
+  <xs:element name="UnlockTransactionResult" nillable="true" type="tns:UnlockTransactionResult" />
+  <xs:complexType name="DataTransactionResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AssignToken" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EventDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EventInfo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EventType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FunctionName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MessageToClient" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReferenceID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="ResultCode" type="q4:LookupTransactionResultCode" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DataTransactionResult" nillable="true" type="tns:DataTransactionResult" />
 </xs:schema>

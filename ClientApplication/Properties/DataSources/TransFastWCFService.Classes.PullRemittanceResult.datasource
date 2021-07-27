@@ -6,5 +6,5 @@
     cause the file to be unrecognizable by the program.
 -->
 <GenericObjectDataSource DisplayName="PullRemittanceResult" Version="1.0" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
-   <TypeInfo>ClientApplication.WesternUnionService.PullRemittanceResult, Service References.WesternUnionService.Reference.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</TypeInfo>
+   <TypeInfo>TransFastWCFService.Classes.PullRemittanceResult, AlawnehExchangeWCF, Version=2.5.9.9, Culture=neutral, PublicKeyToken=null</TypeInfo>
 </GenericObjectDataSource>

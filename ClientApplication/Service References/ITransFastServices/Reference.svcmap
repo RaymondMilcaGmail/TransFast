@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8b43aa4b-98a8-4358-901b-544a45d96ab5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51143/TransFastWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TransFastWCFService.xsd" MetadataType="Schema" ID="a4928fe5-19f1-4a67-9963-df6fe40c7df5" SourceId="1" SourceUrl="http://localhost:51143/TransFastWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="TransFastWCFService1.xsd" MetadataType="Schema" ID="6a577b5b-c81b-4135-9e27-4de502fcc50d" SourceId="1" SourceUrl="http://localhost:51143/TransFastWCFService.svc?xsd=xsd4" />
+    <MetadataFile FileName="TransFastWCFService2.xsd" MetadataType="Schema" ID="a9e3b778-073b-4fe8-8aeb-eaf0cc9f75d4" SourceId="1" SourceUrl="http://localhost:51143/TransFastWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="TransFastWCFService.disco" MetadataType="Disco" ID="dfb3ba8f-d135-4306-9b88-cebb11356c17" SourceId="1" SourceUrl="http://localhost:51143/TransFastWCFService.svc?disco" />
+    <MetadataFile FileName="TransFastWCF.wsdl" MetadataType="Wsdl" ID="9ab2f02d-ffeb-4aa2-b714-e4b612589543" SourceId="1" SourceUrl="http://localhost:51143/TransFastWCFService.svc?wsdl" />
+    <MetadataFile FileName="TransFastWCFService3.xsd" MetadataType="Schema" ID="42d8661a-435e-4a23-9d0f-d641b0273aee" SourceId="1" SourceUrl="http://localhost:51143/TransFastWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="TransFastWCFService4.xsd" MetadataType="Schema" ID="1977bb37-37b0-484b-aeea-ab7ebbc353b5" SourceId="1" SourceUrl="http://localhost:51143/TransFastWCFService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

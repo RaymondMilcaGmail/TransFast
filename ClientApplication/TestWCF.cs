@@ -5,7 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using ClientApplication.WesternUnionService;
+using TransFastWCFService.Classes;
 
 namespace ClientApplication
 {
@@ -25,20 +25,20 @@ namespace ClientApplication
         {
             LookupTransactionRequest req = new LookupTransactionRequest();
             req.TransactionNumber = txtTransactionNumber.Text;
-            req.PayoutCurrency = txtPayoutCurrency.Text;
+            //req.PayoutCurrency = txtPayoutCurrency.Text;
 
-            PullRemittanceRequest pullReq = new PullRemittanceRequest();
-            pullReq.LookupTransactionRequest = req;
+            //PullRemittanceRequest pullReq = new PullRemittanceRequest();
+            //pullReq.LookupTransactionRequest = req;
 
-            WesternUnionWCFClient svc = new WesternUnionWCFClient();
-            PullRemittanceResult pullRes = new PullRemittanceResult();
-            pullRes = svc.RemittancePartnerLookup(pullReq);
+            //WesternUnionWCFClient svc = new WesternUnionWCFClient();
+            //PullRemittanceResult pullRes = new PullRemittanceResult();
+            //pullRes = svc.RemittancePartnerLookup(pullReq);
 
-            LookupTransactionResult res = new LookupTransactionResult();
-            res = pullRes.LookupTransactionResult;
+            //LookupTransactionResult res = new LookupTransactionResult();
+            //res = pullRes.LookupTransactionResult;
 
-            txtResultCode.Text = res.ResultCode.ToString();
-            txtResultMessage.Text = res.MessageToClient;
+            //txtResultCode.Text = res.ResultCode.ToString();
+            //txtResultMessage.Text = res.MessageToClient;
         }
 
         private void TestWCF_Load(object sender, EventArgs e)

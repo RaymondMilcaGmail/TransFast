@@ -221,3 +221,14 @@ D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\RemittancePartnerControlLibrary
 D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\RemittancePartnerControlLibrary\obj\Debug\GeaLimitedControlLibrary.MyMessageBox.resources
 D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\RemittancePartnerControlLibrary\obj\Debug\GeaLimitedControlLibrary.RemittancePartnerControlMain.resources
 D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\RemittancePartnerControlLibrary\obj\Debug\GeaLimitedControlLibrary.PayoutForm.resources
+D:\Git\TransFast\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csprojAssemblyReference.cache
+D:\Git\TransFast\RemittancePartnerControlLibrary\obj\Debug\TransFastControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Git\TransFast\RemittancePartnerControlLibrary\obj\Debug\GeaLimitedControlLibrary.images.resources
+D:\Git\TransFast\RemittancePartnerControlLibrary\obj\Debug\TransFastControlLibrary.LookupSummaryForm.resources
+D:\Git\TransFast\RemittancePartnerControlLibrary\obj\Debug\TransFastControlLibrary.MyMessageBox.resources
+D:\Git\TransFast\RemittancePartnerControlLibrary\obj\Debug\TransFastControlLibrary.RemittancePartnerControlMain.resources
+D:\Git\TransFast\RemittancePartnerControlLibrary\obj\Debug\TransFastControlLibrary.PayoutForm.resources
+D:\Git\TransFast\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.GenerateResource.cache
+D:\Git\TransFast\RemittancePartnerControlLibrary\obj\Debug\RemittancePartnerControlLibrary.csproj.CoreCompileInputs.cache
+D:\Git\TransFast\RemittancePartnerControlLibrary\obj\Debug\GeaLimitedControlLibrary.dll
+D:\Git\TransFast\RemittancePartnerControlLibrary\obj\Debug\GeaLimitedControlLibrary.pdb

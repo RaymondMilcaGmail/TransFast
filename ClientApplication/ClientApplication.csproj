@@ -61,7 +61,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\WesternUnionService\Reference.cs">
+    <Compile Include="Service References\ITransFastServices\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -98,6 +98,7 @@
       <DependentUpon>TestWCF.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="Properties\DataSources\TransFastWCFService.Classes.PullRemittanceResult.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -107,23 +108,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Service References\WesternUnionService\ClientApplication.WesternUnionService.PullRemittanceResult.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\WesternUnionService\WesternUnionWCF1.wsdl" />
-    <None Include="Service References\WesternUnionService\WesternUnionWCFService.xsd">
+    <None Include="Service References\ITransFastServices\TransFastWCF.wsdl" />
+    <None Include="Service References\ITransFastServices\TransFastWCFService.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WesternUnionService\WesternUnionWCFService1.xsd">
+    <None Include="Service References\ITransFastServices\TransFastWCFService1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WesternUnionService\WesternUnionWCFService2.xsd">
+    <None Include="Service References\ITransFastServices\TransFastWCFService2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WesternUnionService\WesternUnionWCFService3.xsd">
+    <None Include="Service References\ITransFastServices\TransFastWCFService3.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WesternUnionService\WesternUnionWCFService4.xsd">
+    <None Include="Service References\ITransFastServices\TransFastWCFService4.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -131,16 +129,25 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\WesternUnionService\" />
+    <ProjectReference Include="..\TransFastWCF\TransFastWCF.csproj">
+      <Project>{d4c205b6-cf03-45f0-9ede-96b754a3ecd9}</Project>
+      <Name>TransFastWCF</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\WesternUnionService\configuration91.svcinfo" />
+    <WCFMetadataStorage Include="Service References\ITransFastServices\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\WesternUnionService\configuration.svcinfo" />
+    <None Include="Service References\ITransFastServices\TransFastWCFService.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\WesternUnionService\Reference.svcmap">
+    <None Include="Service References\ITransFastServices\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ITransFastServices\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ITransFastServices\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

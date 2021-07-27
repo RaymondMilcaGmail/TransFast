@@ -124,3 +124,12 @@ C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x8
 C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.csproj.CopyComplete
 C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.exe
 C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.pdb
+D:\Git\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.csprojAssemblyReference.cache
+D:\Git\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.Form1.resources
+D:\Git\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.Properties.Resources.resources
+D:\Git\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.TestTransFast.resources
+D:\Git\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.TestWCF.resources
+D:\Git\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.csproj.GenerateResource.cache
+D:\Git\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Git\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.exe
+D:\Git\TransFast\ClientApplication\obj\x86\Debug\ClientApplication.pdb
