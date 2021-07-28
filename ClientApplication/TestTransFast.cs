@@ -47,6 +47,7 @@ namespace ClientApplication
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            ListViewItem item = listView1.Items[listView1.SelectedIndices[0]];
             if (listView1.SelectedItems.Count > 0)
             {
 
@@ -61,6 +62,7 @@ namespace ClientApplication
                 button4.Enabled = false;
 
             }
+            textBox2.Text = "test";
         }
 
         private void button1_Click(object sender, EventArgs e)

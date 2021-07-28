@@ -173,26 +173,17 @@ namespace TransFastWCFService.Classes
 
             HttpWebRequest httpWebRequest = WebRequest.Create(@uri) as HttpWebRequest;
 
-            //convert request to Json
-            var dict1 = HttpUtility.ParseQueryString(request);
-            var dict = new Dictionary<string, string>();
-            foreach (string key in dict1.Keys)
-            {
-                dict.Add(key, dict1[key]);
-            }
-            string json = JsonConvert.SerializeObject(dict);
-            //end convert
 
             if (!RemittancePartnerConfiguration.UseDefaultProxy)
                 httpWebRequest.Proxy = RemittancePartnerConfiguration.WebProxy;
-            httpWebRequest.Method = "GET";
-            httpWebRequest.ContentType = "application/x-www-form-urlencoded";
+            httpWebRequest.Method = "POST";
+            httpWebRequest.ContentType = "application/json";
             httpWebRequest.Headers[RemittancePartnerConfiguration.TransfastHeader] = RemittancePartnerConfiguration.GetFunctionValue(header);
 
-            //using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
-            //{
-            //    streamWriter.Write(json);
-            //}
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+                streamWriter.Write(request);
+            }
 
             using (WebResponse response = httpWebRequest.GetResponse())
             {

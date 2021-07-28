@@ -3,6 +3,7 @@ using System.Configuration;
 using System.Net.Security;
 using System.Net;
 using System.Security.Cryptography.X509Certificates;
+using Newtonsoft.Json;
 
 namespace TransFastWCFService.Classes
 {
@@ -242,12 +243,12 @@ namespace TransFastWCFService.Classes
 
         public static string TokenCredentials
         {
-            get { return string.Format("EntityLogin={0}&EntityPass={1}", EntityLogin, EntityPass); }
+            get { return string.Format("\"EntityLogin\":\"{0}\",\"EntityPass\":\"{1}\"", EntityLogin, EntityPass); }
         }
-
         public static string POSTDataGetToken
         {
-            get { return string.Format("EntityType={0}&EntityCode={1}&{2}&TerminalID={3}", 5, 0, TokenCredentials, TerminalID); }
+            get {  return string.Format("{{\"EntityType\":5, \"EntityCode\" : 0,{0},\"TerminalID\":\"PH\" }}",TokenCredentials); }
+
         }
         public static string POSTData_Payout
         {
@@ -257,23 +258,21 @@ namespace TransFastWCFService.Classes
 
         public static string POSTDataGetAvaliableFiles
         {
-            get { return string.Format("UserToken={0}&Folder={1}", "{0}", 2); }
+            get { return "{{\"UserToken\":\"{0}\", \"Folder\" : 2 }}"; }
         }
-
 
         public static string POSTDataGetFile
         {
-            get { return string.Format("UserToken={0}&Folder={1}&FileName={2}", "{0}", 2, "1"); }
+            get { return "{{\"UserToken\":\"{0}\", \"Folder\" : 2 ,\"FileName\":\"{1}\"}}"; }
         }
 
         public static string POSTDataCommitFile
         {
-            get { return string.Format("UserToken={0}&Folder={1}&FileName={2}", "{0}", 2, "1"); }
+            get { return "{{\"UserToken\":\"{0}\", \"Folder\" : 2 ,\"FileName\":\"{1}\"}}"; }
         }
-
         public static string POSTDataUpdateTransaction
         {
-            get { return string.Format("UserToken={0}&ReferenceID={1}&EventDate={2}&EventType={3}&EventInfo={4}", "{0}", "{1}", "{2}", "{3}", "{4}"); }
+            get { return "{{\"UserToken\":\"{0}\", \"ReferenceID\" : \"{1}\" ,\"EventDate\":\"{2}\",\"EventType\":\"{3}\",\"EventInfo\":\"{4}\"}}"; }
         }
         #endregion
 
@@ -303,4 +302,5 @@ namespace TransFastWCFService.Classes
         }
         #endregion
     }
+
 }

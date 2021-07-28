@@ -78,7 +78,7 @@ namespace TransFastWCFService.Classes
             }
 
             string URL = string.Format(RemittancePartnerConfiguration.WS_URL);
-            string postData = string.Format(RemittancePartnerConfiguration.POSTDataGetToken);
+            string postData = RemittancePartnerConfiguration.POSTDataGetToken;
 
 
             string result = Utils.ProcessRequest(URL, postData, "CoGetAutorization");
@@ -106,7 +106,7 @@ namespace TransFastWCFService.Classes
             switch (FunctionName)
             {
                 case "GetAvaliableFiles":
-                    postData = string.Format(RemittancePartnerConfiguration.POSTDataGetAvaliableFiles, AssignToken); 
+                    postData = string.Format(RemittancePartnerConfiguration.POSTDataGetAvaliableFiles,AssignToken); 
                      result = Utils.ProcessRequest(URL, postData, FunctionName);
                     break;
                 case "GetFile":
