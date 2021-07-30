@@ -183,8 +183,12 @@ namespace ClientApplication
             res.AssignToken = TransFastToken;
             res = svc.ProcessTransaction(res);
             GetAvaliableFilesResponse responseDetails = JsonConvert.DeserializeObject<GetAvaliableFilesResponse>(res.Result);
-            
-            txtFileName.Text = responseDetails.AvaliableFIles[0].FileName;
+            if (responseDetails.AvaliableFIles.Count > 0)
+            {
+
+                txtFileName.Text = responseDetails.AvaliableFIles[0].FileName;
+            }
+
             textBox4.Text = res.Result;
             textBox3.Text = res.ResultCode.ToString();
             textBox2.Text = res.MessageToClient;
