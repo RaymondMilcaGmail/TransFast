@@ -274,6 +274,11 @@ namespace TransFastWCFService.Classes
         {
             get { return "{{\"UserToken\":\"{0}\", \"ReferenceID\" : \"{1}\" ,\"EventDate\":\"{2}\",\"EventType\":\"{3}\",\"EventInfo\":\"{4}\"}}"; }
         }
+
+        public static string POSTDataUpdateTransactionMSG
+        {
+            get { return "{{\"UserToken\":\"{0}\", \"ReferenceID\" : \"{1}\" ,\"EventDate\":\"{2}\",\"EventType\":\"1\",\"EventInfo\":\"{3}\"}}"; }
+        }
         #endregion
 
         #region Security Settings

@@ -5,6 +5,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using GeaLimitedWCF.Classes;
 using Newtonsoft.Json;
+using TransFastWCF.TransFastRespopnse;
 
 namespace TransFastWCFService.Classes
 {
@@ -48,11 +49,18 @@ namespace TransFastWCFService.Classes
         private string _multiCurrencyPayoutCode = string.Empty;
         private string _statusFromPartner = string.Empty;
         private string _messageToClientFromSender = string.Empty;
+        private int _invoiceUpdateID = 0;
 
         #endregion
 
         #region Properties
 
+
+        public int InvoiceUpdateID
+        {
+            get { return _invoiceUpdateID; }
+            set { _invoiceUpdateID = value; }
+        }
         public LookupTransactionResultCode ResultCode
         {
             get { return _resultCode; }
@@ -231,12 +239,12 @@ namespace TransFastWCFService.Classes
         {
             try
             {
-                PartnerResponseData responseDetails = JsonConvert.DeserializeObject<PartnerResponseData>(response);
-
+                GetFileResponse responseMainDetails = JsonConvert.DeserializeObject<GetFileResponse>(response);
+                FileContent responseDetails = responseMainDetails.Transaction;
                 if (Convert.ToBoolean(responseDetails.successful))
                 {
-                    lookupResult.PayoutAmount = Convert.ToDecimal(responseDetails.amountToPay);
-                    lookupResult.PayoutCurrency = responseDetails.receiveCurrencyCode;
+                    lookupResult.PayoutAmount = Convert.ToDecimal(responseDetails.InvoiceAmmountToPay);
+                    lookupResult.PayoutCurrency = responseDetails.InvoiceCurrency;
 
                     if (((lookupResult.PayoutCurrency == "PHP") && (lookupResult.PayoutAmount > RemittancePartnerConfiguration.PHPMaxPayoutLimit))
                             || ((lookupResult.PayoutCurrency == "USD") && (lookupResult.PayoutAmount > RemittancePartnerConfiguration.USDMaxPayoutLimit)))
@@ -271,21 +279,21 @@ namespace TransFastWCFService.Classes
                         lookupResult.MessageToClient = string.Format("[{0}] Lookup transaction successful.", RemittancePartnerConfiguration.ApplicationCode);
                         lookupResult.ResultCode = LookupTransactionResultCode.Successful;
 
-                        lookupResult.SenderLastName = responseDetails.senderLastName;
-                        lookupResult.SenderFirstName = responseDetails.senderFirstName;
-                        lookupResult.SenderFullName = string.Format("{0}, {1} {2}", lookupResult.SenderLastName, lookupResult.SenderFirstName, responseDetails.senderMiddleName);
+                        lookupResult.SenderLastName = responseDetails.SenderName;
+                        lookupResult.SenderFirstName = responseDetails.SenderSurname;
+                        lookupResult.SenderFullName = string.Format("{0}, {1}", lookupResult.SenderLastName, lookupResult.SenderFirstName);
 
-                        lookupResult.SenderCountry = responseDetails.sendCountryCode;
-
+                        lookupResult.SenderCountry = responseDetails.SenderCountry;
+                        lookupResult.InvoiceUpdateID = responseDetails.InvoiceAgentReference;
                         lookupResult.TransactionStatus = TransactionStatus.ForPayout;
                         lookupResult.PayoutCountry = "PH";
                         lookupResult.MultiCurrencyPayoutCode = RemittancePartnerConfiguration.GetMultiCurrencyPayoutCode;
 
-                        lookupResult.BeneficiaryLastName = responseDetails.receiverLastName;
-                        lookupResult.BeneficiaryFirstName = responseDetails.receiverFirstName;
-                        lookupResult.BeneficiaryFullName = string.Format("{0}, {1} {2}", lookupResult.BeneficiaryLastName, lookupResult.BeneficiaryFirstName, responseDetails.receiverMiddleName);
+                        lookupResult.BeneficiaryLastName = responseDetails.ReceiverSurname;
+                        lookupResult.BeneficiaryFirstName = responseDetails.ReceiverName;
+                        lookupResult.BeneficiaryFullName = string.Format("{0}, {1}", lookupResult.BeneficiaryLastName, lookupResult.BeneficiaryFirstName);
 
-                        lookupResult.BeneficiaryPhoneNumber = responseDetails.receiverContactNo;
+                        lookupResult.BeneficiaryPhoneNumber = responseDetails.ReceiverTelephone1;
                         lookupResult.PayoutID = sessionID;
                         #endregion
                     }
@@ -293,7 +301,7 @@ namespace TransFastWCFService.Classes
                 else
                 {
                     #region error
-                    string errorMessage = string.Format("[{0}-{1}] {2}", responseDetails.responseCode, responseDetails.status, responseDetails.responseMessage);
+                    string errorMessage = string.Format("[{0}-{1}] {2}", responseMainDetails.ReturnCode, responseMainDetails.ReturnResult, responseMainDetails.ReturnDescription);
                     string errorLogMessage = string.Format("RemittancePartnerLookup_GetLookupResult: {0}", errorMessage);
 
                     Utils.WriteToEventLog(errorLogMessage, System.Diagnostics.EventLogEntryType.Error);

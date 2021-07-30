@@ -68,7 +68,7 @@
   <xs:element name="ProcessTransactionResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="ProcessTransactionResult" nillable="true" type="xs:string" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/TransFastWCFService.Classes" minOccurs="0" name="ProcessTransactionResult" nillable="true" type="q8:DataTransactionResult" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

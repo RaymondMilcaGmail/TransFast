@@ -102,6 +102,7 @@
       <DependentUpon>TestWCF.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="Properties\DataSources\TransFastWCFService.Classes.DataTransactionResult.datasource" />
     <None Include="Properties\DataSources\TransFastWCFService.Classes.PullRemittanceResult.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -133,6 +134,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RemittancePartnerControlLibrary\RemittancePartnerControlLibrary.csproj">
+      <Project>{6f1b7bc7-e1f4-4a2a-b9b0-ce7ff029fc66}</Project>
+      <Name>RemittancePartnerControlLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TransFastWCF\TransFastWCF.csproj">
       <Project>{d4c205b6-cf03-45f0-9ede-96b754a3ecd9}</Project>
       <Name>TransFastWCF</Name>

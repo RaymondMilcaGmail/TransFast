@@ -13,6 +13,15 @@ public enum LookupTransactionResultCode
 	ServerError,
 }
 
+public enum DataTransactionResultCode
+{
+	UnrecognizedResponse,
+	Successful,
+	Unsuccessful,
+	PartnerError,
+	ServerError,
+}
+
 public enum PayoutTransactionResultCode
 {
 	UnrecognizedResponse,

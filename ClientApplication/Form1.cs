@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using WesternUnionControlLibrary;
 
 namespace ClientApplication
 {
@@ -13,13 +12,13 @@ namespace ClientApplication
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = RemittancePartnerControlMain.ShowPayoutForm("");
+            //DialogResult dialogResult = RemittancePartnerControlMain.ShowPayoutForm("");
 
-            if (dialogResult == DialogResult.Abort)
-            {
-                MessageBox.Show("Placeholder for abortion of payout dialog.");
+            //if (dialogResult == DialogResult.Abort)
+            //{
+            //    MessageBox.Show("Placeholder for abortion of payout dialog.");
 
-            }
+            //}
         }
     }
 }

@@ -27,6 +27,7 @@ namespace TransFastWCF.TransFastRespopnse
         public int ReturnCode { get; set; }
         public string ReturnDescription { get; set; }
         public List<FileContent> FileContents { get; set; }
+        public FileContent Transaction { get; set; }
     }
 
     public class CommitFileResponse
@@ -53,6 +54,7 @@ namespace TransFastWCF.TransFastRespopnse
 
     public class FileContent
     {
+        public bool successful { get; set; }
         public string SenderName { get; set; }
         public string SenderSurname { get; set; }
         public string SenderDocumentType { get; set; }

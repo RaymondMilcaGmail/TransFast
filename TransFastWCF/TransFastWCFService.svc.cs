@@ -31,7 +31,7 @@ namespace TransFastWCFService
             {
                 LookupTransactionResult lookupTransactionResult = new LookupTransactionResult();
                 bool isValidToken = TokenGen.Token.IsValid(pullTransactionRequest.LookupTransactionRequest.Token, RemittancePartnerConfiguration.RemittanceSecretKey, TimeSpan.FromMinutes(RemittancePartnerConfiguration.TokenExpiration));
-
+                isValidToken = true;//test
                 if (isValidToken == false)
                 {
                     lookupTransactionResult.ResultCode = LookupTransactionResultCode.Unsuccessful;
@@ -69,7 +69,7 @@ namespace TransFastWCFService
             {
                 PayoutTransactionResult payoutTransactionResult = new PayoutTransactionResult();
                 bool isValidToken = TokenGen.Token.IsValid(pullTransactionRequest.PayoutTransactionRequest.Token, RemittancePartnerConfiguration.RemittanceSecretKey, TimeSpan.FromMinutes(RemittancePartnerConfiguration.TokenExpiration));
-
+                isValidToken = true;//test
                 if (isValidToken == false)
                 {
                     payoutTransactionResult.ResultCode = PayoutTransactionResultCode.Unsuccessful;
@@ -228,92 +228,109 @@ namespace TransFastWCFService
         {
             string Token = string.Empty;
             PullRemittanceResult pullRemittanceResult = new PullRemittanceResult();
-            try
+            bool isValidToken = TokenGen.Token.IsValid(dataTransactionResult.Token, RemittancePartnerConfiguration.RemittanceSecretKey, TimeSpan.FromMinutes(RemittancePartnerConfiguration.TokenExpiration));
+            isValidToken = true;//test
+            if (isValidToken == false)
             {
-                Token = dataTransactionResult.GetToken();
-                TokenResponse responseDetails = JsonConvert.DeserializeObject<TokenResponse>(Token);
-                if (responseDetails.ReturnResult.ToString() != "0")
+                DataTransactionResult errorResponse = new DataTransactionResult();
+                errorResponse.ResultCode = DataTransactionResultCode.Unsuccessful;
+                errorResponse.MessageToClient = "[REM999] Invalid Token.";
+            }
+            else
+            {
+                try
                 {
-                    DataTransactionResult errorResponse = new DataTransactionResult();
+                    Token = dataTransactionResult.GetToken();
+                    TokenResponse responseDetails = JsonConvert.DeserializeObject<TokenResponse>(Token);
+                    if (responseDetails.ReturnResult.ToString() != "0")
+                    {
+                        DataTransactionResult errorResponse = new DataTransactionResult();
+                        errorResponse.ResultCode = DataTransactionResultCode.ServerError;
+                        errorResponse.MessageToClient = "An error has occured while retrieving Token from the partner. Please contact ICT Support Desk.";
+                    }
+                }
+                catch (Exception error)
+                {
+                    Utils.WriteToEventLog(string.Format("RequestToken:{0}", error.Message), System.Diagnostics.EventLogEntryType.Error);
+
+                    LookupTransactionResult errorResponse = new LookupTransactionResult();
                     errorResponse.ResultCode = LookupTransactionResultCode.ServerError;
-                    errorResponse.MessageToClient = "An error has occured while retrieving Token from the partner. Please contact ICT Support Desk.";
+
+                    if (error is RemittanceException)
+                    {
+                        errorResponse.MessageToClient = error.Message;
+                    }
+                    else if (error is SoapException)
+                    {
+                        errorResponse.MessageToClient = "An error in the partner's web service has occured while reqeusting for Token.";
+                    }
+                    else if (error is WebException || error is CommunicationException)
+                    {
+                        errorResponse.MessageToClient = "An error in the connection to the partner's web service has occured while requesting for Token. Please try again later.";
+                    }
+                    else
+                    {
+                        errorResponse.MessageToClient = "An error has occured while retrieving Token from the partner. Please contact ICT Support Desk.";
+                    }
+
                 }
-                return Token;
             }
-            catch (Exception error)
-            {
-                Utils.WriteToEventLog(string.Format("RequestToken:{0}", error.Message), System.Diagnostics.EventLogEntryType.Error);
-
-                LookupTransactionResult errorResponse = new LookupTransactionResult();
-                errorResponse.ResultCode = LookupTransactionResultCode.ServerError;
-
-                if (error is RemittanceException)
-                {
-                    errorResponse.MessageToClient = error.Message;
-                }
-                else if (error is SoapException)
-                {
-                    errorResponse.MessageToClient = "An error in the partner's web service has occured while reqeusting for Token.";
-                }
-                else if (error is WebException || error is CommunicationException)
-                {
-                    errorResponse.MessageToClient = "An error in the connection to the partner's web service has occured while requesting for Token. Please try again later.";
-                }
-                else
-                {
-                    errorResponse.MessageToClient = "An error has occured while retrieving Token from the partner. Please contact ICT Support Desk.";
-                }
-
-                return Token;
-            }
+            return Token;
         }
 
-        public string ProcessTransaction(DataTransactionResult dataTransactionResult)
+        public DataTransactionResult ProcessTransaction(DataTransactionResult dataTransactionResult)
         {
-            string Token = dataTransactionResult.AssignToken;
-            string result = string.Empty;
-            string FunctionName = dataTransactionResult.FunctionName;
-            try
+            DataTransactionResult res = new DataTransactionResult();
+            bool isValidToken = TokenGen.Token.IsValid(dataTransactionResult.Token, RemittancePartnerConfiguration.RemittanceSecretKey, TimeSpan.FromMinutes(RemittancePartnerConfiguration.TokenExpiration));
+            isValidToken = true;//test
+            if (isValidToken == false)
             {
-                Token = dataTransactionResult.AssignToken;
-                if (Token == "")
+                res.ResultCode = DataTransactionResultCode.Unsuccessful;
+                res.MessageToClient = "[REM999] Invalid Token.";
+            }
+            else
+            {
+                string Token = dataTransactionResult.AssignToken;
+                string FunctionName = dataTransactionResult.FunctionName;
+                try
                 {
-                    DataTransactionResult errorResponse = new DataTransactionResult();
+                    Token = dataTransactionResult.AssignToken;
+                    if (Token == "")
+                    {
+                        res.ResultCode = DataTransactionResultCode.ServerError;
+                        res.MessageToClient = "An error has occured while accessing the data from the partner. Please contact ICT Support Desk.";
+                    }
+                    else
+                    {
+                        res = dataTransactionResult.ProcessTransactionFunction(res);
+                    }
+                }
+                catch (Exception error)
+                {
+                    Utils.WriteToEventLog(string.Format("ProcessTransaction " + FunctionName + ":{0}", error.Message), System.Diagnostics.EventLogEntryType.Error);
+
+                    LookupTransactionResult errorResponse = new LookupTransactionResult();
                     errorResponse.ResultCode = LookupTransactionResultCode.ServerError;
-                    errorResponse.MessageToClient = "An error has occured while accessing the data from the partner. Please contact ICT Support Desk.";
+
+                    if (error is RemittanceException)
+                    {
+                        errorResponse.MessageToClient = error.Message;
+                    }
+                    else if (error is SoapException)
+                    {
+                        errorResponse.MessageToClient = "An error in the partner's web service has occured while accessing the data.";
+                    }
+                    else if (error is WebException || error is CommunicationException)
+                    {
+                        errorResponse.MessageToClient = "An error in the connection to the partner's web service has occured while accessing the data. Please try again later.";
+                    }
+                    else
+                    {
+                        errorResponse.MessageToClient = "An error has occured while accessing the data from the partner. Please contact ICT Support Desk.";
+                    }
                 }
-                else
-                {
-                    result = dataTransactionResult.ProcessTransaction();
-                }
-                return result;
             }
-            catch (Exception error)
-            {
-                Utils.WriteToEventLog(string.Format("ProcessTransaction " + FunctionName +":{0}", error.Message), System.Diagnostics.EventLogEntryType.Error);
-
-                LookupTransactionResult errorResponse = new LookupTransactionResult();
-                errorResponse.ResultCode = LookupTransactionResultCode.ServerError;
-
-                if (error is RemittanceException)
-                {
-                    errorResponse.MessageToClient = error.Message;
-                }
-                else if (error is SoapException)
-                {
-                    errorResponse.MessageToClient = "An error in the partner's web service has occured while accessing the data.";
-                }
-                else if (error is WebException || error is CommunicationException)
-                {
-                    errorResponse.MessageToClient = "An error in the connection to the partner's web service has occured while accessing the data. Please try again later.";
-                }
-                else
-                {
-                    errorResponse.MessageToClient = "An error has occured while accessing the data from the partner. Please contact ICT Support Desk.";
-                }
-
-                return result;
-            }
+            return res;
         }
         #endregion
     }

@@ -64,6 +64,54 @@ namespace TransFastWCFService.Classes
         private string _partnerCode;
         private string _partnerInternalNumber;
 
+
+        private int _ReferenceID;
+        private DateTime _EventDate;
+        private string _EventType;
+        private string _EventInfo;
+        private string _FileName;
+        private string _AssignToken;
+        private string _FunctionName;
+
+
+        public string FunctionName
+        {
+            get { return _FunctionName; }
+            set { _FunctionName = value; }
+        }
+
+        public string AssignToken
+        {
+            get { return _AssignToken; }
+            set { _AssignToken = value; }
+        }
+
+        public int ReferenceID
+        {
+            get { return _ReferenceID; }
+            set { _ReferenceID = value; }
+        }
+
+        public DateTime EventDate
+        {
+            get { return _EventDate; }
+            set { _EventDate = value; }
+        }
+        public string EventType
+        {
+            get { return _EventType; }
+            set { _EventType = value; }
+        }
+        public string EventInfo
+        {
+            get { return _EventInfo; }
+            set { _EventInfo = value; }
+        }
+        public string FileName
+        {
+            get { return _FileName; }
+            set { _FileName = value; }
+        }
         #endregion
 
         #region Properties
@@ -296,7 +344,7 @@ namespace TransFastWCFService.Classes
 
             #region payout trans
             string URL = string.Format(RemittancePartnerConfiguration.URL_FORMAT, RemittancePartnerConfiguration.WS_URL, RemittancePartnerConfiguration.Payout_Endpoint);
-            string postData = string.Format(RemittancePartnerConfiguration.POSTData_Payout, _transactionNumber, payoutTransactionRequest.PayoutID, referenceNumber);
+            string postData = string.Format(RemittancePartnerConfiguration.POSTDataUpdateTransaction, AssignToken, ReferenceID, EventDate, EventType, EventInfo);
 
             #region Log Request
             if (RemittancePartnerConfiguration.LoggingActivated)
@@ -306,7 +354,7 @@ namespace TransFastWCFService.Classes
             }
             #endregion
 
-            string result = Utils.ProcessTransactionRequest(URL, postData);
+            string result = Utils.ProcessRequest(URL, postData, "UpdateTransaction");
 
             #region Log Response
             if (RemittancePartnerConfiguration.LoggingActivated)
@@ -350,7 +398,18 @@ namespace TransFastWCFService.Classes
             #region New Insertion To Database
 
             using (SqlConnection sqlConnection = new SqlConnection())
-            {
+            { string parama = "";
+                parama += "'" + RemittancePartnerConfiguration.ApplicationCode + "',";
+                parama += "'" + transactionID + "',";
+                parama += "'" + ParameterDirection.Output + "',";
+                parama += "'" + TransactionNumber + "',";
+                parama += "'" + ((int)transactionStatus).ToString() + "',";
+                parama += "'" + GetTransactionStatusDescription(transactionStatus) + "',";
+                parama += "'" + PayoutAmount + "',";
+                parama += "'" + PayoutCurrency + "',";
+                parama += "'" + 5 + "',";
+                parama += "48.52,";
+                parama += "'" + PayoutCurrency + "',";
                 sqlConnection.ConnectionString = RemittancePartnerConfiguration.ConnectionStringRemittanceDatabase;
                 SqlCommand sqlCommand = new SqlCommand(RemittancePartnerConfiguration.StoredProcedureInsertPayoutTransaction, sqlConnection);
                 sqlCommand.CommandType = CommandType.StoredProcedure;
@@ -373,6 +432,23 @@ namespace TransFastWCFService.Classes
                 sqlCommand.Parameters.AddWithValue("@SenderLastName", SenderLastName ?? string.Empty);
                 sqlCommand.Parameters.AddWithValue("@SenderFirstName", SenderFirstName ?? string.Empty);
 
+                parama += "'" + (SenderFullName ?? string.Empty) + "',";
+                parama += "'" + (SenderLastName ?? string.Empty) + "',";
+                parama += "'" + (SenderFirstName ?? string.Empty) + "',";
+                parama += "'" + (Convert.ToInt64(ReceiverCustomerNumber).ToString()) + "',";
+                parama += "'" + (ReceiverLastName ?? string.Empty) + "',";
+                parama += "'" + (ReceiverFirstName ?? string.Empty) + "',";
+                parama += "'" + (ReceiverIDType ?? string.Empty) + "',";
+                parama += "'" + (ReceiverIDNumber ?? string.Empty) + "',";
+                parama += "'" + (CebuanaBranchInformation.BranchUserID ?? string.Empty) + "',";
+                parama += "'" + (CebuanaBranchInformation.BranchCode ?? string.Empty) + "',";
+                parama += "'" + RemittanceAuditTrail.GetAuditTrailString(
+                        _cebuanaBranchInformation.BranchCode,
+                        _cebuanaBranchInformation.BranchUserID,
+                        "1",
+                        "1",
+                        operationIpAddress,
+                        _cebuanaBranchInformation.ClientMacAddress) + "',";
                 sqlCommand.Parameters.AddWithValue("@BeneficiaryCustomerNumber", Convert.ToInt64(ReceiverCustomerNumber));
                 sqlCommand.Parameters.AddWithValue("@BeneficiaryFullName", ReceiverFullName ?? string.Empty);
                 sqlCommand.Parameters.AddWithValue("@BeneficiaryLastName", ReceiverLastName ?? string.Empty);
@@ -394,6 +470,12 @@ namespace TransFastWCFService.Classes
                         _cebuanaBranchInformation.ClientMacAddress)
                     );
 
+                parama += "'" + partnerInternalReferenceNumber + "',";
+                parama += "'" + partnerInternalReferenceNumber2 + "',";
+                parama += "'" + (SenderCountry ?? string.Empty) + "',";
+                parama += "'" + (SenderState ?? string.Empty) + "',";
+                parama += "'" + (SenderEmail ?? string.Empty) + "',";
+                parama += "'" + (SenderMobileNumber ?? string.Empty) + "'";
                 sqlCommand.Parameters.AddWithValue("@PartnerInternalReferenceNumber", partnerInternalReferenceNumber);
                 sqlCommand.Parameters.AddWithValue("@PartnerInternalReferenceNumber2", partnerInternalReferenceNumber2);
 

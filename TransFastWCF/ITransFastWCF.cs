@@ -22,7 +22,7 @@ namespace TransFastWCFService
 
 
         [OperationContract]
-        string ProcessTransaction(DataTransactionResult dataTransactionResult);
+        DataTransactionResult ProcessTransaction(DataTransactionResult dataTransactionResult);
 
 
 

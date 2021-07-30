@@ -28,7 +28,7 @@ namespace ClientApplication.ITransFastServices {
         string RequestToken(TransFastWCFService.Classes.DataTransactionResult dataTransactionResult);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITransFastWCF/ProcessTransaction", ReplyAction="http://tempuri.org/ITransFastWCF/ProcessTransactionResponse")]
-        string ProcessTransaction(TransFastWCFService.Classes.DataTransactionResult dataTransactionResult);
+        TransFastWCFService.Classes.DataTransactionResult ProcessTransaction(TransFastWCFService.Classes.DataTransactionResult dataTransactionResult);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -74,7 +74,7 @@ namespace ClientApplication.ITransFastServices {
             return base.Channel.RequestToken(dataTransactionResult);
         }
         
-        public string ProcessTransaction(TransFastWCFService.Classes.DataTransactionResult dataTransactionResult) {
+        public TransFastWCFService.Classes.DataTransactionResult ProcessTransaction(TransFastWCFService.Classes.DataTransactionResult dataTransactionResult) {
             return base.Channel.ProcessTransaction(dataTransactionResult);
         }
     }

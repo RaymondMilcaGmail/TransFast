@@ -21,11 +21,18 @@ namespace TransFastControlLibrary
 		private string _payTokenID;
 		private string _token;
 		private string _partnerCode;
+		private string _payoutCurrency;
 
 		#endregion
 
 		#region Properties
 
+
+		public string PayoutCurrency
+		{
+			get { return _payoutCurrency; }
+			set { _payoutCurrency = value; }
+		}
 		public string Token
 		{
 			get { return _token; }

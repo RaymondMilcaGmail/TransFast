@@ -1,19 +1,38 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Net;
+using TransFastWCF.TransFastRespopnse;
 
 namespace TransFastWCFService.Classes
 {
     public class DataTransactionResult
     {
-        private LookupTransactionResultCode _resultCode = LookupTransactionResultCode.UnrecognizedResponse;
+        private DataTransactionResultCode _resultCode = DataTransactionResultCode.UnrecognizedResponse;
 
-        public LookupTransactionResultCode ResultCode
+        public DataTransactionResultCode ResultCode
         {
             get { return _resultCode; }
             set { _resultCode = value; }
         }
 
+
+        private string _token = string.Empty;
+
         private string _AssignToken;
+
+        private string _result = string.Empty;
+
+
+        public string Result
+        {
+            get { return _result; }
+            set { _result = value; }
+        }
+        public string Token
+        {
+            get { return _token; }
+            set { _token = value; }
+        }
         public string AssignToken
         {
             get { return _AssignToken; }
@@ -35,7 +54,7 @@ namespace TransFastWCFService.Classes
             set { _messageToClient = value; }
         }
 
-        private string _ReferenceID;
+        private int _ReferenceID;
         private DateTime _EventDate;
         private string _EventType;
         private string _EventInfo;
@@ -43,7 +62,7 @@ namespace TransFastWCFService.Classes
 
 
 
-        public string ReferenceID
+        public int ReferenceID
         {
             get { return _ReferenceID; }
             set { _ReferenceID = value; }
@@ -93,45 +112,60 @@ namespace TransFastWCFService.Classes
             return result;
         }
 
-        public string ProcessTransaction()
+        public DataTransactionResult ProcessTransactionFunction(DataTransactionResult res)
         {
+
             if (RemittancePartnerConfiguration.TLSActivated)
             {
                 ServicePointManager.SecurityProtocol = (SecurityProtocolType)(RemittancePartnerConfiguration.SecurityProtocolType);
             }
 
             string URL = string.Format(RemittancePartnerConfiguration.WS_URL);
-           string result = string.Empty;
             string postData = string.Empty;
             switch (FunctionName)
             {
                 case "GetAvaliableFiles":
-                    postData = string.Format(RemittancePartnerConfiguration.POSTDataGetAvaliableFiles,AssignToken); 
-                     result = Utils.ProcessRequest(URL, postData, FunctionName);
+                    postData = string.Format(RemittancePartnerConfiguration.POSTDataGetAvaliableFiles, AssignToken);
+                    res.Result = Utils.ProcessRequest(URL, postData, FunctionName);
+                    GetAvaliableFilesResponse data1 = JsonConvert.DeserializeObject<GetAvaliableFilesResponse>(res.Result);
+
+                    res.ResultCode = data1.ReturnCode == 0 ? DataTransactionResultCode.Successful : DataTransactionResultCode.PartnerError;
+                    res.MessageToClient = data1.ReturnDescription;
                     break;
                 case "GetFile":
                     postData = string.Format(RemittancePartnerConfiguration.POSTDataGetFile, AssignToken, FileName);
-                    result = Utils.ProcessRequest(URL, postData, FunctionName);
+                    res.Result = Utils.ProcessRequest(URL, postData, FunctionName);
+                    GetFileResponse data2 = JsonConvert.DeserializeObject<GetFileResponse>(res.Result);
+                    res.ResultCode = data2.ReturnCode == 0 ? DataTransactionResultCode.Successful : DataTransactionResultCode.PartnerError;
+                    res.MessageToClient = data2.ReturnDescription;
                     break;
                 case "CommitFile":
                     postData = string.Format(RemittancePartnerConfiguration.POSTDataCommitFile, AssignToken, FileName);
-                    result = Utils.ProcessRequest(URL, postData, FunctionName);
+                    res.Result = Utils.ProcessRequest(URL, postData, "CommitFile");
+                    CommitFileResponse data3 = JsonConvert.DeserializeObject<CommitFileResponse>(res.Result);
+                    res.ResultCode = data3.ReturnCode == 0 ? DataTransactionResultCode.Successful : DataTransactionResultCode.PartnerError;
+                    res.MessageToClient = data3.ReturnDescription;
                     break;
-                case "UpdateTransaction":
-                    postData = string.Format(RemittancePartnerConfiguration.POSTDataUpdateTransaction, AssignToken, ReferenceID, EventDate, EventType, EventInfo);
-                    result = Utils.ProcessRequest(URL, postData, FunctionName);
+                case "UpdateTransactionMSG":
+                    postData = string.Format(RemittancePartnerConfiguration.POSTDataUpdateTransactionMSG, AssignToken, ReferenceID, EventDate, EventInfo);
+                    res.Result = Utils.ProcessRequest(URL, postData, "UpdateTransaction");
+                    UpdateTransactionResponse data4 = JsonConvert.DeserializeObject<UpdateTransactionResponse>(res.Result);
+                    res.ResultCode = data4.ReturnCode == 0 ? DataTransactionResultCode.Successful : DataTransactionResultCode.PartnerError;
+                    res.MessageToClient = data4.ReturnDescription;
                     break;
+
+
             }
 
 
             #region Log Response
             if (RemittancePartnerConfiguration.LoggingActivated)
             {
-                string logResponse = string.Format("ProcessTransaction " + FunctionName + ": {0}", result);
+                string logResponse = string.Format("ProcessTransaction " + FunctionName + ": {0}", Result);
                 Utils.WriteToEventLog(logResponse, System.Diagnostics.EventLogEntryType.Information);
             }
             #endregion
-            return result;
+            return res;
         }
     }
 }
