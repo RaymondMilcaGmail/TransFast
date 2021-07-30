@@ -31,7 +31,7 @@ namespace TransFastWCFService
             {
                 LookupTransactionResult lookupTransactionResult = new LookupTransactionResult();
                 bool isValidToken = TokenGen.Token.IsValid(pullTransactionRequest.LookupTransactionRequest.Token, RemittancePartnerConfiguration.RemittanceSecretKey, TimeSpan.FromMinutes(RemittancePartnerConfiguration.TokenExpiration));
-                isValidToken = true;//test
+                //isValidToken = true;//test
                 if (isValidToken == false)
                 {
                     lookupTransactionResult.ResultCode = LookupTransactionResultCode.Unsuccessful;
@@ -69,7 +69,7 @@ namespace TransFastWCFService
             {
                 PayoutTransactionResult payoutTransactionResult = new PayoutTransactionResult();
                 bool isValidToken = TokenGen.Token.IsValid(pullTransactionRequest.PayoutTransactionRequest.Token, RemittancePartnerConfiguration.RemittanceSecretKey, TimeSpan.FromMinutes(RemittancePartnerConfiguration.TokenExpiration));
-                isValidToken = true;//test
+                //isValidToken = true;//test
                 if (isValidToken == false)
                 {
                     payoutTransactionResult.ResultCode = PayoutTransactionResultCode.Unsuccessful;
@@ -229,7 +229,7 @@ namespace TransFastWCFService
             string Token = string.Empty;
             PullRemittanceResult pullRemittanceResult = new PullRemittanceResult();
             bool isValidToken = TokenGen.Token.IsValid(dataTransactionResult.Token, RemittancePartnerConfiguration.RemittanceSecretKey, TimeSpan.FromMinutes(RemittancePartnerConfiguration.TokenExpiration));
-            isValidToken = true;//test
+            //isValidToken = true;//test
             if (isValidToken == false)
             {
                 DataTransactionResult errorResponse = new DataTransactionResult();
@@ -282,7 +282,7 @@ namespace TransFastWCFService
         {
             DataTransactionResult res = new DataTransactionResult();
             bool isValidToken = TokenGen.Token.IsValid(dataTransactionResult.Token, RemittancePartnerConfiguration.RemittanceSecretKey, TimeSpan.FromMinutes(RemittancePartnerConfiguration.TokenExpiration));
-            isValidToken = true;//test
+            //isValidToken = true;//test
             if (isValidToken == false)
             {
                 res.ResultCode = DataTransactionResultCode.Unsuccessful;
