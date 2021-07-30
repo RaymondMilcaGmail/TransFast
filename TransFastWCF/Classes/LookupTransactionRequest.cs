@@ -106,40 +106,50 @@ namespace TransFastWCFService.Classes
                 string result = string.Empty;
                 bool Error = true;
                 GetFileResponse responseGetFIle = new GetFileResponse();
-                foreach (AvaliableFIle avaliableFIle in responseGetavailable.AvaliableFIles)
+                if (responseGetavailable.AvaliableFIles.Count > 0)
                 {
-                    string GFpostData = string.Format(RemittancePartnerConfiguration.POSTDataGetFile, AssignToken, avaliableFIle.FileName);
-                    string Files = Utils.ProcessRequest(URL, GFpostData, "GetFile");
-                    responseGetFIle = JsonConvert.DeserializeObject<GetFileResponse>(Files);
-                    if (responseGetFIle.ReturnResult == 0)
-                    {
-                        FileContent transactionDetails = new FileContent();
-                        transactionDetails = responseGetFIle.FileContents.Where(x => x.InvoicePassWord.ToString() == _transactionNumber).FirstOrDefault();
-                        if (responseGetFIle.ReturnCode == 0)
-                        {
 
-                            if (transactionDetails != null)
+                    foreach (AvaliableFIle avaliableFIle in responseGetavailable.AvaliableFIles)
+                    {
+                        string GFpostData = string.Format(RemittancePartnerConfiguration.POSTDataGetFile, AssignToken, avaliableFIle.FileName);
+                        string Files = Utils.ProcessRequest(URL, GFpostData, "GetFile");
+                        responseGetFIle = JsonConvert.DeserializeObject<GetFileResponse>(Files);
+                        if (responseGetFIle.ReturnResult == 0)
+                        {
+                            FileContent transactionDetails = new FileContent();
+                            transactionDetails = responseGetFIle.FileContents.Where(x => x.InvoicePassWord.ToString() == _transactionNumber).FirstOrDefault();
+                            if (responseGetFIle.ReturnCode == 0)
                             {
-                                transactionDetails.successful = true;
-                                responseGetFIle.Transaction = transactionDetails;
-                                Error = false;
+
+                                if (transactionDetails != null)
+                                {
+                                    transactionDetails.successful = true;
+                                    responseGetFIle.Transaction = transactionDetails;
+                                    Error = false;
+                                }
+                            }
+                            else
+                            {
+
+                                lookupTransactionResult.ResultCode = LookupTransactionResultCode.PartnerError;
+                                lookupTransactionResult.MessageToClient = responseGetFIle.ReturnDescription;
+                                break;
                             }
                         }
                         else
                         {
 
                             lookupTransactionResult.ResultCode = LookupTransactionResultCode.PartnerError;
-                            lookupTransactionResult.MessageToClient = responseGetFIle.ReturnDescription;
+                            lookupTransactionResult.MessageToClient = responseGetavailable.ReturnDescription;
                             break;
                         }
                     }
-                    else
-                    {
+                }
+                else
+                {
 
-                        lookupTransactionResult.ResultCode = LookupTransactionResultCode.PartnerError;
-                        lookupTransactionResult.MessageToClient = responseGetavailable.ReturnDescription;
-                        break;
-                    }
+                    lookupTransactionResult.ResultCode = LookupTransactionResultCode.Unsuccessful;
+                    lookupTransactionResult.MessageToClient = "Transaction "+ TransactionNumber +" Not found.";
                 }
                 #region Log Response
                 if (RemittancePartnerConfiguration.LoggingActivated)
