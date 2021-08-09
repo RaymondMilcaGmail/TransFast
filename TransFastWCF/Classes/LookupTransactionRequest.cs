@@ -89,89 +89,28 @@ namespace TransFastWCFService.Classes
 
             string URL = string.Format(RemittancePartnerConfiguration.WS_URL);
             string sessionID = Utils.CreateSessionID();
-            string postData = string.Format(RemittancePartnerConfiguration.POSTDataGetAvaliableFiles, AssignToken);
-
+            string postData = string.Format(RemittancePartnerConfiguration.POSTDataLookup, AssignToken, _transactionNumber);
+            
             #region Log Request
             if (RemittancePartnerConfiguration.LoggingActivated)
             {
-                string logRequest = string.Format("LookupRequest: {0}", TransactionNumber);
+                string logRequest = string.Format("LookupRequest: {0}", postData.Substring(postData.IndexOf("SearchTerm"), postData.Length - postData.IndexOf("SearchTerm")));
                 Utils.WriteToEventLog(logRequest, System.Diagnostics.EventLogEntryType.Information);
             }
             #endregion
-            string FileList = Utils.ProcessRequest(URL, postData, "GetAvaliableFiles");
 
-            GetAvaliableFilesResponse responseGetavailable = JsonConvert.DeserializeObject<GetAvaliableFilesResponse>(FileList);
-            if (responseGetavailable.ReturnResult == 0)
+            string result = Utils.ProcessRequest(URL, postData, "Step1SearchMT");
+
+            #region Log Response
+            if (RemittancePartnerConfiguration.LoggingActivated)
             {
-                string result = string.Empty;
-                bool Error = true;
-                GetFileResponse responseGetFIle = new GetFileResponse();
-                if (responseGetavailable.AvaliableFIles.Count > 0)
-                {
-
-                    foreach (AvaliableFIle avaliableFIle in responseGetavailable.AvaliableFIles)
-                    {
-                        string GFpostData = string.Format(RemittancePartnerConfiguration.POSTDataGetFile, AssignToken, avaliableFIle.FileName);
-                        string Files = Utils.ProcessRequest(URL, GFpostData, "GetFile");
-                        responseGetFIle = JsonConvert.DeserializeObject<GetFileResponse>(Files);
-                        if (responseGetFIle.ReturnResult == 0)
-                        {
-                            FileContent transactionDetails = new FileContent();
-                            transactionDetails = responseGetFIle.FileContents.Where(x => x.InvoicePassWord.ToString() == _transactionNumber).FirstOrDefault();
-                            if (responseGetFIle.ReturnCode == 0)
-                            {
-
-                                if (transactionDetails != null)
-                                {
-                                    transactionDetails.successful = true;
-                                    responseGetFIle.Transaction = transactionDetails;
-                                    Error = false;
-                                }
-                            }
-                            else
-                            {
-
-                                lookupTransactionResult.ResultCode = LookupTransactionResultCode.PartnerError;
-                                lookupTransactionResult.MessageToClient = responseGetFIle.ReturnDescription;
-                                break;
-                            }
-                        }
-                        else
-                        {
-
-                            lookupTransactionResult.ResultCode = LookupTransactionResultCode.PartnerError;
-                            lookupTransactionResult.MessageToClient = responseGetavailable.ReturnDescription;
-                            break;
-                        }
-                    }
-                }
-                else
-                {
-
-                    lookupTransactionResult.ResultCode = LookupTransactionResultCode.Unsuccessful;
-                    lookupTransactionResult.MessageToClient = "Transaction "+ TransactionNumber +" Not found.";
-                }
-                #region Log Response
-                if (RemittancePartnerConfiguration.LoggingActivated)
-                {
-                    string logResponse = string.Format("LookupResponse: {0}", result);
-                    Utils.WriteToEventLog(logResponse, System.Diagnostics.EventLogEntryType.Information);
-                }
-                #endregion
-                if (!Error)
-                {
-
-                    result = JsonConvert.SerializeObject(responseGetFIle);
-                    lookupTransactionResult = LookupTransactionResult.GetLookupResult(result, _transactionNumber, lookupTransactionResult, sessionID);
-
-                }
-
+                string logResponse = string.Format("LookupResponse: {0}", result);
+                Utils.WriteToEventLog(logResponse, System.Diagnostics.EventLogEntryType.Information);
             }
-            else
-            {
-                lookupTransactionResult.ResultCode = LookupTransactionResultCode.PartnerError;
-                lookupTransactionResult.MessageToClient = responseGetavailable.ReturnDescription;
-            }
+            #endregion
+
+            lookupTransactionResult = LookupTransactionResult.GetLookupResult(result, _transactionNumber, lookupTransactionResult, sessionID);
+
             return lookupTransactionResult;
         }
         #endregion

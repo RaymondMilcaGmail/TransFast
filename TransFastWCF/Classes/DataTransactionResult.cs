@@ -124,21 +124,15 @@ namespace TransFastWCFService.Classes
             string postData = string.Empty;
             switch (FunctionName)
             {
-                case "GetAvaliableFiles":
-                    postData = string.Format(RemittancePartnerConfiguration.POSTDataGetAvaliableFiles, AssignToken);
-                    res.Result = Utils.ProcessRequest(URL, postData, FunctionName);
-                    GetAvaliableFilesResponse data1 = JsonConvert.DeserializeObject<GetAvaliableFilesResponse>(res.Result);
+                //case "GetAvaliableFiles":
+                //    postData = string.Format(RemittancePartnerConfiguration.POSTDataGetAvaliableFiles, AssignToken);
+                //    res.Result = Utils.ProcessRequest(URL, postData, FunctionName);
+                //    GetAvaliableFilesResponse data1 = JsonConvert.DeserializeObject<GetAvaliableFilesResponse>(res.Result);
 
-                    res.ResultCode = data1.ReturnCode == 0 ? DataTransactionResultCode.Successful : DataTransactionResultCode.PartnerError;
-                    res.MessageToClient = data1.ReturnDescription;
-                    break;
-                case "GetFile":
-                    postData = string.Format(RemittancePartnerConfiguration.POSTDataGetFile, AssignToken, FileName);
-                    res.Result = Utils.ProcessRequest(URL, postData, FunctionName);
-                    GetFileResponse data2 = JsonConvert.DeserializeObject<GetFileResponse>(res.Result);
-                    res.ResultCode = data2.ReturnCode == 0 ? DataTransactionResultCode.Successful : DataTransactionResultCode.PartnerError;
-                    res.MessageToClient = data2.ReturnDescription;
-                    break;
+                //    res.ResultCode = data1.ReturnCode == 0 ? DataTransactionResultCode.Successful : DataTransactionResultCode.PartnerError;
+                //    res.MessageToClient = data1.ReturnDescription;
+                //    break;
+              
                 case "CommitFile":
                     postData = string.Format(RemittancePartnerConfiguration.POSTDataCommitFile, AssignToken, FileName);
                     res.Result = Utils.ProcessRequest(URL, postData, "CommitFile");

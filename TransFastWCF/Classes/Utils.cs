@@ -178,7 +178,7 @@ namespace TransFastWCFService.Classes
                 httpWebRequest.Proxy = RemittancePartnerConfiguration.WebProxy;
             httpWebRequest.Method = "POST";
             httpWebRequest.ContentType = "application/json";
-            httpWebRequest.Headers[RemittancePartnerConfiguration.TransfastHeader] = RemittancePartnerConfiguration.GetFunctionValue(header);
+            httpWebRequest.Headers[RemittancePartnerConfiguration.TransfastHeader] = header;
 
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {

@@ -256,12 +256,11 @@ namespace TransFastWCFService.Classes
         }
 
 
-        public static string POSTDataGetAvaliableFiles
+        public static string POSTDataLookup
         {
-            get { return "{{\"UserToken\":\"{0}\", \"Folder\" : 2 }}"; }
+            get { return "{{\"UserToken\":\"{0}\", \"SearchTerm\" :\"{1}\" ,\"SearchType\":0}}"; }
         }
-
-        public static string POSTDataGetFile
+    public static string POSTDataGetFile
         {
             get { return "{{\"UserToken\":\"{0}\", \"Folder\" : 2 ,\"FileName\":\"{1}\"}}"; }
         }

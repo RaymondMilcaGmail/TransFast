@@ -22,7 +22,6 @@ namespace ClientApplication
         public string TransFastToken { get; set; }
 
         public LookupTransactionResult Savedres { get; set; }
-    public List<FileContent> FileContents { get; set; }
         private void TestTransFast_Load(object sender, EventArgs e)
         {
             DataTransactionResult req = new DataTransactionResult();
@@ -30,8 +29,16 @@ namespace ClientApplication
 
             string TokenResult = svc.RequestToken(req);
             TokenResponse responseDetails = JsonConvert.DeserializeObject<TokenResponse>(TokenResult);
+            if (responseDetails == null)
+            {
+                req.ResultCode = DataTransactionResultCode.PartnerError;
+                req.MessageToClient = "Failed to retrieve token from client.";
+            }
+            else
+            {
+                TransFastToken = responseDetails.ReturnToken;
 
-            TransFastToken = responseDetails.ReturnToken;
+            }
         }
 
 
@@ -53,9 +60,18 @@ namespace ClientApplication
             
             string TokenResult = svc.RequestToken(res);
             TokenResponse responseDetails = JsonConvert.DeserializeObject<TokenResponse>(TokenResult);
+            if (responseDetails == null)
+            {
+                res.ResultCode = DataTransactionResultCode.PartnerError;
+                res.MessageToClient = "Failed to retrieve token from client.";
 
-            TransFastToken = responseDetails.ReturnToken;
-            TxtToken.Text = TransFastToken;
+            }
+            else
+            {
+                TransFastToken = responseDetails.ReturnToken;
+                TxtToken.Text = TransFastToken;
+
+            }
         }
 
 
