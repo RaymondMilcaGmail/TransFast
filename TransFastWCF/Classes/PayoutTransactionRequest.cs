@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.Net;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
+using TransFastWCF.TransFastRespopnse;
 
 namespace TransFastWCFService.Classes
 {
@@ -344,41 +345,74 @@ namespace TransFastWCFService.Classes
 
             #region payout trans
             string URL = string.Format(RemittancePartnerConfiguration.URL_FORMAT, RemittancePartnerConfiguration.WS_URL, RemittancePartnerConfiguration.Payout_Endpoint);
-            string postData = string.Format(RemittancePartnerConfiguration.POSTDataUpdateTransaction, AssignToken, ReferenceID, EventDate, EventType, EventInfo);
+            string postData = string.Format(RemittancePartnerConfiguration.POSTDataUpdateTransaction, AssignToken, RemittancePartnerConfiguration.POSCode,TransactionNumber,ReceiverFullName, ReferenceID,PayoutAmount,PayoutCurrency, EventDate);
 
             #region Log Request
             if (RemittancePartnerConfiguration.LoggingActivated)
             {
-                string logRequest = string.Format("PayoutRequest: {0}", postData.Substring(postData.IndexOf("transactionNo"), postData.Length - postData.IndexOf("transactionNo")));
+                string logRequest = string.Format("PayoutRequest: {0}", postData.Substring(postData.IndexOf("SearchTerm"), postData.Length - postData.IndexOf("SearchTerm")));
                 Utils.WriteToEventLog(logRequest, System.Diagnostics.EventLogEntryType.Information);
             }
             #endregion
 
-            string result = Utils.ProcessRequest(URL, postData, "UpdateTransaction");
+            string UpdateResult = Utils.ProcessRequest(URL, postData, "Step2PayoutMT");
+            UpdateTransactionResponse Step2PayoutMTresponse = Newtonsoft.Json.JsonConvert.DeserializeObject<UpdateTransactionResponse>(UpdateResult);
 
-            #region Log Response
-            if (RemittancePartnerConfiguration.LoggingActivated)
-            {
-                string logResponse = string.Format("PayoutResponse: {0}", result);
-                Utils.WriteToEventLog(logResponse, System.Diagnostics.EventLogEntryType.Information);
-            }
-            #endregion
-
-            payoutTransactionResult = PayoutTransactionResult.GetPayoutResult(result, _transactionNumber);
-            #endregion
-
-            if (payoutTransactionResult.ResultCode == PayoutTransactionResultCode.Successful)
+            if (Step2PayoutMTresponse.ReturnCode == 0)
             {
                 try
                 {
-                    UpdateTransaction(transactionID, TransactionStatuses.PaidOut, payoutTransactionRequest.TransactionNumber, transactionID.ToString());
+
+                    postData = string.Format(RemittancePartnerConfiguration.POSTDataConfirmTransaction, AssignToken, RemittancePartnerConfiguration.POSCode, TransactionNumber, Step2PayoutMTresponse.PaymentToken);
+
+                    #region Log Request
+                    if (RemittancePartnerConfiguration.LoggingActivated)
+                    {
+                        string logRequest = string.Format("PayoutRequest: {0}", postData.Substring(postData.IndexOf("SearchTerm"), postData.Length - postData.IndexOf("SearchTerm")));
+                        Utils.WriteToEventLog(logRequest, System.Diagnostics.EventLogEntryType.Information);
+                    }
+                    #endregion
+
+                    string confirmResult = Utils.ProcessRequest(URL, postData, "Step3ConfirmMT");
+
+                    #region Log Response
+                    if (RemittancePartnerConfiguration.LoggingActivated)
+                    {
+                        string logResponse = string.Format("PayoutResponse: {0}", confirmResult);
+                        Utils.WriteToEventLog(logResponse, System.Diagnostics.EventLogEntryType.Information);
+                    }
+                    #endregion
+
+                    payoutTransactionResult = PayoutTransactionResult.GetPayoutResult(confirmResult, _transactionNumber);
+                    #endregion
+
+                    if (payoutTransactionResult.ResultCode == PayoutTransactionResultCode.Successful)
+                    {
+                        try
+                        {
+                            UpdateTransaction(transactionID, TransactionStatuses.PaidOut, payoutTransactionRequest.TransactionNumber, transactionID.ToString());
+                        }
+                        catch (Exception error)
+                        {
+                            Utils.WriteToEventLog(string.Format("UpdateTransaction:{0}", error.Message), System.Diagnostics.EventLogEntryType.Error);
+                        }
+                    }
                 }
-                catch (Exception error)
+                catch (Exception ex)
                 {
-                    Utils.WriteToEventLog(string.Format("UpdateTransaction:{0}", error.Message), System.Diagnostics.EventLogEntryType.Error);
+                    string errorLogMessage = string.Format("Exception RemittancePartnerPayout_GetPayoutResult: {0}", ex.Message);
+                    Utils.WriteToEventLog(errorLogMessage, System.Diagnostics.EventLogEntryType.Error);
+
+                    payoutTransactionResult.ResultCode = PayoutTransactionResultCode.ServerError;
+                    payoutTransactionResult.MessageToClient = string.Format("{0}: {1}", payoutTransactionResult.ResultCode, "Please contact ICT Support Desk.");
                 }
             }
+            else
+            {
+                payoutTransactionResult.ResultCode = PayoutTransactionResultCode.PartnerError;
+                payoutTransactionResult.MessageToClient = string.Format("{0}: {1}", Step2PayoutMTresponse.ReturnCode, Step2PayoutMTresponse.ReturnDescription);
 
+            }
             return payoutTransactionResult;
         }
 

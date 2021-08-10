@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="COM" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="http://www.legionelite.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="COM" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="COM">
+      <s:import namespace="http://www.legionelite.com/" />
+      <s:element name="Step0UserAuthenticate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Q" type="s1:EntityAuth" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Step0UserAuthenticateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Step0UserAuthenticateResult" type="tns:AutorizationResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AutorizationResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnResult" type="tns:ReturnResult" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnToken" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="ReturnResult">
+        <s:restriction base="s:string">
+          <s:enumeration value="Ok" />
+          <s:enumeration value="HasError" />
+          <s:enumeration value="NoData" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="Step1SearchMT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Q" type="s1:MTO_InfoRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Step1SearchMTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Step1SearchMTResult" type="s1:MTO_InfoResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Step2PayoutMT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Q" type="s1:MTO_PayoutRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Step2PayoutMTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Step2PayoutMTResult" type="s1:MTO_PayoutResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Step3ConfirmMT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Q" type="s1:MTO_ConfirmRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Step3ConfirmMTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Step3ConfirmMTResult" type="s1:MTO_COnfirmResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.legionelite.com/">
+      <s:complexType name="EntityAuth">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="EntityType" type="s1:EntityType" />
+          <s:element minOccurs="1" maxOccurs="1" name="EntityCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="EntityLogin" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EntityPass" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TerminalID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="EntityType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Remitentes" />
+          <s:enumeration value="Destinatarios" />
+          <s:enumeration value="Giros" />
+          <s:enumeration value="Agentes" />
+          <s:enumeration value="Corresponsales" />
+          <s:enumeration value="Dominios" />
+          <s:enumeration value="PBC" />
+          <s:enumeration value="Caja" />
+          <s:enumeration value="Liquidaciones" />
+          <s:enumeration value="PaisesTarifas" />
+          <s:enumeration value="Cuentas_Corresponsales" />
+          <s:enumeration value="Cobros" />
+          <s:enumeration value="Orden_de_pago" />
+          <s:enumeration value="Usuarios" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="MTO_InfoRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserToken" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SearchTerm" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SearchType" type="s1:SearchPayMode" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="SearchPayMode">
+        <s:restriction base="s:string">
+          <s:enumeration value="PinNumber" />
+          <s:enumeration value="OperationNumber" />
+          <s:enumeration value="CorrespondentReference" />
+          <s:enumeration value="LID" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="MTO_InfoResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnResult" type="s1:ReturnResult" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceData" type="s1:InvoiceData" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="ReturnResult">
+        <s:restriction base="s:string">
+          <s:enumeration value="Ok" />
+          <s:enumeration value="HasError" />
+          <s:enumeration value="NoData" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="InvoiceData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SenderName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SenderLastName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SenderCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SenderCountryOfBirth" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SenderdateOfBirth" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="SenderSex" type="s1:Sex" />
+          <s:element minOccurs="0" maxOccurs="1" name="SenderCity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SenderProvince" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SenderPhone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SenderDocument" type="s1:DocumentData" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverLastName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverCountry" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverCity" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverAdressLine1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverAdressLine2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverPhone1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverPhone2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverDocument" type="s1:DocumentData" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReceiverDOB" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="BankAccount" type="s1:BankAccout" />
+          <s:element minOccurs="1" maxOccurs="1" name="PaymentMethod" type="s1:ModeOfPayment" />
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceConsecutive" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoicePin" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceInternalID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceMessage" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceAmmountToReceive" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceCurrency" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceExchangeRate" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReadyForPay" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceStatus" type="s1:InvoiceStatus" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceAditionalData" type="s1:AditionalData" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="Sex">
+        <s:restriction base="s:string">
+          <s:enumeration value="M" />
+          <s:enumeration value="F" />
+          <s:enumeration value="N" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="DocumentData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Type" type="s1:DocumentType" />
+          <s:element minOccurs="0" maxOccurs="1" name="Number" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="EmissionDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Emissor" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ExpirationDate" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="DocumentType">
+        <s:restriction base="s:string">
+          <s:enumeration value="OTH" />
+          <s:enumeration value="PAS" />
+          <s:enumeration value="RES" />
+          <s:enumeration value="DNI" />
+          <s:enumeration value="EUI" />
+          <s:enumeration value="CED" />
+          <s:enumeration value="DRV" />
+          <s:enumeration value="NONE" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="BankAccout">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BankName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchCity" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AccountType" type="s1:AccountType" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BankCode" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="AccountType">
+        <s:restriction base="s:string">
+          <s:enumeration value="None" />
+          <s:enumeration value="Savings" />
+          <s:enumeration value="Current" />
+          <s:enumeration value="Others" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="ModeOfPayment">
+        <s:restriction base="s:string">
+          <s:enumeration value="None" />
+          <s:enumeration value="BankDeposit" />
+          <s:enumeration value="PickUp" />
+          <s:enumeration value="HomeDelivery" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="InvoiceStatus">
+        <s:restriction base="s:string">
+          <s:enumeration value="NONE" />
+          <s:enumeration value="DELETED" />
+          <s:enumeration value="UNVALIDATED" />
+          <s:enumeration value="OUTSTANDING_SEND" />
+          <s:enumeration value="TRANSMITTION_PROCESS" />
+          <s:enumeration value="ON_HOLD_AT_ADMINISTRATION" />
+          <s:enumeration value="ON_HOLD_AT_TRANSMISSION" />
+          <s:enumeration value="SEND" />
+          <s:enumeration value="WITH_INCIDENTS" />
+          <s:enumeration value="CANCELLED" />
+          <s:enumeration value="CANCELLATION_BILLING" />
+          <s:enumeration value="PAID" />
+          <s:enumeration value="IS_REQUIERED_AUTORIZATION_BC" />
+          <s:enumeration value="IS_REQUIERED_AUTORIZATION_DB" />
+          <s:enumeration value="LOCKED_IN_ADMINISTRATION" />
+          <s:enumeration value="CANCELLATION_REQUEST" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="AditionalData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ExchangeRate" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountCurrency" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AmmountDue" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="ComissionDue" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="AvaliableDate" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MTO_PayoutRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserToken" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="POSCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SearchTerm" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SearchType" type="s1:SearchPayMode" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverFullName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReceiverDocumentNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AmmountToPay" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="CurrencyToPay" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PaymentDate" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MTO_PayoutResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnResult" type="s1:ReturnResult" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaymentToken" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MTO_ConfirmRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserToken" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="POSCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SearchTerm" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SearchType" type="s1:SearchPayMode" />
+          <s:element minOccurs="0" maxOccurs="1" name="Token" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MTO_COnfirmResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnResult" type="s1:ReturnResult" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDescription" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Step0UserAuthenticateSoapIn">
+    <wsdl:part name="parameters" element="tns:Step0UserAuthenticate" />
+  </wsdl:message>
+  <wsdl:message name="Step0UserAuthenticateSoapOut">
+    <wsdl:part name="parameters" element="tns:Step0UserAuthenticateResponse" />
+  </wsdl:message>
+  <wsdl:message name="Step1SearchMTSoapIn">
+    <wsdl:part name="parameters" element="tns:Step1SearchMT" />
+  </wsdl:message>
+  <wsdl:message name="Step1SearchMTSoapOut">
+    <wsdl:part name="parameters" element="tns:Step1SearchMTResponse" />
+  </wsdl:message>
+  <wsdl:message name="Step2PayoutMTSoapIn">
+    <wsdl:part name="parameters" element="tns:Step2PayoutMT" />
+  </wsdl:message>
+  <wsdl:message name="Step2PayoutMTSoapOut">
+    <wsdl:part name="parameters" element="tns:Step2PayoutMTResponse" />
+  </wsdl:message>
+  <wsdl:message name="Step3ConfirmMTSoapIn">
+    <wsdl:part name="parameters" element="tns:Step3ConfirmMT" />
+  </wsdl:message>
+  <wsdl:message name="Step3ConfirmMTSoapOut">
+    <wsdl:part name="parameters" element="tns:Step3ConfirmMTResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MTTOCORRESPONDENTTKSoap">
+    <wsdl:operation name="Step0UserAuthenticate">
+      <wsdl:input message="tns:Step0UserAuthenticateSoapIn" />
+      <wsdl:output message="tns:Step0UserAuthenticateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Step1SearchMT">
+      <wsdl:input message="tns:Step1SearchMTSoapIn" />
+      <wsdl:output message="tns:Step1SearchMTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Step2PayoutMT">
+      <wsdl:input message="tns:Step2PayoutMTSoapIn" />
+      <wsdl:output message="tns:Step2PayoutMTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Step3ConfirmMT">
+      <wsdl:input message="tns:Step3ConfirmMTSoapIn" />
+      <wsdl:output message="tns:Step3ConfirmMTSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MTTOCORRESPONDENTTKSoap" type="tns:MTTOCORRESPONDENTTKSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Step0UserAuthenticate">
+      <soap:operation soapAction="COM/Step0UserAuthenticate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Step1SearchMT">
+      <soap:operation soapAction="COM/Step1SearchMT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Step2PayoutMT">
+      <soap:operation soapAction="COM/Step2PayoutMT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Step3ConfirmMT">
+      <soap:operation soapAction="COM/Step3ConfirmMT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MTTOCORRESPONDENTTKSoap12" type="tns:MTTOCORRESPONDENTTKSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Step0UserAuthenticate">
+      <soap12:operation soapAction="COM/Step0UserAuthenticate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Step1SearchMT">
+      <soap12:operation soapAction="COM/Step1SearchMT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Step2PayoutMT">
+      <soap12:operation soapAction="COM/Step2PayoutMT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Step3ConfirmMT">
+      <soap12:operation soapAction="COM/Step3ConfirmMT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MTTOCORRESPONDENTTK">
+    <wsdl:port name="MTTOCORRESPONDENTTKSoap" binding="tns:MTTOCORRESPONDENTTKSoap">
+      <soap:address location="http://pruebas.legionelite.com:8008/APILE/MTTOCORRESPONDENTTK.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MTTOCORRESPONDENTTKSoap12" binding="tns:MTTOCORRESPONDENTTKSoap12">
+      <soap12:address location="http://pruebas.legionelite.com:8008/APILE/MTTOCORRESPONDENTTK.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

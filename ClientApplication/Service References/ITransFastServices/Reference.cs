@@ -25,10 +25,7 @@ namespace ClientApplication.ITransFastServices {
         string GenerateToken(TransFastWCFService.GenerateTokenParameters generateTokenParameters);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITransFastWCF/RequestToken", ReplyAction="http://tempuri.org/ITransFastWCF/RequestTokenResponse")]
-        string RequestToken(TransFastWCFService.Classes.DataTransactionResult dataTransactionResult);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITransFastWCF/ProcessTransaction", ReplyAction="http://tempuri.org/ITransFastWCF/ProcessTransactionResponse")]
-        TransFastWCFService.Classes.DataTransactionResult ProcessTransaction(TransFastWCFService.Classes.DataTransactionResult dataTransactionResult);
+        TransFastWCFService.Classes.DataTransactionResult RequestToken(TransFastWCFService.Classes.DataTransactionResult dataTransactionResult);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -70,12 +67,8 @@ namespace ClientApplication.ITransFastServices {
             return base.Channel.GenerateToken(generateTokenParameters);
         }
         
-        public string RequestToken(TransFastWCFService.Classes.DataTransactionResult dataTransactionResult) {
+        public TransFastWCFService.Classes.DataTransactionResult RequestToken(TransFastWCFService.Classes.DataTransactionResult dataTransactionResult) {
             return base.Channel.RequestToken(dataTransactionResult);
-        }
-        
-        public TransFastWCFService.Classes.DataTransactionResult ProcessTransaction(TransFastWCFService.Classes.DataTransactionResult dataTransactionResult) {
-            return base.Channel.ProcessTransaction(dataTransactionResult);
         }
     }
 }

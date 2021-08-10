@@ -87,7 +87,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Connected Services\TransFastWebService\AlawnehExchangeWCF.TransFastWebService.AutorizationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\TransFastWebService\AlawnehExchangeWCF.TransFastWebService.MTO_COnfirmResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\TransFastWebService\AlawnehExchangeWCF.TransFastWebService.MTO_InfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\TransFastWebService\AlawnehExchangeWCF.TransFastWebService.MTO_PayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\TransFastWebService\configuration91.svcinfo" />
+    <None Include="Connected Services\TransFastWebService\configuration.svcinfo" />
+    <None Include="Connected Services\TransFastWebService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="TransFastWCFService.svc" />
+    <None Include="Connected Services\TransFastWebService\MTTOCORRESPONDENTTK.wsdl" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -128,6 +147,11 @@
     <Compile Include="Classes\Utils.cs" />
     <Compile Include="Classes\GenerateTokenParameters.cs" />
     <Compile Include="Classes\XMLMaintenance.cs" />
+    <Compile Include="Connected Services\TransFastWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -148,6 +172,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\TransFastWebService\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

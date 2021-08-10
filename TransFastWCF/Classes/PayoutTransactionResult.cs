@@ -3,6 +3,7 @@ using System.IO;
 using System.Xml.Serialization;
 using GeaLimitedWCF.Classes;
 using Newtonsoft.Json;
+using TransFastWCF.TransFastRespopnse;
 
 namespace TransFastWCFService.Classes
 {
@@ -59,9 +60,9 @@ namespace TransFastWCFService.Classes
 
             try
             {
-                PartnerResponseData responseDetails = JsonConvert.DeserializeObject<PartnerResponseData>(response);
+                ConfirmTransactionResponse responseDetails = JsonConvert.DeserializeObject<ConfirmTransactionResponse>(response);
 
-                if (Convert.ToBoolean(responseDetails.successful))
+                if (responseDetails.ReturnCode==0)
                 {
                     payoutResult._resultCode = PayoutTransactionResultCode.Successful;
                     payoutResult._messageToClient = "Payout transaction successful.";
@@ -71,7 +72,7 @@ namespace TransFastWCFService.Classes
                 }
                 else
                 {
-                    string errorMessage = string.Format("[{0}-{1}] {2}", responseDetails.responseCode, responseDetails.status, responseDetails.responseMessage);
+                    string errorMessage = string.Format("[{0}] {1}", responseDetails.ReturnCode, responseDetails.ReturnDescription);
                     string errorLogMessage = string.Format("RemittancePartnerPayout_GetPayoutResult: {0}", errorMessage);
 
                     Utils.WriteToEventLog(errorLogMessage, System.Diagnostics.EventLogEntryType.Error);

@@ -95,78 +95,6 @@ namespace TransFastWCFService.Classes
             return isValid;
         }
 
-        public static string ProcessTransactionRequest(string uri, string request)
-        {
-            string result = string.Empty;
-
-            HttpWebRequest httpWebRequest = WebRequest.Create(@uri) as HttpWebRequest;
-
-            byte[] data = Encoding.UTF8.GetBytes(request);
-
-            if(!RemittancePartnerConfiguration.UseDefaultProxy)
-                httpWebRequest.Proxy = RemittancePartnerConfiguration.WebProxy;
-            httpWebRequest.Method = "POST";
-            httpWebRequest.ContentType = "application/x-www-form-urlencoded";
-            httpWebRequest.ContentLength = data.Length;
-
-            using (Stream newStream = httpWebRequest.GetRequestStream())
-            {
-                newStream.Write(data, 0, data.Length);
-            }
-
-            using (WebResponse response = httpWebRequest.GetResponse())
-            {
-                // Get the stream containing content returned by the server.
-                using (Stream dataStream = response.GetResponseStream())
-                {
-                    // Open the stream using a StreamReader for easy access.
-                    using (StreamReader reader = new StreamReader(dataStream))
-                    {
-                        // Read the content.
-                        result = reader.ReadToEnd();
-                    }
-                }
-            }
-
-            return result;
-        }
-
-        public static string ProcessRequest(string uri, string request)
-        {
-            string result = string.Empty;
-
-            HttpWebRequest httpWebRequest = WebRequest.Create(@uri) as HttpWebRequest;
-
-            byte[] data = Encoding.UTF8.GetBytes(request);
-
-            if (!RemittancePartnerConfiguration.UseDefaultProxy)
-                httpWebRequest.Proxy = RemittancePartnerConfiguration.WebProxy;
-            httpWebRequest.Method = "POST";
-            httpWebRequest.ContentType = "application/json";
-            httpWebRequest.ContentLength = data.Length;
-
-            using (Stream newStream = httpWebRequest.GetRequestStream())
-            {
-                newStream.Write(data, 0, data.Length);
-            }
-
-            using (WebResponse response = httpWebRequest.GetResponse())
-            {
-                // Get the stream containing content returned by the server.
-                using (Stream dataStream = response.GetResponseStream())
-                {
-                    // Open the stream using a StreamReader for easy access.
-                    using (StreamReader reader = new StreamReader(dataStream))
-                    {
-                        // Read the content.
-                        result = reader.ReadToEnd();
-                    }
-                }
-            }
-
-            return result;
-        }
-
         public static string ProcessRequest(string uri, string request, string header)
         {
             string result = string.Empty;
@@ -183,42 +111,6 @@ namespace TransFastWCFService.Classes
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
                 streamWriter.Write(request);
-            }
-
-            using (WebResponse response = httpWebRequest.GetResponse())
-            {
-                // Get the stream containing content returned by the server.
-                using (Stream dataStream = response.GetResponseStream())
-                {
-                    // Open the stream using a StreamReader for easy access.
-                    using (StreamReader reader = new StreamReader(dataStream))
-                    {
-                        // Read the content.
-                        result = reader.ReadToEnd();
-                    }
-                }
-            }
-
-            return result;
-        }
-        public static string ProcessSecuredRequest(string uri, string request, string token)
-        {
-            string result = string.Empty;
-
-            HttpWebRequest httpWebRequest = WebRequest.Create(@uri) as HttpWebRequest;
-
-            byte[] data = Encoding.UTF8.GetBytes(request);
-
-            if (!RemittancePartnerConfiguration.UseDefaultProxy)
-                httpWebRequest.Proxy = RemittancePartnerConfiguration.WebProxy;
-            httpWebRequest.Method = "POST";
-            httpWebRequest.Headers.Add("Authorization", "Bearer " + token);
-            httpWebRequest.ContentType = "application/json";
-            httpWebRequest.ContentLength = data.Length;
-
-            using (Stream newStream = httpWebRequest.GetRequestStream())
-            {
-                newStream.Write(data, 0, data.Length);
             }
 
             using (WebResponse response = httpWebRequest.GetResponse())

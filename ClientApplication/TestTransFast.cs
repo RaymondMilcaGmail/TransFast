@@ -24,43 +24,33 @@ namespace ClientApplication
         public LookupTransactionResult Savedres { get; set; }
         private void TestTransFast_Load(object sender, EventArgs e)
         {
-            DataTransactionResult req = new DataTransactionResult();
-            TransFastWCFClient svc = new TransFastWCFClient();
+            //DataTransactionResult req = new DataTransactionResult();
+            //TransFastWCFClient svc = new TransFastWCFClient();
 
-            string TokenResult = svc.RequestToken(req);
-            TokenResponse responseDetails = JsonConvert.DeserializeObject<TokenResponse>(TokenResult);
-            if (responseDetails == null)
-            {
-                req.ResultCode = DataTransactionResultCode.PartnerError;
-                req.MessageToClient = "Failed to retrieve token from client.";
-            }
-            else
-            {
-                TransFastToken = responseDetails.ReturnToken;
+            //req = svc.RequestToken(req);
+            //TokenResponse responseDetails = JsonConvert.DeserializeObject<TokenResponse>(req.StrResponse);
+            //if (responseDetails == null)
+            //{
+            //    req.ResultCode = DataTransactionResultCode.PartnerError;
+            //    req.MessageToClient = "Failed to retrieve token from client.";
+            //}
+            //else
+            //{
+            //    TransFastToken = responseDetails.ReturnToken;
 
-            }
+            //}
         }
 
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-            DataTransactionResult res = new DataTransactionResult();
-            TransFastWCFClient svc = new TransFastWCFClient();
-            res.AssignToken = TransFastToken;
-            res.FunctionName = "CommitFile";
-            res = svc.ProcessTransaction(res);
-        }
 
         private void button5_Click(object sender, EventArgs e)
         {
 
             DataTransactionResult res = new DataTransactionResult();
             TransFastWCFClient svc = new TransFastWCFClient();
-            
-            string TokenResult = svc.RequestToken(res);
-            TokenResponse responseDetails = JsonConvert.DeserializeObject<TokenResponse>(TokenResult);
-            if (responseDetails == null)
+
+            res = svc.RequestToken(res);
+
+            if (res.ResultCode!=DataTransactionResultCode.Successful)
             {
                 res.ResultCode = DataTransactionResultCode.PartnerError;
                 res.MessageToClient = "Failed to retrieve token from client.";
@@ -68,10 +58,17 @@ namespace ClientApplication
             }
             else
             {
-                TransFastToken = responseDetails.ReturnToken;
-                TxtToken.Text = TransFastToken;
+                TokenResponse responseDetails = JsonConvert.DeserializeObject<TokenResponse>(res.StrResponse);
+                if (responseDetails.ReturnCode == 0)
+                {
+
+                    TransFastToken = responseDetails.ReturnToken;
+                    TxtToken.Text = TransFastToken;
+                }
 
             }
+            txtErrorcode.Text = res.ResultCode.ToString();
+            txtErrorDesc.Text = res.MessageToClient;
         }
 
 
@@ -117,19 +114,13 @@ namespace ClientApplication
                 req.PayoutTransactionRequest = preq;
                 PullRemittanceResult TransactionResult = svc.RemittancePartnerPayout(req);
 
-                txtRemitCode.Text = TransactionResult.PayoutTransactionResult.ResultCode.ToString();
-                txtRemitCode.Text = TransactionResult.PayoutTransactionResult.MessageToClient;
+                txtErrorcode.Text = TransactionResult.PayoutTransactionResult.ResultCode.ToString();
+                txtErrorDesc.Text = TransactionResult.PayoutTransactionResult.MessageToClient;
             }
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //FileContent selected = FileContents.Where(x => x.InvoiceAgentReference == int.Parse(txtReferralNo.Text)).Select(x => new FileContent { SenderName = x.SenderName, ReceiverName = x.ReceiverName, InvoiceAmmountToPay = x.InvoiceAmmountToPay, InvoiceCurrency = x.InvoiceCurrency }).FirstOrDefault();
-            //lblSender.Text = selected.SenderName;
-            //lblReceiver.Text = selected.ReceiverName;
-            //lblAmount.Text = selected.InvoiceAmmountToPay.ToString();
-            //lblCurrency.Text = selected.InvoiceCurrency;
-
 
             LookupTransactionRequest req = new LookupTransactionRequest();
             req.TransactionNumber = txtReferralNo.Text;
@@ -154,76 +145,6 @@ namespace ClientApplication
             txtErrorDesc.Text = Savedres.MessageToClient;
         }
 
-        private void button3_Click_1(object sender, EventArgs e)
-        {
-            if (Savedres.InvoiceUpdateID != 0)
-            {
 
-                DataTransactionResult res = new DataTransactionResult();
-                TransFastWCFClient svc = new TransFastWCFClient();
-                //TransFastWCFService svc = new TransFastWCFService();
-                res.AssignToken = TransFastToken;
-                res.FunctionName = "UpdateTransactionMSG";
-                res.ReferenceID = Savedres.InvoiceUpdateID;
-                res.EventDate = new DateTime();
-                res = svc.ProcessTransaction(res);
-                UpdateTransactionResponse responseDetails = new UpdateTransactionResponse();
-                responseDetails= JsonConvert.DeserializeObject<UpdateTransactionResponse>(res.Result);
-                txtSendMessageCOde.Text = res.ResultCode.ToString();
-                txtSendMessageDesc.Text = res.MessageToClient;
-            }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-            DataTransactionResult res = new DataTransactionResult();
-            TransFastWCFClient svc = new TransFastWCFClient();
-            res.AssignToken = TransFastToken;
-            res.FunctionName = "CommitFile";
-            res.FileName = txtFileName.Text;
-            res = svc.ProcessTransaction(res);
-            CommitFileResponse responseDetails = JsonConvert.DeserializeObject<CommitFileResponse>(res.Result);
-
-            textBox4.Text = res.Result;
-            textBox3.Text = res.ResultCode.ToString();
-            textBox2.Text = res.MessageToClient;
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-            DataTransactionResult res = new DataTransactionResult();
-            TransFastWCFClient svc = new TransFastWCFClient();
-            res.FunctionName = "GetAvaliableFiles";
-            res.AssignToken = TransFastToken;
-            res = svc.ProcessTransaction(res);
-            GetAvaliableFilesResponse responseDetails = JsonConvert.DeserializeObject<GetAvaliableFilesResponse>(res.Result);
-            if (responseDetails.AvaliableFIles.Count > 0)
-            {
-
-                txtFileName.Text = responseDetails.AvaliableFIles[0].FileName;
-            }
-
-            textBox4.Text = res.Result;
-            textBox3.Text = res.ResultCode.ToString();
-            textBox2.Text = res.MessageToClient;
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            
-            DataTransactionResult res = new DataTransactionResult();
-            TransFastWCFClient svc = new TransFastWCFClient();
-            res.AssignToken = TransFastToken;
-            res.FunctionName = "GetFile";
-            res.FileName = txtFileName.Text;
-            res = svc.ProcessTransaction(res);
-            GetAvaliableFilesResponse responseDetails = JsonConvert.DeserializeObject<GetAvaliableFilesResponse>(res.Result);
-
-            textBox4.Text = res.Result;
-            textBox3.Text = res.ResultCode.ToString();
-            textBox2.Text = res.MessageToClient;
-        }
     }
 }

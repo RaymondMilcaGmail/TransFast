@@ -11,15 +11,9 @@ namespace TransFastWCF.TransFastRespopnse
         public int ReturnCode { get; set; }
         public string ReturnDescription { get; set; }
         public string ReturnToken { get; set; }
+
     }
 
-    public class GetAvaliableFilesResponse
-    {
-        public int ReturnResult { get; set; }
-        public int ReturnCode { get; set; }
-        public string ReturnDescription { get; set; }
-        public List<AvaliableFIle> AvaliableFIles { get; set; }
-    }
     public class SenderDocument
     {
         public int Type { get; set; }
@@ -91,26 +85,19 @@ namespace TransFastWCF.TransFastRespopnse
         public InvoiceData InvoiceData { get; set; }
     }
 
-    public class CommitFileResponse
-    {
-        public int ReturnResult { get; set; }
-        public int ReturnCode { get; set; }
-        public string ReturnDescription { get; set; }
-    }
-
-
     public class UpdateTransactionResponse
     {
         public int ReturnResult { get; set; }
         public int ReturnCode { get; set; }
         public string ReturnDescription { get; set; }
-    }
-    public class AvaliableFIle
-    {
-        public int Ordinal { get; set; }
-        public string FileName { get; set; }
-        public int FileSize { get; set; }
-        public DateTime FileDate { get; set; }
+        public string PaymentToken { get; set; }
     }
 
+    public class ConfirmTransactionResponse
+    {
+        public int ReturnResult { get; set; }
+        public int ReturnCode { get; set; }
+        public string ReturnDescription { get; set; }
+        public string PaymentToken { get; set; }
+    }
 }

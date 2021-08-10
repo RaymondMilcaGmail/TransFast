@@ -225,7 +225,10 @@ namespace TransFastWCFService.Classes
         {
             get { return ConfigurationManager.AppSettings["SecurityKey"] != null ? ConfigurationManager.AppSettings["SecurityKey"] : string.Empty; }
         }
-
+        public static string POSCode
+        {
+            get { return ConfigurationManager.AppSettings["POSCode"] != null ? ConfigurationManager.AppSettings["POSCode"] : string.Empty; }
+        }
         public static string URL_FORMAT
         {
             get { return "{0}/{1}"; }
@@ -247,7 +250,7 @@ namespace TransFastWCFService.Classes
         }
         public static string POSTDataGetToken
         {
-            get {  return string.Format("{{\"EntityType\":5, \"EntityCode\" : 0,{0},\"TerminalID\":\"PH\" }}",TokenCredentials); }
+            get { return string.Format("{{\"EntityType\":4, \"EntityCode\" : 0,{0},\"TerminalID\":\"PH\" }}", TokenCredentials); }
 
         }
         public static string POSTData_Payout
@@ -260,7 +263,7 @@ namespace TransFastWCFService.Classes
         {
             get { return "{{\"UserToken\":\"{0}\", \"SearchTerm\" :\"{1}\" ,\"SearchType\":0}}"; }
         }
-    public static string POSTDataGetFile
+        public static string POSTDataGetFile
         {
             get { return "{{\"UserToken\":\"{0}\", \"Folder\" : 2 ,\"FileName\":\"{1}\"}}"; }
         }
@@ -271,17 +274,18 @@ namespace TransFastWCFService.Classes
         }
         public static string POSTDataUpdateTransaction
         {
-            get { return "{{\"UserToken\":\"{0}\", \"ReferenceID\" : \"{1}\" ,\"EventDate\":\"{2}\",\"EventType\":\"{3}\",\"EventInfo\":\"{4}\"}}"; }
+            get { return "{{\"UserToken\": \"{0}\",\"POSCode\": \"{1}\",\"SearchTerm\": \"{2}\",\"SearchType\": 0,\"ReceiverFullName\": \"{3}\",\"ReceiverDocumentNumber\": \"{4}\",\"AmmountToPay\": {5},\"CurrencyToPay\": \"{6}\",\"PaymentDate\": \"{7}\""; }
         }
 
-        public static string POSTDataUpdateTransactionMSG
+        public static string POSTDataConfirmTransaction
         {
-            get { return "{{\"UserToken\":\"{0}\", \"ReferenceID\" : \"{1}\" ,\"EventDate\":\"{2}\",\"EventType\":\"1\",\"EventInfo\":\"{3}\"}}"; }
+            get { return "{{\"UserToken\": \"{0}\",\"POSCode\": \"{1}\",\"SearchTerm\": \"{2}\",\"SearchType\": 0,\"Token\": \"{3}\"}}"; }
         }
-        #endregion
+        
+    #endregion
 
-        #region Security Settings
-        public static bool TLSActivated
+    #region Security Settings
+    public static bool TLSActivated
         {
             get
             {

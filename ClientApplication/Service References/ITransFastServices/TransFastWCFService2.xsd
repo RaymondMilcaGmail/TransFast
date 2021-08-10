@@ -167,6 +167,7 @@
       <xs:element minOccurs="0" name="ReferenceID" type="xs:int" />
       <xs:element minOccurs="0" name="Result" nillable="true" type="xs:string" />
       <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="ResultCode" type="q4:DataTransactionResultCode" />
+      <xs:element minOccurs="0" name="StrResponse" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
