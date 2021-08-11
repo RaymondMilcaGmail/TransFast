@@ -44,7 +44,7 @@
       <xs:element minOccurs="0" name="EventInfo" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="EventType" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="FunctionName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InvoiceStatus" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="PartnerCode" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="PartnerInternalNumber" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="PayTokenID" nillable="true" type="xs:string" />
@@ -110,6 +110,7 @@
       <xs:element minOccurs="0" name="BeneficiaryLastName" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="BeneficiaryPhoneNumber" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="CurrencyConversionRate" type="xs:decimal" />
+      <xs:element minOccurs="0" name="InvoiceStatus" type="xs:int" />
       <xs:element minOccurs="0" name="InvoiceUpdateID" type="xs:int" />
       <xs:element minOccurs="0" name="MessageToClient" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="MessageToClientFromSender" nillable="true" type="xs:string" />
