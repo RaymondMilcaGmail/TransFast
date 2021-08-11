@@ -35,9 +35,7 @@ namespace ClientApplication
             this.label6 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtErrorDesc = new System.Windows.Forms.TextBox();
-            this.txtErrorcode = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.lblCurrency = new System.Windows.Forms.Label();
             this.lblAmount = new System.Windows.Forms.Label();
             this.lblReceiver = new System.Windows.Forms.Label();
@@ -46,7 +44,11 @@ namespace ClientApplication
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtErrorDesc = new System.Windows.Forms.TextBox();
+            this.txtErrorcode = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblStatus = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,6 +100,8 @@ namespace ClientApplication
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.lblStatus);
+            this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.lblCurrency);
             this.groupBox2.Controls.Add(this.lblAmount);
@@ -119,29 +123,16 @@ namespace ClientApplication
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "View Remittance";
             // 
-            // label3
+            // button2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(211, 17);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 13);
-            this.label3.TabIndex = 28;
-            this.label3.Text = "Result";
-            // 
-            // txtErrorDesc
-            // 
-            this.txtErrorDesc.Location = new System.Drawing.Point(365, 12);
-            this.txtErrorDesc.Name = "txtErrorDesc";
-            this.txtErrorDesc.Size = new System.Drawing.Size(212, 20);
-            this.txtErrorDesc.TabIndex = 27;
-            // 
-            // txtErrorcode
-            // 
-            this.txtErrorcode.Location = new System.Drawing.Point(251, 12);
-            this.txtErrorcode.Name = "txtErrorcode";
-            this.txtErrorcode.Size = new System.Drawing.Size(100, 20);
-            this.txtErrorcode.TabIndex = 26;
+            this.button2.Location = new System.Drawing.Point(231, 62);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(129, 91);
+            this.button2.TabIndex = 20;
+            this.button2.Text = "Payout";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // lblCurrency
             // 
@@ -223,16 +214,46 @@ namespace ClientApplication
             this.label1.TabIndex = 16;
             this.label1.Text = "Sender";
             // 
-            // button2
+            // label3
             // 
-            this.button2.Location = new System.Drawing.Point(231, 62);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 91);
-            this.button2.TabIndex = 20;
-            this.button2.Text = "Payout";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(211, 17);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(37, 13);
+            this.label3.TabIndex = 28;
+            this.label3.Text = "Result";
+            // 
+            // txtErrorDesc
+            // 
+            this.txtErrorDesc.Location = new System.Drawing.Point(365, 12);
+            this.txtErrorDesc.Name = "txtErrorDesc";
+            this.txtErrorDesc.Size = new System.Drawing.Size(212, 20);
+            this.txtErrorDesc.TabIndex = 27;
+            // 
+            // txtErrorcode
+            // 
+            this.txtErrorcode.Location = new System.Drawing.Point(251, 12);
+            this.txtErrorcode.Name = "txtErrorcode";
+            this.txtErrorcode.Size = new System.Drawing.Size(100, 20);
+            this.txtErrorcode.TabIndex = 26;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(41, 150);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(37, 13);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Status";
+            // 
+            // lblStatus
+            // 
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Location = new System.Drawing.Point(140, 143);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(0, 13);
+            this.lblStatus.TabIndex = 27;
             // 
             // TestTransFast
             // 
@@ -275,5 +296,7 @@ namespace ClientApplication
         private System.Windows.Forms.TextBox txtErrorcode;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label lblStatus;
+        private System.Windows.Forms.Label label4;
     }
 }

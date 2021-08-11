@@ -59,6 +59,7 @@ namespace TransFastControlLibrary
 		private string _payTokenID;
 		private string _token;
 		private string _partnerCode;
+		private string _invoiceStatus;
 
 		#endregion
 
@@ -68,6 +69,12 @@ namespace TransFastControlLibrary
 		{
 			get { return _cebuanaBranchInformation; }
 			set { _cebuanaBranchInformation = value; }
+		}
+		
+		public string InvoiceStatus
+		{
+			get { return _transactionNumber; }
+			set { _transactionNumber = value; }
 		}
 
 		public string TransactionNumber

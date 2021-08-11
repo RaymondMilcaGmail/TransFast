@@ -274,7 +274,7 @@ namespace TransFastWCFService.Classes
         }
         public static string POSTDataUpdateTransaction
         {
-            get { return "{{\"UserToken\": \"{0}\",\"POSCode\": \"{1}\",\"SearchTerm\": \"{2}\",\"SearchType\": 0,\"ReceiverFullName\": \"{3}\",\"ReceiverDocumentNumber\": \"{4}\",\"AmmountToPay\": {5},\"CurrencyToPay\": \"{6}\",\"PaymentDate\": \"{7}\""; }
+            get { return "{{\"UserToken\": \"{0}\",\"POSCode\": \"{1}\",\"SearchTerm\": \"{2}\",\"SearchType\": 0,\"ReceiverFullName\": \"{3}\",\"ReceiverDocumentNumber\": \"{4}\",\"AmmountToPay\": {5},\"CurrencyToPay\": \"{6}\",\"PaymentDate\": \"{7}\"}}"; }
         }
 
         public static string POSTDataConfirmTransaction

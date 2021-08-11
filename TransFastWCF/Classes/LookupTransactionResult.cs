@@ -50,12 +50,18 @@ namespace TransFastWCFService.Classes
         private string _statusFromPartner = string.Empty;
         private string _messageToClientFromSender = string.Empty;
         private int _invoiceUpdateID = 0;
+        private int _invoiceStatus = 0;
 
         #endregion
 
         #region Properties
 
 
+        public int InvoiceStatus
+        {
+            get { return _invoiceStatus; }
+            set { _invoiceStatus = value; }
+        }
         public int InvoiceUpdateID
         {
             get { return _invoiceUpdateID; }
@@ -294,6 +300,7 @@ namespace TransFastWCFService.Classes
                         lookupResult.BeneficiaryFullName = string.Format("{0}, {1}", lookupResult.BeneficiaryLastName, lookupResult.BeneficiaryFirstName);
 
                         lookupResult.BeneficiaryPhoneNumber = responseDetails.ReceiverPhone1;
+                        lookupResult.InvoiceStatus = responseDetails.InvoiceStatus;
                         lookupResult.PayoutID = sessionID;
                         #endregion
                     }

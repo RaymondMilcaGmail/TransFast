@@ -95,7 +95,8 @@ namespace ClientApplication
                 preq.PayoutCurrency = Savedres.PayoutCurrency;
                 preq.ReceiverCustomerNumber = "123456";
 
-
+                preq.InvoiceStatus = Savedres.InvoiceStatus;
+                //preq.InvoiceStatus = Savedres.InvoiceStatus;
                 preq.SenderFullName = Savedres.SenderFullName;
                 preq.SenderFirstName = Savedres.SenderFirstName;
                 preq.SenderLastName = Savedres.SenderLastName;
@@ -116,6 +117,7 @@ namespace ClientApplication
 
                 txtErrorcode.Text = TransactionResult.PayoutTransactionResult.ResultCode.ToString();
                 txtErrorDesc.Text = TransactionResult.PayoutTransactionResult.MessageToClient;
+                EnumHelper.GetEnumDescription((InvoiceStatusCode)Savedres.InvoiceStatus);
             }
         }
 
@@ -140,7 +142,7 @@ namespace ClientApplication
             lblReceiver.Text = Savedres.BeneficiaryFullName;
             lblAmount.Text = Savedres.PayoutAmount.ToString();
             lblCurrency.Text = Savedres.PayoutCurrency;
-
+            lblStatus.Text = string.Format("{0} - {1}", Savedres.InvoiceStatus, EnumHelper.GetEnumDescription((InvoiceStatusCode)Savedres.InvoiceStatus));
             txtErrorcode.Text = Savedres.ResultCode.ToString();
             txtErrorDesc.Text = Savedres.MessageToClient;
         }
