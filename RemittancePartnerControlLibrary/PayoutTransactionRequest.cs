@@ -59,24 +59,20 @@ namespace TransFastControlLibrary
 		private string _payTokenID;
 		private string _token;
 		private string _partnerCode;
-		private string _invoiceStatus;
 
-		#endregion
+        private string _assignToken;
+        private int _invoiceStatus;
+        private int _invoiceUpdateID;
+        #endregion
 
-		#region Properties
+        #region Properties
 
-		public CebuanaBranchInformation CebuanaBranchInformation
+        public CebuanaBranchInformation CebuanaBranchInformation
 		{
 			get { return _cebuanaBranchInformation; }
 			set { _cebuanaBranchInformation = value; }
 		}
 		
-		public string InvoiceStatus
-		{
-			get { return _transactionNumber; }
-			set { _transactionNumber = value; }
-		}
-
 		public string TransactionNumber
 		{
 			get { return _transactionNumber; }
@@ -264,6 +260,23 @@ namespace TransFastControlLibrary
 			set { _partnerCode = value; }
 		}
 
-		#endregion
-	}
+        public int InvoiceStatus
+        {
+            get { return _invoiceStatus; }
+            set { _invoiceStatus = value; }
+        }
+
+        public string AssignToken
+        {
+            get { return _assignToken; }
+            set { _assignToken = value; }
+        }
+
+        public int InvoiceUpdateID
+        {
+            get { return _invoiceUpdateID; }
+            set { _invoiceUpdateID = value; }
+        }
+        #endregion
+    }
 }

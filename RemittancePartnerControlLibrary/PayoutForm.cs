@@ -772,7 +772,12 @@ namespace TransFastControlLibrary
 
 			payoutTransactionRequest.TransactionNumber = _remittancePartnerLookupTransaction.LookupTransactionResult.TransactionNumber;
 			payoutTransactionRequest.PayTokenID = _remittancePartnerLookupTransaction.LookupTransactionResult.PayTokenID;
-			PayoutTransaction payoutTransaction = new PayoutTransaction(payoutTransactionRequest);
+
+            payoutTransactionRequest.AssignToken = _remittancePartnerLookupTransaction.LookupTransactionResult.AssignToken;
+            payoutTransactionRequest.InvoiceUpdateID = _remittancePartnerLookupTransaction.LookupTransactionResult.InvoiceUpdateID;
+            payoutTransactionRequest.InvoiceStatus = _remittancePartnerLookupTransaction.LookupTransactionResult.InvoiceStatus;
+
+            PayoutTransaction payoutTransaction = new PayoutTransaction(payoutTransactionRequest);
 			payoutTransaction.WebServiceURL = RemittancePartnerConfiguration.WebServiceURL;
 
 			Utils.ToggleControlEnabledState(

@@ -13,7 +13,12 @@ namespace TransFastWCFService.Classes
         {
             get { return ConfigurationManager.AppSettings["ApplicationName"].ToString(); }
         }
-
+        
+        public static string ExpireTokenMessage
+        {
+            get { return ConfigurationManager.AppSettings["ExpireTokenMessage"].ToString(); }
+        }
+        
         public static string ApplicationCode
         {
             get { return ConfigurationManager.AppSettings["ApplicationCode"].ToString(); }

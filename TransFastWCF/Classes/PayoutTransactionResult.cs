@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Xml.Serialization;
-using GeaLimitedWCF.Classes;
+using TransFastWCF.Classes;
 using Newtonsoft.Json;
 using TransFastWCF.TransFastRespopnse;
 
@@ -82,7 +82,14 @@ namespace TransFastWCFService.Classes
 
                     payoutResult.TransactionNumber = transactionNumber;
                     payoutResult.PayoutDate = DateTime.Now;
-                    payoutResult.MessageToClient = string.Format("[{0}:{1}] {2}", RemittancePartnerConfiguration.ApplicationCode, payoutResult._resultCode, payoutResult._messageToClient);
+
+
+                    if (responseDetails.ReturnCode == 1365)
+                        payoutResult.MessageToClient = string.Format("[{0}:{1}] {2}", RemittancePartnerConfiguration.ApplicationCode, payoutResult._resultCode, RemittancePartnerConfiguration.ExpireTokenMessage);
+                    else
+                        payoutResult.MessageToClient = string.Format("[{0}:{1}] {2}", RemittancePartnerConfiguration.ApplicationCode, payoutResult._resultCode, payoutResult._messageToClient);
+
+
                 }
             }
             catch (Exception ex)

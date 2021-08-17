@@ -22,7 +22,6 @@ namespace TransFastWCFService.Classes
         private CebuanaBranchInformation _cebuanaBranchInformation;
         private string _transactionNumber = string.Empty;
         private string _token = string.Empty;
-        private string _AssignToken = string.Empty;
         private string _partnerCode = string.Empty;
         private string _payTokenID = string.Empty;
         private string _payoutCurrency = string.Empty;
@@ -42,11 +41,6 @@ namespace TransFastWCFService.Classes
             set { _token = value; }
         }
 
-        public string AssignToken
-        {
-            get { return _AssignToken; }
-            set { _AssignToken = value; }
-        }
         public string TransactionNumber
         {
             get { return _transactionNumber; }
@@ -87,10 +81,33 @@ namespace TransFastWCFService.Classes
                 ServicePointManager.SecurityProtocol = (SecurityProtocolType)(RemittancePartnerConfiguration.SecurityProtocolType);
             }
 
+            string assignToken = string.Empty;
+
+            try
+            {
+                assignToken = RequestToken();
+                
+                if(string.IsNullOrEmpty(assignToken))
+                {
+                    lookupTransactionResult.ResultCode = LookupTransactionResultCode.PartnerError;
+                    lookupTransactionResult.MessageToClient = "An error has occured while retrieving Token from the partner. Please contact ICT Support Desk.";
+
+                    return lookupTransactionResult;
+                }
+            }
+            catch (Exception error)
+            {
+                Utils.WriteToEventLog(string.Format("RequestToken:{0}", error.Message), System.Diagnostics.EventLogEntryType.Error);
+
+                lookupTransactionResult.ResultCode = LookupTransactionResultCode.ServerError;
+                lookupTransactionResult.MessageToClient = "An error has occured while retrieving Token from the partner. Please contact ICT Support Desk.";
+
+                return lookupTransactionResult;
+            }
+
             string URL = string.Format(RemittancePartnerConfiguration.WS_URL);
-            string sessionID = Utils.CreateSessionID();
-            string postData = string.Format(RemittancePartnerConfiguration.POSTDataLookup, AssignToken, _transactionNumber);
-            
+            string postData = string.Format(RemittancePartnerConfiguration.POSTDataLookup, assignToken, _transactionNumber);
+
             #region Log Request
             if (RemittancePartnerConfiguration.LoggingActivated)
             {
@@ -109,9 +126,25 @@ namespace TransFastWCFService.Classes
             }
             #endregion
 
-            lookupTransactionResult = LookupTransactionResult.GetLookupResult(result, _transactionNumber, lookupTransactionResult, sessionID);
+            lookupTransactionResult = LookupTransactionResult.GetLookupResult(result, _transactionNumber, lookupTransactionResult, assignToken);
 
             return lookupTransactionResult;
+        }
+
+        private string RequestToken()
+        {
+            DataTransactionResult dataTransactionResult = new DataTransactionResult();
+            string assignToken = string.Empty;
+
+            dataTransactionResult = dataTransactionResult.GetToken(dataTransactionResult);
+            TokenResponse responseDetails = JsonConvert.DeserializeObject<TokenResponse>(dataTransactionResult.StrResponse);
+            if (responseDetails.ReturnResult == 0)
+            {
+                assignToken = responseDetails.ReturnToken;
+
+            }
+
+            return assignToken;
         }
         #endregion
     }

@@ -84,10 +84,7 @@ namespace ClientApplication
                 PayoutTransactionRequest preq = new PayoutTransactionRequest();
                 preq.AssignToken = TransFastToken;
                 //preq.FunctionName = "UpdateTransaction";
-                preq.ReferenceID = Savedres.InvoiceUpdateID;
-                preq.EventDate = new DateTime();
-                preq.EventType = "2";
-                preq.EventInfo = TxtToken.Text;
+                preq.InvoiceUpdateID = Savedres.InvoiceUpdateID;
                 preq.CebuanaBranchInformation = branch;
                 preq.PayoutID = Savedres.PayoutID;
                 preq.TransactionNumber = Savedres.TransactionNumber;
@@ -127,13 +124,12 @@ namespace ClientApplication
             LookupTransactionRequest req = new LookupTransactionRequest();
             req.TransactionNumber = txtReferralNo.Text;
             req.PayoutCurrency = "PHP";
-            req.AssignToken = TxtToken.Text;
-
             PullRemittanceRequest pullReq = new PullRemittanceRequest();
             pullReq.LookupTransactionRequest = req;
 
             TransFastWCFClient svc = new TransFastWCFClient();
             PullRemittanceResult pullRes = new PullRemittanceResult();
+            
             pullRes = svc.RemittancePartnerLookup(pullReq);
 
             Savedres = pullRes.LookupTransactionResult;

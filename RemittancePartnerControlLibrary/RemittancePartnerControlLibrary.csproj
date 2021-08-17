@@ -8,8 +8,8 @@
     <ProjectGuid>{6F1B7BC7-E1F4-4A2A-B9B0-CE7FF029FC66}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GeaLimitedControlLibrary</RootNamespace>
-    <AssemblyName>GeaLimitedControlLibrary</AssemblyName>
+    <RootNamespace>TransFastControlLibrary</RootNamespace>
+    <AssemblyName>TransFastControlLibrary</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
@@ -73,7 +73,7 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Push Remittance\MicroSavings Payout\Source Code\iClick_PushTieUpRemittance\bin\Release\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Push Remittance\MicroSavings Payout\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PrintModule, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="RegistryItems, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">

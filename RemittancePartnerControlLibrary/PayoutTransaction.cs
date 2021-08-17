@@ -126,8 +126,11 @@ namespace TransFastControlLibrary
 						SenderState = _payoutTransactionRequest.SenderState,
 						SendingCurrency = _payoutTransactionRequest.SendingCurrency,
 						Token = _payoutTransactionRequest.Token,
-						TransactionNumber = _payoutTransactionRequest.TransactionNumber
-					},
+                        TransactionNumber = _payoutTransactionRequest.TransactionNumber,
+                        AssignToken = _payoutTransactionRequest.AssignToken,
+                        InvoiceUpdateID = _payoutTransactionRequest.InvoiceUpdateID,
+                        InvoiceStatus = _payoutTransactionRequest.InvoiceStatus
+                    },
 					PullMethod = Utils.PullMethod.Payout.ToString(),
 					UnlockTransactionRequest = new UnlockTransactionRequest
 					{

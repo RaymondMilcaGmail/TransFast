@@ -66,15 +66,10 @@ namespace TransFastWCFService.Classes
         private string _token;
         private string _partnerCode;
         private string _partnerInternalNumber;
+
+        private string _assignToken;
         private int _invoiceStatus;
-
-
-        private int _ReferenceID;
-        private DateTime _EventDate;
-        private string _EventType;
-        private string _EventInfo;
-        private string _FileName;
-        private string _AssignToken;
+        private int _invoiceUpdateID;
 
         
         public int InvoiceStatus
@@ -85,35 +80,14 @@ namespace TransFastWCFService.Classes
 
         public string AssignToken
         {
-            get { return _AssignToken; }
-            set { _AssignToken = value; }
+            get { return _assignToken; }
+            set { _assignToken = value; }
         }
 
-        public int ReferenceID
+        public int InvoiceUpdateID
         {
-            get { return _ReferenceID; }
-            set { _ReferenceID = value; }
-        }
-
-        public DateTime EventDate
-        {
-            get { return _EventDate; }
-            set { _EventDate = value; }
-        }
-        public string EventType
-        {
-            get { return _EventType; }
-            set { _EventType = value; }
-        }
-        public string EventInfo
-        {
-            get { return _EventInfo; }
-            set { _EventInfo = value; }
-        }
-        public string FileName
-        {
-            get { return _FileName; }
-            set { _FileName = value; }
+            get { return _invoiceUpdateID; }
+            set { _invoiceUpdateID = value; }
         }
         #endregion
 
@@ -328,13 +302,13 @@ namespace TransFastWCFService.Classes
 
             long transactionID = 0;
             string response = string.Empty;
-            string referenceNumber = string.Format("{0}{1}", payoutTransactionRequest.CebuanaBranchInformation.BranchCode, DateTime.Now.ToString("MMddyyyyHHmmss"));
+
             if (payoutTransactionRequest.InvoiceStatus == 7 || payoutTransactionRequest.InvoiceStatus == 8)
             {
 
                 try
                 {
-                    transactionID = InsertTransactionToDatabase(TransactionStatuses.PayoutPending, payoutTransactionRequest.PayoutID, referenceNumber);
+                    transactionID = InsertTransactionToDatabase(TransactionStatuses.PayoutPending, payoutTransactionRequest.TransactionNumber, payoutTransactionRequest.PayoutID);
                 }
                 catch (Exception error)
                 {
@@ -350,7 +324,7 @@ namespace TransFastWCFService.Classes
                 #region payout trans
                 string URL = string.Format(RemittancePartnerConfiguration.URL_FORMAT, RemittancePartnerConfiguration.WS_URL, RemittancePartnerConfiguration.Payout_Endpoint);
                 string localDate = DateTime.Now.ToString("yyyy/MM/dd HH:mm");
-                string postData = string.Format(RemittancePartnerConfiguration.POSTDataUpdateTransaction, AssignToken, RemittancePartnerConfiguration.POSCode, TransactionNumber, ReceiverFullName, ReferenceID, PayoutAmount, PayoutCurrency, localDate);
+                string postData = string.Format(RemittancePartnerConfiguration.POSTDataUpdateTransaction, payoutTransactionRequest.AssignToken, RemittancePartnerConfiguration.POSCode, payoutTransactionRequest.TransactionNumber, payoutTransactionRequest.ReceiverFullName, payoutTransactionRequest.InvoiceUpdateID, payoutTransactionRequest.PayoutAmount, payoutTransactionRequest.PayoutCurrency, localDate);
 
                 string UpdateResult = Utils.ProcessRequest(URL, postData, "Step2PayoutMT");
                 UpdateTransactionResponse Step2PayoutMTresponse = Newtonsoft.Json.JsonConvert.DeserializeObject<UpdateTransactionResponse>(UpdateResult);
@@ -368,7 +342,7 @@ namespace TransFastWCFService.Classes
                     try
                     {
 
-                        postData = string.Format(RemittancePartnerConfiguration.POSTDataConfirmTransaction, AssignToken, RemittancePartnerConfiguration.POSCode, TransactionNumber, Step2PayoutMTresponse.PaymentToken);
+                        postData = string.Format(RemittancePartnerConfiguration.POSTDataConfirmTransaction, payoutTransactionRequest.AssignToken, RemittancePartnerConfiguration.POSCode, TransactionNumber, Step2PayoutMTresponse.PaymentToken);
 
                         #region Log Request
                         if (RemittancePartnerConfiguration.LoggingActivated)
@@ -408,20 +382,28 @@ namespace TransFastWCFService.Classes
                         string errorLogMessage = string.Format("Exception RemittancePartnerPayout_GetPayoutResult: {0}", ex.Message);
                         Utils.WriteToEventLog(errorLogMessage, System.Diagnostics.EventLogEntryType.Error);
 
+                        payoutTransactionResult.TransactionNumber = payoutTransactionRequest.TransactionNumber;
+                        payoutTransactionResult.PayoutDate = DateTime.Now;
                         payoutTransactionResult.ResultCode = PayoutTransactionResultCode.ServerError;
                         payoutTransactionResult.MessageToClient = string.Format("{0}: {1}", payoutTransactionResult.ResultCode, "Please contact ICT Support Desk.");
                     }
                 }
                 else
                 {
+                    payoutTransactionResult.TransactionNumber = payoutTransactionRequest.TransactionNumber;
+                    payoutTransactionResult.PayoutDate = DateTime.Now;
                     payoutTransactionResult.ResultCode = PayoutTransactionResultCode.PartnerError;
-                    payoutTransactionResult.MessageToClient = string.Format("{0}: {1}", Step2PayoutMTresponse.ReturnCode, Step2PayoutMTresponse.ReturnDescription);
-
+                    if (Step2PayoutMTresponse.ReturnCode == 1365)                    
+                        payoutTransactionResult.MessageToClient = string.Format("{0}: {1}", Step2PayoutMTresponse.ReturnCode, RemittancePartnerConfiguration.ExpireTokenMessage);                    
+                    else
+                        payoutTransactionResult.MessageToClient = string.Format("{0}: {1}", Step2PayoutMTresponse.ReturnCode, Step2PayoutMTresponse.ReturnDescription);
+                    
                 }
             }
             else
             {
-
+                payoutTransactionResult.TransactionNumber = payoutTransactionRequest.TransactionNumber;
+                payoutTransactionResult.PayoutDate = DateTime.Now;
                 payoutTransactionResult.ResultCode = PayoutTransactionResultCode.PartnerError;
                 payoutTransactionResult.MessageToClient = string.Format("{0}: {1}", payoutTransactionRequest.InvoiceStatus, EnumHelper.GetEnumDescription((InvoiceStatusCode)payoutTransactionRequest.InvoiceStatus));
 

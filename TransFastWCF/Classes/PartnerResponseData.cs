@@ -1,4 +1,4 @@
-﻿namespace GeaLimitedWCF.Classes
+﻿namespace TransFastWCF.Classes
 {
     public class PartnerResponseData
     {

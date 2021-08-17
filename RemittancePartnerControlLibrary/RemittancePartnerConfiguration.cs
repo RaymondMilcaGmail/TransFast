@@ -14,12 +14,12 @@ namespace TransFastControlLibrary
     {
         internal static string PartnerName
         {
-			get { return "GEA Limited"; }
+			get { return "Trans-Fast S.A."; }
         }
 
         internal static string PartnerCode
         {
-            get { return "GEA-PL"; }
+            get { return "TFS-PL"; }
         }
 
 		public static WebProxy WebProxy

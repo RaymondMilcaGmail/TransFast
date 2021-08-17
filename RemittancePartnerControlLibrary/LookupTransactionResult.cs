@@ -49,11 +49,14 @@ namespace TransFastControlLibrary
 
 		private string _messageToClientFromSender = string.Empty;
 
-		#endregion
+        private string _assignToken = string.Empty;
+        private int _invoiceUpdateID = 0;
+        private int _invoiceStatus = 0;
+        #endregion
 
-		#region Properties
+        #region Properties
 
-		public TransFastControlLibrary.Utils.LookupTransactionResultCode ResultCode
+        public TransFastControlLibrary.Utils.LookupTransactionResultCode ResultCode
 		{
 			get { return _resultCode; }
 			set { _resultCode = value; }
@@ -229,6 +232,21 @@ namespace TransFastControlLibrary
 			set { _payTokenID = value; }
 		}
 
-		#endregion
-	}
+        public string AssignToken
+        {
+            get { return _assignToken; }
+            set { _assignToken = value; }
+        }
+        public int InvoiceStatus
+        {
+            get { return _invoiceStatus; }
+            set { _invoiceStatus = value; }
+        }
+        public int InvoiceUpdateID
+        {
+            get { return _invoiceUpdateID; }
+            set { _invoiceUpdateID = value; }
+        }
+        #endregion
+    }
 }
