@@ -195,3 +195,37 @@ C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x8
 C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
 C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Release\ClientApplication.exe
 C:\Users\Archie Concordia\Downloads\TransFast\TransFast\ClientApplication\obj\x86\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\ClientApplication.exe.config
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\ClientApplication.pdb
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\Newtonsoft.Json.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\TransFastControlLibrary.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\TransFastWCF.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\DollarPayoutPopup.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\CommonFunctions.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\AppCryptor.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\CommonLibrary.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\B2BUtilities.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\PrintModule.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\AvailmentRatioModule.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\TokenGen4.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\RegistryItems.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\CryptoHasher4.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\ADODB.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\TransFastControlLibrary.pdb
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\TransFastControlLibrary.dll.config
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\TransFastWCF.pdb
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\TransFastWCF.dll.config
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\bin\Release\Microsoft.ReportViewer.WinForms.xml
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\obj\x86\Release\ClientApplication.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\obj\x86\Release\ClientApplication.Form1.resources
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\obj\x86\Release\ClientApplication.Properties.Resources.resources
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\obj\x86\Release\ClientApplication.TestTransFast.resources
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\obj\x86\Release\ClientApplication.TestWCF.resources
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\obj\x86\Release\ClientApplication.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\obj\x86\Release\ClientApplication.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\obj\x86\Release\ClientApplication.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\obj\x86\Release\ClientApplication.exe
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\ClientApplication\obj\x86\Release\ClientApplication.pdb

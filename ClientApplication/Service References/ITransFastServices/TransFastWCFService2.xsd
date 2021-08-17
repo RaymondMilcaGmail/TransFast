@@ -12,7 +12,6 @@
   <xs:element name="PullRemittanceRequest" nillable="true" type="tns:PullRemittanceRequest" />
   <xs:complexType name="LookupTransactionRequest">
     <xs:sequence>
-      <xs:element minOccurs="0" name="AssignToken" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="CebuanaBranchInformation" nillable="true" type="tns:CebuanaBranchInformation" />
       <xs:element minOccurs="0" name="PartnerCode" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="PayTokenID" nillable="true" type="xs:string" />
@@ -40,11 +39,8 @@
       <xs:element minOccurs="0" name="BeneficiaryPhoneNumber" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="CebuanaBranchInformation" nillable="true" type="tns:CebuanaBranchInformation" />
       <xs:element minOccurs="0" name="CurrencyConversionRate" type="xs:decimal" />
-      <xs:element minOccurs="0" name="EventDate" type="xs:dateTime" />
-      <xs:element minOccurs="0" name="EventInfo" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="EventType" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="InvoiceStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InvoiceStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="InvoiceUpdateID" type="xs:int" />
       <xs:element minOccurs="0" name="PartnerCode" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="PartnerInternalNumber" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="PayTokenID" nillable="true" type="xs:string" />
@@ -64,7 +60,6 @@
       <xs:element minOccurs="0" name="ReceiverIDNumber" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="ReceiverIDType" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="ReceiverLastName" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="ReferenceID" type="xs:int" />
       <xs:element minOccurs="0" name="SenderCountry" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="SenderEmail" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="SenderFirstName" nillable="true" type="xs:string" />
@@ -105,6 +100,7 @@
   <xs:element name="PullRemittanceResult" nillable="true" type="tns:PullRemittanceResult" />
   <xs:complexType name="LookupTransactionResult">
     <xs:sequence>
+      <xs:element minOccurs="0" name="AssignToken" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="BeneficiaryFirstName" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="BeneficiaryFullName" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="BeneficiaryLastName" nillable="true" type="xs:string" />

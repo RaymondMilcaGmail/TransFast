@@ -6,3 +6,11 @@ C:\Users\Archie Concordia\Downloads\TransFast\TransFast\TransFastWCF\obj\Release
 C:\Users\Archie Concordia\Downloads\TransFast\TransFast\TransFastWCF\obj\Release\TransFastWCF.csproj.CopyComplete
 C:\Users\Archie Concordia\Downloads\TransFast\TransFast\TransFastWCF\obj\Release\AlawnehExchangeWCF.dll
 C:\Users\Archie Concordia\Downloads\TransFast\TransFast\TransFastWCF\obj\Release\AlawnehExchangeWCF.pdb
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\TransFastWCF\obj\Release\TransFastWCF.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\TransFastWCF\obj\Release\TransFastWCF.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\TransFastWCF\obj\Release\TransFastWCF.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\TransFastWCF\bin\TransFastWCF.dll.config
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\TransFastWCF\bin\TransFastWCF.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\TransFastWCF\bin\TransFastWCF.pdb
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\TransFastWCF\obj\Release\TransFastWCF.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\TransFastWCF\obj\Release\TransFastWCF.pdb

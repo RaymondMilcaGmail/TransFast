@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AlawnehExchangeWCF</RootNamespace>
-    <AssemblyName>AlawnehExchangeWCF</AssemblyName>
+    <RootNamespace>TransFastWCF</RootNamespace>
+    <AssemblyName>TransFastWCF</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
     <Use64BitIISExpress />
@@ -87,18 +87,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Connected Services\TransFastWebService\AlawnehExchangeWCF.TransFastWebService.AutorizationResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\TransFastWebService\AlawnehExchangeWCF.TransFastWebService.MTO_COnfirmResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\TransFastWebService\AlawnehExchangeWCF.TransFastWebService.MTO_InfoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Connected Services\TransFastWebService\AlawnehExchangeWCF.TransFastWebService.MTO_PayoutResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
     <None Include="Connected Services\TransFastWebService\configuration91.svcinfo" />
     <None Include="Connected Services\TransFastWebService\configuration.svcinfo" />
     <None Include="Connected Services\TransFastWebService\Reference.svcmap">
@@ -107,6 +95,18 @@
     </None>
     <Content Include="TransFastWCFService.svc" />
     <None Include="Connected Services\TransFastWebService\MTTOCORRESPONDENTTK.wsdl" />
+    <Content Include="Connected Services\TransFastWebService\TransFastWCF.TransFastWebService.AutorizationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\TransFastWebService\TransFastWCF.TransFastWebService.MTO_COnfirmResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\TransFastWebService\TransFastWCF.TransFastWebService.MTO_InfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\TransFastWebService\TransFastWCF.TransFastWebService.MTO_PayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

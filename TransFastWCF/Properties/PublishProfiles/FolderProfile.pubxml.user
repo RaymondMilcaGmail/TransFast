@@ -6,26 +6,26 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>D:\Remittance\Pull Remittance\GEA Ltd\GeaLimited\Publish\GeaLimitedWCF</_PublishTargetUrl>
+    <_PublishTargetUrl>D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\Publish 1.2\TransFastWCF</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="AlawnehExchangeWCFService.svc">
       <publishTime>01/12/2021 16:16:43</publishTime>
     </File>
     <File Include="bin/AESCryptor.dll">
-      <publishTime>09/06/2011 09:17:38</publishTime>
+      <publishTime>07/27/2021 11:30:07</publishTime>
     </File>
     <File Include="bin/AlawnehExchangeWCF.dll">
-      <publishTime>06/16/2021 11:24:59</publishTime>
+      <publishTime>08/12/2021 17:05:26</publishTime>
     </File>
     <File Include="bin/AlawnehExchangeWCF.pdb">
-      <publishTime>06/16/2021 11:24:59</publishTime>
+      <publishTime>08/12/2021 17:05:26</publishTime>
     </File>
     <File Include="bin/AppCryptor.dll">
-      <publishTime>09/06/2011 09:17:38</publishTime>
+      <publishTime>07/27/2021 11:30:07</publishTime>
     </File>
     <File Include="bin/B2BUtilities.dll">
-      <publishTime>11/07/2018 17:15:55</publishTime>
+      <publishTime>07/27/2021 11:30:07</publishTime>
     </File>
     <File Include="bin/ConnectPlus.dll">
       <publishTime>10/24/2019 16:16:42</publishTime>
@@ -37,7 +37,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/24/2019 16:16:43</publishTime>
     </File>
     <File Include="bin/cryptohasher4.dll">
-      <publishTime>08/24/2018 10:15:44</publishTime>
+      <publishTime>07/27/2021 11:30:07</publishTime>
     </File>
     <File Include="bin/LBCInternationalWCF.dll">
       <publishTime>12/26/2020 13:20:57</publishTime>
@@ -46,7 +46,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/26/2020 13:20:57</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>04/08/2016 13:47:08</publishTime>
+      <publishTime>07/27/2021 11:52:41</publishTime>
     </File>
     <File Include="bin/ShakaExpress.dll">
       <publishTime>11/25/2020 16:51:45</publishTime>
@@ -58,10 +58,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/18/2020 09:53:41</publishTime>
     </File>
     <File Include="bin/SoapHelpers.dll">
-      <publishTime>04/05/2019 14:24:53</publishTime>
+      <publishTime>07/27/2021 11:30:07</publishTime>
     </File>
     <File Include="bin/TokenGen4.dll">
-      <publishTime>08/24/2018 11:48:16</publishTime>
+      <publishTime>07/27/2021 11:30:07</publishTime>
+    </File>
+    <File Include="bin/TransFastWCF.dll">
+      <publishTime>08/16/2021 22:01:10</publishTime>
+    </File>
+    <File Include="bin/TransFastWCF.pdb">
+      <publishTime>08/16/2021 22:01:10</publishTime>
     </File>
     <File Include="bin/WesternUnion.dll">
       <publishTime>07/07/2020 09:49:19</publishTime>
@@ -73,7 +79,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/07/2020 09:49:22</publishTime>
     </File>
     <File Include="Classes/SoapUtils.cs">
-      <publishTime>06/07/2019 10:23:21</publishTime>
+      <publishTime>07/09/2021 20:32:03</publishTime>
     </File>
     <File Include="Connected Services/KYCCustomerLookupService/WesternUnionWCF.KYCCustomerLookupService.kyccustomerlookupreply.datasource">
       <publishTime>06/11/2020 16:14:44</publishTime>
@@ -90,6 +96,30 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Connected Services/ReceiveMoneySearchService/WesternUnionWCF.ReceiveMoneySearchService.receivemoneysearchreply.datasource">
       <publishTime>06/22/2020 11:12:27</publishTime>
     </File>
+    <File Include="Connected Services/TransFastWebService/AlawnehExchangeWCF.TransFastWebService.AutorizationResponse.datasource">
+      <publishTime>08/09/2021 20:43:27</publishTime>
+    </File>
+    <File Include="Connected Services/TransFastWebService/AlawnehExchangeWCF.TransFastWebService.MTO_COnfirmResponse.datasource">
+      <publishTime>08/09/2021 20:43:28</publishTime>
+    </File>
+    <File Include="Connected Services/TransFastWebService/AlawnehExchangeWCF.TransFastWebService.MTO_InfoResponse.datasource">
+      <publishTime>08/09/2021 20:43:28</publishTime>
+    </File>
+    <File Include="Connected Services/TransFastWebService/AlawnehExchangeWCF.TransFastWebService.MTO_PayoutResponse.datasource">
+      <publishTime>08/09/2021 20:43:28</publishTime>
+    </File>
+    <File Include="Connected Services/TransFastWebService/TransFastWCF.TransFastWebService.AutorizationResponse.datasource">
+      <publishTime>08/12/2021 19:22:53</publishTime>
+    </File>
+    <File Include="Connected Services/TransFastWebService/TransFastWCF.TransFastWebService.MTO_COnfirmResponse.datasource">
+      <publishTime>08/12/2021 19:22:53</publishTime>
+    </File>
+    <File Include="Connected Services/TransFastWebService/TransFastWCF.TransFastWebService.MTO_InfoResponse.datasource">
+      <publishTime>08/12/2021 19:22:53</publishTime>
+    </File>
+    <File Include="Connected Services/TransFastWebService/TransFastWCF.TransFastWebService.MTO_PayoutResponse.datasource">
+      <publishTime>08/12/2021 19:22:53</publishTime>
+    </File>
     <File Include="ConnectPlusWCF.svc">
       <publishTime>09/12/2019 11:03:39</publishTime>
     </File>
@@ -102,8 +132,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="LBCInternationalWCFService.svc">
       <publishTime>12/02/2020 11:38:03</publishTime>
     </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>08/16/2021 21:35:56</publishTime>
+    </File>
     <File Include="ShakaExpressWCFService.svc">
       <publishTime>07/24/2020 15:16:40</publishTime>
+    </File>
+    <File Include="TransFastWCFService.svc">
+      <publishTime>07/09/2021 20:32:03</publishTime>
     </File>
     <File Include="Web References/ConnectPlusWebReference/Reference.map">
       <publishTime>09/23/2019 11:25:46</publishTime>
@@ -145,7 +181,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/25/2020 11:19:20</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/16/2021 11:25:00</publishTime>
+      <publishTime>08/16/2021 21:36:16</publishTime>
     </File>
     <File Include="WesternUnionWCF.svc">
       <publishTime>06/11/2020 16:17:27</publishTime>

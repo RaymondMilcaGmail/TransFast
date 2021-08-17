@@ -418,3 +418,23 @@ C:\Users\Archie Concordia\Downloads\TransFast\TransFast\RemittancePartnerControl
 C:\Users\Archie Concordia\Downloads\TransFast\TransFast\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Archie Concordia\Downloads\TransFast\TransFast\RemittancePartnerControlLibrary\obj\Release\GeaLimitedControlLibrary.dll
 C:\Users\Archie Concordia\Downloads\TransFast\TransFast\RemittancePartnerControlLibrary\obj\Release\GeaLimitedControlLibrary.pdb
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\bin\Release\TransFastControlLibrary.dll.config
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\bin\Release\TransFastControlLibrary.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\bin\Release\TransFastControlLibrary.pdb
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\bin\Release\Newtonsoft.Json.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\bin\Release\ADODB.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\bin\Release\Microsoft.ReportViewer.WinForms.xml
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csprojAssemblyReference.cache
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\obj\Release\TransFastControlLibrary.BeneficiaryConfirmationForm.resources
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\obj\Release\TransFastControlLibrary.images.resources
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\obj\Release\TransFastControlLibrary.LookupSummaryForm.resources
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\obj\Release\TransFastControlLibrary.MyMessageBox.resources
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\obj\Release\TransFastControlLibrary.RemittancePartnerControlMain.resources
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\obj\Release\TransFastControlLibrary.PayoutForm.resources
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.GenerateResource.cache
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.CoreCompileInputs.cache
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\obj\Release\RemittancePartnerControlLibrary.csproj.CopyComplete
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\obj\Release\TransFastControlLibrary.dll
+D:\Remittance\Pull Remittance\Trans-Fast\TransFastSC\TransFast 1.2\TransFast\RemittancePartnerControlLibrary\obj\Release\TransFastControlLibrary.pdb

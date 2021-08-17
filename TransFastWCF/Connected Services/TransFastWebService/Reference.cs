@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AlawnehExchangeWCF.TransFastWebService {
+namespace TransFastWCF.TransFastWebService {
     using System.Runtime.Serialization;
     using System;
     
@@ -22,7 +22,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
-        private AlawnehExchangeWCF.TransFastWebService.EntityType EntityTypeField;
+        private TransFastWCF.TransFastWebService.EntityType EntityTypeField;
         
         private int EntityCodeField;
         
@@ -46,7 +46,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
-        public AlawnehExchangeWCF.TransFastWebService.EntityType EntityType {
+        public TransFastWCF.TransFastWebService.EntityType EntityType {
             get {
                 return this.EntityTypeField;
             }
@@ -176,7 +176,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
-        private AlawnehExchangeWCF.TransFastWebService.ReturnResult ReturnResultField;
+        private TransFastWCF.TransFastWebService.ReturnResult ReturnResultField;
         
         private int ReturnCodeField;
         
@@ -197,7 +197,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
-        public AlawnehExchangeWCF.TransFastWebService.ReturnResult ReturnResult {
+        public TransFastWCF.TransFastWebService.ReturnResult ReturnResult {
             get {
                 return this.ReturnResultField;
             }
@@ -287,7 +287,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string SearchTermField;
         
-        private AlawnehExchangeWCF.TransFastWebService.SearchPayMode SearchTypeField;
+        private TransFastWCF.TransFastWebService.SearchPayMode SearchTypeField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -326,7 +326,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=2)]
-        public AlawnehExchangeWCF.TransFastWebService.SearchPayMode SearchType {
+        public TransFastWCF.TransFastWebService.SearchPayMode SearchType {
             get {
                 return this.SearchTypeField;
             }
@@ -374,7 +374,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
-        private AlawnehExchangeWCF.TransFastWebService.ReturnResult1 ReturnResultField;
+        private TransFastWCF.TransFastWebService.ReturnResult1 ReturnResultField;
         
         private int ReturnCodeField;
         
@@ -382,7 +382,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         private string ReturnDescriptionField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private AlawnehExchangeWCF.TransFastWebService.InvoiceData InvoiceDataField;
+        private TransFastWCF.TransFastWebService.InvoiceData InvoiceDataField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -395,7 +395,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
-        public AlawnehExchangeWCF.TransFastWebService.ReturnResult1 ReturnResult {
+        public TransFastWCF.TransFastWebService.ReturnResult1 ReturnResult {
             get {
                 return this.ReturnResultField;
             }
@@ -434,7 +434,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=3)]
-        public AlawnehExchangeWCF.TransFastWebService.InvoiceData InvoiceData {
+        public TransFastWCF.TransFastWebService.InvoiceData InvoiceData {
             get {
                 return this.InvoiceDataField;
             }
@@ -479,7 +479,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         
         private System.DateTime SenderdateOfBirthField;
         
-        private AlawnehExchangeWCF.TransFastWebService.Sex SenderSexField;
+        private TransFastWCF.TransFastWebService.Sex SenderSexField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string SenderCityField;
@@ -491,7 +491,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         private string SenderPhoneField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private AlawnehExchangeWCF.TransFastWebService.DocumentData SenderDocumentField;
+        private TransFastWCF.TransFastWebService.DocumentData SenderDocumentField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string ReceiverNameField;
@@ -518,14 +518,14 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         private string ReceiverPhone2Field;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private AlawnehExchangeWCF.TransFastWebService.DocumentData ReceiverDocumentField;
+        private TransFastWCF.TransFastWebService.DocumentData ReceiverDocumentField;
         
         private System.DateTime ReceiverDOBField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private AlawnehExchangeWCF.TransFastWebService.BankAccout BankAccountField;
+        private TransFastWCF.TransFastWebService.BankAccout BankAccountField;
         
-        private AlawnehExchangeWCF.TransFastWebService.ModeOfPayment PaymentMethodField;
+        private TransFastWCF.TransFastWebService.ModeOfPayment PaymentMethodField;
         
         private int InvoiceConsecutiveField;
         
@@ -547,10 +547,10 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         
         private bool ReadyForPayField;
         
-        private AlawnehExchangeWCF.TransFastWebService.InvoiceStatus InvoiceStatusField;
+        private TransFastWCF.TransFastWebService.InvoiceStatus InvoiceStatusField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private AlawnehExchangeWCF.TransFastWebService.AditionalData InvoiceAditionalDataField;
+        private TransFastWCF.TransFastWebService.AditionalData InvoiceAditionalDataField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -628,7 +628,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=5)]
-        public AlawnehExchangeWCF.TransFastWebService.Sex SenderSex {
+        public TransFastWCF.TransFastWebService.Sex SenderSex {
             get {
                 return this.SenderSexField;
             }
@@ -680,7 +680,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=9)]
-        public AlawnehExchangeWCF.TransFastWebService.DocumentData SenderDocument {
+        public TransFastWCF.TransFastWebService.DocumentData SenderDocument {
             get {
                 return this.SenderDocumentField;
             }
@@ -797,7 +797,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=18)]
-        public AlawnehExchangeWCF.TransFastWebService.DocumentData ReceiverDocument {
+        public TransFastWCF.TransFastWebService.DocumentData ReceiverDocument {
             get {
                 return this.ReceiverDocumentField;
             }
@@ -823,7 +823,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=20)]
-        public AlawnehExchangeWCF.TransFastWebService.BankAccout BankAccount {
+        public TransFastWCF.TransFastWebService.BankAccout BankAccount {
             get {
                 return this.BankAccountField;
             }
@@ -836,7 +836,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=21)]
-        public AlawnehExchangeWCF.TransFastWebService.ModeOfPayment PaymentMethod {
+        public TransFastWCF.TransFastWebService.ModeOfPayment PaymentMethod {
             get {
                 return this.PaymentMethodField;
             }
@@ -953,7 +953,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=30)]
-        public AlawnehExchangeWCF.TransFastWebService.InvoiceStatus InvoiceStatus {
+        public TransFastWCF.TransFastWebService.InvoiceStatus InvoiceStatus {
             get {
                 return this.InvoiceStatusField;
             }
@@ -966,7 +966,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=31)]
-        public AlawnehExchangeWCF.TransFastWebService.AditionalData InvoiceAditionalData {
+        public TransFastWCF.TransFastWebService.AditionalData InvoiceAditionalData {
             get {
                 return this.InvoiceAditionalDataField;
             }
@@ -1011,7 +1011,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
-        private AlawnehExchangeWCF.TransFastWebService.DocumentType TypeField;
+        private TransFastWCF.TransFastWebService.DocumentType TypeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string NumberField;
@@ -1034,7 +1034,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
-        public AlawnehExchangeWCF.TransFastWebService.DocumentType Type {
+        public TransFastWCF.TransFastWebService.DocumentType Type {
             get {
                 return this.TypeField;
             }
@@ -1126,7 +1126,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string BranchCityField;
         
-        private AlawnehExchangeWCF.TransFastWebService.AccountType AccountTypeField;
+        private TransFastWCF.TransFastWebService.AccountType AccountTypeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string AccountNumberField;
@@ -1184,7 +1184,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=3)]
-        public AlawnehExchangeWCF.TransFastWebService.AccountType AccountType {
+        public TransFastWCF.TransFastWebService.AccountType AccountType {
             get {
                 return this.AccountTypeField;
             }
@@ -1485,7 +1485,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string SearchTermField;
         
-        private AlawnehExchangeWCF.TransFastWebService.SearchPayMode SearchTypeField;
+        private TransFastWCF.TransFastWebService.SearchPayMode SearchTypeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string ReceiverFullNameField;
@@ -1550,7 +1550,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=3)]
-        public AlawnehExchangeWCF.TransFastWebService.SearchPayMode SearchType {
+        public TransFastWCF.TransFastWebService.SearchPayMode SearchType {
             get {
                 return this.SearchTypeField;
             }
@@ -1646,7 +1646,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
-        private AlawnehExchangeWCF.TransFastWebService.ReturnResult1 ReturnResultField;
+        private TransFastWCF.TransFastWebService.ReturnResult1 ReturnResultField;
         
         private int ReturnCodeField;
         
@@ -1667,7 +1667,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
-        public AlawnehExchangeWCF.TransFastWebService.ReturnResult1 ReturnResult {
+        public TransFastWCF.TransFastWebService.ReturnResult1 ReturnResult {
             get {
                 return this.ReturnResultField;
             }
@@ -1746,7 +1746,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string SearchTermField;
         
-        private AlawnehExchangeWCF.TransFastWebService.SearchPayMode SearchTypeField;
+        private TransFastWCF.TransFastWebService.SearchPayMode SearchTypeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string TokenField;
@@ -1801,7 +1801,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=3)]
-        public AlawnehExchangeWCF.TransFastWebService.SearchPayMode SearchType {
+        public TransFastWCF.TransFastWebService.SearchPayMode SearchType {
             get {
                 return this.SearchTypeField;
             }
@@ -1845,7 +1845,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
-        private AlawnehExchangeWCF.TransFastWebService.ReturnResult1 ReturnResultField;
+        private TransFastWCF.TransFastWebService.ReturnResult1 ReturnResultField;
         
         private int ReturnCodeField;
         
@@ -1863,7 +1863,7 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
-        public AlawnehExchangeWCF.TransFastWebService.ReturnResult1 ReturnResult {
+        public TransFastWCF.TransFastWebService.ReturnResult1 ReturnResult {
             get {
                 return this.ReturnResultField;
             }
@@ -1917,19 +1917,19 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         
         // CODEGEN: Generating message contract since element name Q from namespace COM is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="COM/Step0UserAuthenticate", ReplyAction="*")]
-        AlawnehExchangeWCF.TransFastWebService.Step0UserAuthenticateResponse Step0UserAuthenticate(AlawnehExchangeWCF.TransFastWebService.Step0UserAuthenticateRequest request);
+        TransFastWCF.TransFastWebService.Step0UserAuthenticateResponse Step0UserAuthenticate(TransFastWCF.TransFastWebService.Step0UserAuthenticateRequest request);
         
         // CODEGEN: Generating message contract since element name Q from namespace COM is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="COM/Step1SearchMT", ReplyAction="*")]
-        AlawnehExchangeWCF.TransFastWebService.Step1SearchMTResponse Step1SearchMT(AlawnehExchangeWCF.TransFastWebService.Step1SearchMTRequest request);
+        TransFastWCF.TransFastWebService.Step1SearchMTResponse Step1SearchMT(TransFastWCF.TransFastWebService.Step1SearchMTRequest request);
         
         // CODEGEN: Generating message contract since element name Q from namespace COM is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="COM/Step2PayoutMT", ReplyAction="*")]
-        AlawnehExchangeWCF.TransFastWebService.Step2PayoutMTResponse Step2PayoutMT(AlawnehExchangeWCF.TransFastWebService.Step2PayoutMTRequest request);
+        TransFastWCF.TransFastWebService.Step2PayoutMTResponse Step2PayoutMT(TransFastWCF.TransFastWebService.Step2PayoutMTRequest request);
         
         // CODEGEN: Generating message contract since element name Q from namespace COM is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="COM/Step3ConfirmMT", ReplyAction="*")]
-        AlawnehExchangeWCF.TransFastWebService.Step3ConfirmMTResponse Step3ConfirmMT(AlawnehExchangeWCF.TransFastWebService.Step3ConfirmMTRequest request);
+        TransFastWCF.TransFastWebService.Step3ConfirmMTResponse Step3ConfirmMT(TransFastWCF.TransFastWebService.Step3ConfirmMTRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -1939,12 +1939,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step0UserAuthenticateRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="Step0UserAuthenticate", Namespace="COM", Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.Step0UserAuthenticateRequestBody Body;
+        public TransFastWCF.TransFastWebService.Step0UserAuthenticateRequestBody Body;
         
         public Step0UserAuthenticateRequest() {
         }
         
-        public Step0UserAuthenticateRequest(AlawnehExchangeWCF.TransFastWebService.Step0UserAuthenticateRequestBody Body) {
+        public Step0UserAuthenticateRequest(TransFastWCF.TransFastWebService.Step0UserAuthenticateRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -1956,12 +1956,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step0UserAuthenticateRequestBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.EntityAuth Q;
+        public TransFastWCF.TransFastWebService.EntityAuth Q;
         
         public Step0UserAuthenticateRequestBody() {
         }
         
-        public Step0UserAuthenticateRequestBody(AlawnehExchangeWCF.TransFastWebService.EntityAuth Q) {
+        public Step0UserAuthenticateRequestBody(TransFastWCF.TransFastWebService.EntityAuth Q) {
             this.Q = Q;
         }
     }
@@ -1973,12 +1973,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step0UserAuthenticateResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="Step0UserAuthenticateResponse", Namespace="COM", Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.Step0UserAuthenticateResponseBody Body;
+        public TransFastWCF.TransFastWebService.Step0UserAuthenticateResponseBody Body;
         
         public Step0UserAuthenticateResponse() {
         }
         
-        public Step0UserAuthenticateResponse(AlawnehExchangeWCF.TransFastWebService.Step0UserAuthenticateResponseBody Body) {
+        public Step0UserAuthenticateResponse(TransFastWCF.TransFastWebService.Step0UserAuthenticateResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -1990,12 +1990,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step0UserAuthenticateResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.AutorizationResponse Step0UserAuthenticateResult;
+        public TransFastWCF.TransFastWebService.AutorizationResponse Step0UserAuthenticateResult;
         
         public Step0UserAuthenticateResponseBody() {
         }
         
-        public Step0UserAuthenticateResponseBody(AlawnehExchangeWCF.TransFastWebService.AutorizationResponse Step0UserAuthenticateResult) {
+        public Step0UserAuthenticateResponseBody(TransFastWCF.TransFastWebService.AutorizationResponse Step0UserAuthenticateResult) {
             this.Step0UserAuthenticateResult = Step0UserAuthenticateResult;
         }
     }
@@ -2007,12 +2007,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step1SearchMTRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="Step1SearchMT", Namespace="COM", Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.Step1SearchMTRequestBody Body;
+        public TransFastWCF.TransFastWebService.Step1SearchMTRequestBody Body;
         
         public Step1SearchMTRequest() {
         }
         
-        public Step1SearchMTRequest(AlawnehExchangeWCF.TransFastWebService.Step1SearchMTRequestBody Body) {
+        public Step1SearchMTRequest(TransFastWCF.TransFastWebService.Step1SearchMTRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -2024,12 +2024,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step1SearchMTRequestBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.MTO_InfoRequest Q;
+        public TransFastWCF.TransFastWebService.MTO_InfoRequest Q;
         
         public Step1SearchMTRequestBody() {
         }
         
-        public Step1SearchMTRequestBody(AlawnehExchangeWCF.TransFastWebService.MTO_InfoRequest Q) {
+        public Step1SearchMTRequestBody(TransFastWCF.TransFastWebService.MTO_InfoRequest Q) {
             this.Q = Q;
         }
     }
@@ -2041,12 +2041,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step1SearchMTResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="Step1SearchMTResponse", Namespace="COM", Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.Step1SearchMTResponseBody Body;
+        public TransFastWCF.TransFastWebService.Step1SearchMTResponseBody Body;
         
         public Step1SearchMTResponse() {
         }
         
-        public Step1SearchMTResponse(AlawnehExchangeWCF.TransFastWebService.Step1SearchMTResponseBody Body) {
+        public Step1SearchMTResponse(TransFastWCF.TransFastWebService.Step1SearchMTResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -2058,12 +2058,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step1SearchMTResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.MTO_InfoResponse Step1SearchMTResult;
+        public TransFastWCF.TransFastWebService.MTO_InfoResponse Step1SearchMTResult;
         
         public Step1SearchMTResponseBody() {
         }
         
-        public Step1SearchMTResponseBody(AlawnehExchangeWCF.TransFastWebService.MTO_InfoResponse Step1SearchMTResult) {
+        public Step1SearchMTResponseBody(TransFastWCF.TransFastWebService.MTO_InfoResponse Step1SearchMTResult) {
             this.Step1SearchMTResult = Step1SearchMTResult;
         }
     }
@@ -2075,12 +2075,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step2PayoutMTRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="Step2PayoutMT", Namespace="COM", Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.Step2PayoutMTRequestBody Body;
+        public TransFastWCF.TransFastWebService.Step2PayoutMTRequestBody Body;
         
         public Step2PayoutMTRequest() {
         }
         
-        public Step2PayoutMTRequest(AlawnehExchangeWCF.TransFastWebService.Step2PayoutMTRequestBody Body) {
+        public Step2PayoutMTRequest(TransFastWCF.TransFastWebService.Step2PayoutMTRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -2092,12 +2092,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step2PayoutMTRequestBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.MTO_PayoutRequest Q;
+        public TransFastWCF.TransFastWebService.MTO_PayoutRequest Q;
         
         public Step2PayoutMTRequestBody() {
         }
         
-        public Step2PayoutMTRequestBody(AlawnehExchangeWCF.TransFastWebService.MTO_PayoutRequest Q) {
+        public Step2PayoutMTRequestBody(TransFastWCF.TransFastWebService.MTO_PayoutRequest Q) {
             this.Q = Q;
         }
     }
@@ -2109,12 +2109,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step2PayoutMTResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="Step2PayoutMTResponse", Namespace="COM", Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.Step2PayoutMTResponseBody Body;
+        public TransFastWCF.TransFastWebService.Step2PayoutMTResponseBody Body;
         
         public Step2PayoutMTResponse() {
         }
         
-        public Step2PayoutMTResponse(AlawnehExchangeWCF.TransFastWebService.Step2PayoutMTResponseBody Body) {
+        public Step2PayoutMTResponse(TransFastWCF.TransFastWebService.Step2PayoutMTResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -2126,12 +2126,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step2PayoutMTResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.MTO_PayoutResponse Step2PayoutMTResult;
+        public TransFastWCF.TransFastWebService.MTO_PayoutResponse Step2PayoutMTResult;
         
         public Step2PayoutMTResponseBody() {
         }
         
-        public Step2PayoutMTResponseBody(AlawnehExchangeWCF.TransFastWebService.MTO_PayoutResponse Step2PayoutMTResult) {
+        public Step2PayoutMTResponseBody(TransFastWCF.TransFastWebService.MTO_PayoutResponse Step2PayoutMTResult) {
             this.Step2PayoutMTResult = Step2PayoutMTResult;
         }
     }
@@ -2143,12 +2143,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step3ConfirmMTRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="Step3ConfirmMT", Namespace="COM", Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.Step3ConfirmMTRequestBody Body;
+        public TransFastWCF.TransFastWebService.Step3ConfirmMTRequestBody Body;
         
         public Step3ConfirmMTRequest() {
         }
         
-        public Step3ConfirmMTRequest(AlawnehExchangeWCF.TransFastWebService.Step3ConfirmMTRequestBody Body) {
+        public Step3ConfirmMTRequest(TransFastWCF.TransFastWebService.Step3ConfirmMTRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -2160,12 +2160,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step3ConfirmMTRequestBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.MTO_ConfirmRequest Q;
+        public TransFastWCF.TransFastWebService.MTO_ConfirmRequest Q;
         
         public Step3ConfirmMTRequestBody() {
         }
         
-        public Step3ConfirmMTRequestBody(AlawnehExchangeWCF.TransFastWebService.MTO_ConfirmRequest Q) {
+        public Step3ConfirmMTRequestBody(TransFastWCF.TransFastWebService.MTO_ConfirmRequest Q) {
             this.Q = Q;
         }
     }
@@ -2177,12 +2177,12 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step3ConfirmMTResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="Step3ConfirmMTResponse", Namespace="COM", Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.Step3ConfirmMTResponseBody Body;
+        public TransFastWCF.TransFastWebService.Step3ConfirmMTResponseBody Body;
         
         public Step3ConfirmMTResponse() {
         }
         
-        public Step3ConfirmMTResponse(AlawnehExchangeWCF.TransFastWebService.Step3ConfirmMTResponseBody Body) {
+        public Step3ConfirmMTResponse(TransFastWCF.TransFastWebService.Step3ConfirmMTResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -2194,23 +2194,23 @@ namespace AlawnehExchangeWCF.TransFastWebService {
     public partial class Step3ConfirmMTResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public AlawnehExchangeWCF.TransFastWebService.MTO_COnfirmResponse Step3ConfirmMTResult;
+        public TransFastWCF.TransFastWebService.MTO_COnfirmResponse Step3ConfirmMTResult;
         
         public Step3ConfirmMTResponseBody() {
         }
         
-        public Step3ConfirmMTResponseBody(AlawnehExchangeWCF.TransFastWebService.MTO_COnfirmResponse Step3ConfirmMTResult) {
+        public Step3ConfirmMTResponseBody(TransFastWCF.TransFastWebService.MTO_COnfirmResponse Step3ConfirmMTResult) {
             this.Step3ConfirmMTResult = Step3ConfirmMTResult;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface MTTOCORRESPONDENTTKSoapChannel : AlawnehExchangeWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap, System.ServiceModel.IClientChannel {
+    public interface MTTOCORRESPONDENTTKSoapChannel : TransFastWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class MTTOCORRESPONDENTTKSoapClient : System.ServiceModel.ClientBase<AlawnehExchangeWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap>, AlawnehExchangeWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap {
+    public partial class MTTOCORRESPONDENTTKSoapClient : System.ServiceModel.ClientBase<TransFastWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap>, TransFastWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap {
         
         public MTTOCORRESPONDENTTKSoapClient() {
         }
@@ -2232,54 +2232,54 @@ namespace AlawnehExchangeWCF.TransFastWebService {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        AlawnehExchangeWCF.TransFastWebService.Step0UserAuthenticateResponse AlawnehExchangeWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap.Step0UserAuthenticate(AlawnehExchangeWCF.TransFastWebService.Step0UserAuthenticateRequest request) {
+        TransFastWCF.TransFastWebService.Step0UserAuthenticateResponse TransFastWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap.Step0UserAuthenticate(TransFastWCF.TransFastWebService.Step0UserAuthenticateRequest request) {
             return base.Channel.Step0UserAuthenticate(request);
         }
         
-        public AlawnehExchangeWCF.TransFastWebService.AutorizationResponse Step0UserAuthenticate(AlawnehExchangeWCF.TransFastWebService.EntityAuth Q) {
-            AlawnehExchangeWCF.TransFastWebService.Step0UserAuthenticateRequest inValue = new AlawnehExchangeWCF.TransFastWebService.Step0UserAuthenticateRequest();
-            inValue.Body = new AlawnehExchangeWCF.TransFastWebService.Step0UserAuthenticateRequestBody();
+        public TransFastWCF.TransFastWebService.AutorizationResponse Step0UserAuthenticate(TransFastWCF.TransFastWebService.EntityAuth Q) {
+            TransFastWCF.TransFastWebService.Step0UserAuthenticateRequest inValue = new TransFastWCF.TransFastWebService.Step0UserAuthenticateRequest();
+            inValue.Body = new TransFastWCF.TransFastWebService.Step0UserAuthenticateRequestBody();
             inValue.Body.Q = Q;
-            AlawnehExchangeWCF.TransFastWebService.Step0UserAuthenticateResponse retVal = ((AlawnehExchangeWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap)(this)).Step0UserAuthenticate(inValue);
+            TransFastWCF.TransFastWebService.Step0UserAuthenticateResponse retVal = ((TransFastWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap)(this)).Step0UserAuthenticate(inValue);
             return retVal.Body.Step0UserAuthenticateResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        AlawnehExchangeWCF.TransFastWebService.Step1SearchMTResponse AlawnehExchangeWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap.Step1SearchMT(AlawnehExchangeWCF.TransFastWebService.Step1SearchMTRequest request) {
+        TransFastWCF.TransFastWebService.Step1SearchMTResponse TransFastWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap.Step1SearchMT(TransFastWCF.TransFastWebService.Step1SearchMTRequest request) {
             return base.Channel.Step1SearchMT(request);
         }
         
-        public AlawnehExchangeWCF.TransFastWebService.MTO_InfoResponse Step1SearchMT(AlawnehExchangeWCF.TransFastWebService.MTO_InfoRequest Q) {
-            AlawnehExchangeWCF.TransFastWebService.Step1SearchMTRequest inValue = new AlawnehExchangeWCF.TransFastWebService.Step1SearchMTRequest();
-            inValue.Body = new AlawnehExchangeWCF.TransFastWebService.Step1SearchMTRequestBody();
+        public TransFastWCF.TransFastWebService.MTO_InfoResponse Step1SearchMT(TransFastWCF.TransFastWebService.MTO_InfoRequest Q) {
+            TransFastWCF.TransFastWebService.Step1SearchMTRequest inValue = new TransFastWCF.TransFastWebService.Step1SearchMTRequest();
+            inValue.Body = new TransFastWCF.TransFastWebService.Step1SearchMTRequestBody();
             inValue.Body.Q = Q;
-            AlawnehExchangeWCF.TransFastWebService.Step1SearchMTResponse retVal = ((AlawnehExchangeWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap)(this)).Step1SearchMT(inValue);
+            TransFastWCF.TransFastWebService.Step1SearchMTResponse retVal = ((TransFastWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap)(this)).Step1SearchMT(inValue);
             return retVal.Body.Step1SearchMTResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        AlawnehExchangeWCF.TransFastWebService.Step2PayoutMTResponse AlawnehExchangeWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap.Step2PayoutMT(AlawnehExchangeWCF.TransFastWebService.Step2PayoutMTRequest request) {
+        TransFastWCF.TransFastWebService.Step2PayoutMTResponse TransFastWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap.Step2PayoutMT(TransFastWCF.TransFastWebService.Step2PayoutMTRequest request) {
             return base.Channel.Step2PayoutMT(request);
         }
         
-        public AlawnehExchangeWCF.TransFastWebService.MTO_PayoutResponse Step2PayoutMT(AlawnehExchangeWCF.TransFastWebService.MTO_PayoutRequest Q) {
-            AlawnehExchangeWCF.TransFastWebService.Step2PayoutMTRequest inValue = new AlawnehExchangeWCF.TransFastWebService.Step2PayoutMTRequest();
-            inValue.Body = new AlawnehExchangeWCF.TransFastWebService.Step2PayoutMTRequestBody();
+        public TransFastWCF.TransFastWebService.MTO_PayoutResponse Step2PayoutMT(TransFastWCF.TransFastWebService.MTO_PayoutRequest Q) {
+            TransFastWCF.TransFastWebService.Step2PayoutMTRequest inValue = new TransFastWCF.TransFastWebService.Step2PayoutMTRequest();
+            inValue.Body = new TransFastWCF.TransFastWebService.Step2PayoutMTRequestBody();
             inValue.Body.Q = Q;
-            AlawnehExchangeWCF.TransFastWebService.Step2PayoutMTResponse retVal = ((AlawnehExchangeWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap)(this)).Step2PayoutMT(inValue);
+            TransFastWCF.TransFastWebService.Step2PayoutMTResponse retVal = ((TransFastWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap)(this)).Step2PayoutMT(inValue);
             return retVal.Body.Step2PayoutMTResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        AlawnehExchangeWCF.TransFastWebService.Step3ConfirmMTResponse AlawnehExchangeWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap.Step3ConfirmMT(AlawnehExchangeWCF.TransFastWebService.Step3ConfirmMTRequest request) {
+        TransFastWCF.TransFastWebService.Step3ConfirmMTResponse TransFastWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap.Step3ConfirmMT(TransFastWCF.TransFastWebService.Step3ConfirmMTRequest request) {
             return base.Channel.Step3ConfirmMT(request);
         }
         
-        public AlawnehExchangeWCF.TransFastWebService.MTO_COnfirmResponse Step3ConfirmMT(AlawnehExchangeWCF.TransFastWebService.MTO_ConfirmRequest Q) {
-            AlawnehExchangeWCF.TransFastWebService.Step3ConfirmMTRequest inValue = new AlawnehExchangeWCF.TransFastWebService.Step3ConfirmMTRequest();
-            inValue.Body = new AlawnehExchangeWCF.TransFastWebService.Step3ConfirmMTRequestBody();
+        public TransFastWCF.TransFastWebService.MTO_COnfirmResponse Step3ConfirmMT(TransFastWCF.TransFastWebService.MTO_ConfirmRequest Q) {
+            TransFastWCF.TransFastWebService.Step3ConfirmMTRequest inValue = new TransFastWCF.TransFastWebService.Step3ConfirmMTRequest();
+            inValue.Body = new TransFastWCF.TransFastWebService.Step3ConfirmMTRequestBody();
             inValue.Body.Q = Q;
-            AlawnehExchangeWCF.TransFastWebService.Step3ConfirmMTResponse retVal = ((AlawnehExchangeWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap)(this)).Step3ConfirmMT(inValue);
+            TransFastWCF.TransFastWebService.Step3ConfirmMTResponse retVal = ((TransFastWCF.TransFastWebService.MTTOCORRESPONDENTTKSoap)(this)).Step3ConfirmMT(inValue);
             return retVal.Body.Step3ConfirmMTResult;
         }
     }

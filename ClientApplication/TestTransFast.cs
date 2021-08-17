@@ -63,7 +63,6 @@ namespace ClientApplication
                 {
 
                     TransFastToken = responseDetails.ReturnToken;
-                    TxtToken.Text = TransFastToken;
                 }
 
             }
